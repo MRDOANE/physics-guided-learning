@@ -1,0 +1,115 @@
+{
+  "seconds": 3.697865856345743,
+  "spatial": [
+    {
+      "family": "advection_diffusion",
+      "grid": 32,
+      "normalized_rmse": 1.308499746834306e-15,
+      "ood": false,
+      "reference_grid": 64,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    },
+    {
+      "family": "advection_diffusion",
+      "grid": 32,
+      "normalized_rmse": 1.9314981332710227e-15,
+      "ood": true,
+      "reference_grid": 64,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    },
+    {
+      "family": "allen_cahn",
+      "grid": 32,
+      "normalized_rmse": 0.006474322247346051,
+      "ood": false,
+      "reference_grid": 64,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    },
+    {
+      "family": "allen_cahn",
+      "grid": 32,
+      "normalized_rmse": 0.0032686315683474157,
+      "ood": true,
+      "reference_grid": 64,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    },
+    {
+      "family": "wave",
+      "grid": 32,
+      "normalized_rmse": 8.769942982947911e-08,
+      "ood": false,
+      "reference_grid": 64,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    },
+    {
+      "family": "wave",
+      "grid": 32,
+      "normalized_rmse": 6.484336126291703e-07,
+      "ood": true,
+      "reference_grid": 64,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    }
+  ],
+  "temporal": [
+    {
+      "coefficient_regime": "id",
+      "family": "advection_diffusion",
+      "normalized_rmse": 0.0,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "advection_diffusion",
+      "normalized_rmse": 0.0,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "id",
+      "family": "allen_cahn",
+      "normalized_rmse": 8.147622471904367e-09,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "allen_cahn",
+      "normalized_rmse": 2.7117499490096702e-08,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "id",
+      "family": "wave",
+      "normalized_rmse": 1.4505976257559942e-08,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "wave",
+      "normalized_rmse": 1.104467695784475e-07,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    }
+  ]
+}

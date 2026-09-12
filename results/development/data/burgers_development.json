@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "burgers",
+    "grid": 32,
+    "phase": "development",
+    "seed": 26091211,
+    "source_hash": "e74bb95889a1905c66a65463e628117bb57fd0041d2c24a4f8032aff3b6459ed",
+    "steps": 160
+  },
+  "generation_seconds": 1.775677538011223,
+  "sha256": "432e97885a1749c20b49082604f33c252796d6462adad96c43a01f13ab32e42d",
+  "signature": "2b6e7ea0ebfe8d2e63a9e56a5c7afed899c8a9919986edd70d7eefe3ed6ca9f4"
+}

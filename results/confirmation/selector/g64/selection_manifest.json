@@ -1,0 +1,1628 @@
+{
+  "decisions": [
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__fno__coefficient__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__fno__coefficient__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__fno__coefficient__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__fno__coefficient__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__fno__coefficient__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__fno__coefficient__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__fno__correct__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__fno__correct__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__fno__correct__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__fno__correct__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__fno__correct__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__fno__correct__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__fno__structural__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__fno__structural__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__fno__structural__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__fno__structural__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__fno__structural__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__fno__structural__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__looped__coefficient__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__looped__coefficient__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__looped__coefficient__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__looped__coefficient__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__looped__coefficient__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__looped__coefficient__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__looped__correct__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__looped__correct__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__looped__correct__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__looped__correct__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__looped__correct__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__looped__correct__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__looped__structural__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__looped__structural__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__looped__structural__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__looped__structural__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__looped__structural__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__looped__structural__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__transformer__coefficient__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__transformer__coefficient__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__transformer__coefficient__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__transformer__coefficient__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__transformer__coefficient__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__transformer__coefficient__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__transformer__correct__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__transformer__correct__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__transformer__correct__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__transformer__correct__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__transformer__correct__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "iid",
+        "none": "none",
+        "original_ridge": "iid",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__transformer__correct__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8101,
+      "task_id": "cahn_hilliard__transformer__structural__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8202,
+      "task_id": "cahn_hilliard__transformer__structural__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8303,
+      "task_id": "cahn_hilliard__transformer__structural__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8404,
+      "task_id": "cahn_hilliard__transformer__structural__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8505,
+      "task_id": "cahn_hilliard__transformer__structural__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "cahn_hilliard",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8606,
+      "task_id": "cahn_hilliard__transformer__structural__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__fno__coefficient__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__fno__coefficient__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__fno__coefficient__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__fno__coefficient__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__fno__coefficient__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "coefficient",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__fno__coefficient__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__fno__correct__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__fno__correct__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__fno__correct__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__fno__correct__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__fno__correct__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "correct",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__fno__correct__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__fno__structural__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__fno__structural__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__fno__structural__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__fno__structural__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__fno__structural__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "fno",
+      "prior": "structural",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__fno__structural__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__looped__coefficient__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__looped__coefficient__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__looped__coefficient__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "response_matched",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__looped__coefficient__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__looped__coefficient__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "coefficient",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__looped__coefficient__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__looped__correct__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__looped__correct__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__looped__correct__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "response_matched",
+        "none": "none",
+        "original_ridge": "response_matched",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__looped__correct__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__looped__correct__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "correct",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__looped__correct__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__looped__structural__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__looped__structural__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__looped__structural__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__looped__structural__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__looped__structural__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "smooth",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "looped",
+      "prior": "structural",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__looped__structural__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__transformer__coefficient__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__transformer__coefficient__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__transformer__coefficient__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__transformer__coefficient__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__transformer__coefficient__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__transformer__coefficient__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__transformer__correct__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__transformer__correct__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__transformer__correct__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "iid",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__transformer__correct__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "smooth",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__transformer__correct__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "smooth",
+        "none": "none",
+        "original_ridge": "smooth",
+        "probe_best": "response_matched",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "correct",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__transformer__correct__s8606"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8101,
+      "task_id": "fitzhugh_nagumo__transformer__structural__s8101"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8202,
+      "task_id": "fitzhugh_nagumo__transformer__structural__s8202"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8303,
+      "task_id": "fitzhugh_nagumo__transformer__structural__s8303"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8404,
+      "task_id": "fitzhugh_nagumo__transformer__structural__s8404"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8505,
+      "task_id": "fitzhugh_nagumo__transformer__structural__s8505"
+    },
+    {
+      "choices": {
+        "best_fixed": "none",
+        "guarded": "none",
+        "none": "none",
+        "original_ridge": "none",
+        "probe_best": "none",
+        "smooth": "smooth"
+      },
+      "family": "fitzhugh_nagumo",
+      "kind": "transformer",
+      "prior": "structural",
+      "seed": 8606,
+      "task_id": "fitzhugh_nagumo__transformer__structural__s8606"
+    }
+  ],
+  "frozen_at": "2026-09-12T02:10:53.274706+00:00",
+  "inputs_sha256": "337804dcfbbec553869af08c228fc8336a88fc350be76f0a052d0fab0275a0f1",
+  "protocol_signature": "3133039205f5d8d6655b46d8d0e0f3c062955f1d80824e3586a6933a8db727e7",
+  "selector_model_sha256": "f499a6458c5702a5dd150ee32a7e14456ac693f0da4030b51b85f08bb4f75647"
+}

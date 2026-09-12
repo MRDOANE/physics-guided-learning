@@ -1,0 +1,34 @@
+{
+  "source_archive": "full_results (3).zip",
+  "source_bank_sha256": "886c1a7d2858952e5c41d238368770f4ee4bd415defb8bbc7b8ee2cc2904f5da",
+  "included_bank_sha256": "a2807aa709a152035da0bd63447746abfb9bb64aa7fa443ec86b018a1ef79bf1",
+  "rows": 864,
+  "families": [
+    "advection_diffusion",
+    "allen_cahn",
+    "burgers",
+    "gray_scott",
+    "ks",
+    "wave"
+  ],
+  "source_role": "Previously observed development data, including Gray-Scott; no fresh confirmation claim.",
+  "allowed_fields": [
+    "arm",
+    "diagnostic_seconds",
+    "family",
+    "features",
+    "final_val",
+    "kind",
+    "prior",
+    "probe_seconds",
+    "probe_val",
+    "remaining_seconds",
+    "seed",
+    "setup_seconds",
+    "task_id",
+    "train_seconds"
+  ],
+  "excluded": "All evaluation arrays, test losses, OOD losses, and original test-driven gates.",
+  "historical_candidate_training_seconds": 47627.98028369155,
+  "historical_archive_wall_seconds": 49334.3
+}

@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "ood": 64,
+      "test": 64
+    },
+    "family": "advection_diffusion",
+    "grid": 64,
+    "phase": "test",
+    "seed": 26110937,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "generation_seconds": 0.5313564948737621,
+  "sha256": "ab386c374063d922211b34b820e3f9830d21558a9ebf2b8ea674184f85e5fb58",
+  "signature": "59e29c3d7074c79f7ef9fa956d2821879613680e055117cbe4d5431610c34757"
+}

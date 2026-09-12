@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "coefficient_regime": "id",
+      "family": "wave",
+      "normalized_rmse": 2.3299171982978768e-08,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "wave",
+      "normalized_rmse": 9.788996316565943e-08,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "id",
+      "family": "burgers",
+      "normalized_rmse": 3.138609554497236e-08,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "burgers",
+      "normalized_rmse": 5.553725969514768e-08,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "id",
+      "family": "ks",
+      "normalized_rmse": 3.203919836232239e-07,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "ks",
+      "normalized_rmse": 3.0775300999161434e-06,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "id",
+      "family": "advection_diffusion",
+      "normalized_rmse": 0.0,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "advection_diffusion",
+      "normalized_rmse": 0.0,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "id",
+      "family": "allen_cahn",
+      "normalized_rmse": 1.1060735504676701e-08,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "allen_cahn",
+      "normalized_rmse": 2.7405982225418345e-08,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "id",
+      "family": "gray_scott",
+      "normalized_rmse": 8.319368663357179e-10,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "gray_scott",
+      "normalized_rmse": 1.3403282897516372e-10,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    }
+  ],
+  "scope": "temporal refinement at fixed spatial grid, not spatial convergence"
+}

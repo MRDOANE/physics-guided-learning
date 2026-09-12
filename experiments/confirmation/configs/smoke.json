@@ -1,0 +1,59 @@
+{
+  "profile": "smoke",
+  "kinds": [
+    "transformer",
+    "looped",
+    "fno"
+  ],
+  "train_val_seed": 9100931,
+  "test_seed": 9110937,
+  "split_counts": {
+    "train": 6,
+    "val": 3,
+    "test": 6,
+    "ood": 6
+  },
+  "grid": 32,
+  "trajectory_steps": 16,
+  "burn_in": 2,
+  "steps": 4,
+  "probe_steps": 2,
+  "batch_size": 4,
+  "context": 4,
+  "width": 16,
+  "depth": 1,
+  "heads": 2,
+  "fno_modes": 4,
+  "lr": 0.0003,
+  "physics_weight": 0.1,
+  "physics_jitter": 0.05,
+  "collocation_windows": 8,
+  "primary_horizon": 4,
+  "eval_horizon": 6,
+  "validation_horizon": 3,
+  "checkpoint_every": 2,
+  "validation_every": 2,
+  "bootstrap_replicates": 400,
+  "bootstrap_seed": 260913,
+  "loss_cap": 1000000.0,
+  "confirmation_families": [
+    "cahn_hilliard",
+    "fitzhugh_nagumo"
+  ],
+  "resolution_families": [
+    "wave",
+    "advection_diffusion",
+    "allen_cahn"
+  ],
+  "resolution_seeds": [
+    7101
+  ],
+  "confirmation_seeds": [
+    8101
+  ],
+  "resolution_grids": [
+    32,
+    64
+  ],
+  "confirmation_grid": 64
+}

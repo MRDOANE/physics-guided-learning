@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "allen_cahn",
+    "grid": 32,
+    "phase": "development",
+    "seed": 26091211,
+    "source_hash": "e74bb95889a1905c66a65463e628117bb57fd0041d2c24a4f8032aff3b6459ed",
+    "steps": 160
+  },
+  "generation_seconds": 1.5508871991187334,
+  "sha256": "0990088208ef2015d6508ed289dad0516968d589d2d03178386f728ebd56f092",
+  "signature": "07f0212b8fa7a70bfb903cdac1fa508ae2c18b5024478efc356a295c7d17914f"
+}

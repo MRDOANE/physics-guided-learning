@@ -1,0 +1,74 @@
+{
+  "arm": "none",
+  "bank_setup_seconds": 1.3278683056123555,
+  "best_step": 3800,
+  "checkpoint_sha256": "eaae8e2e655589a159f20cbf132253703d1425b01fc379f9bd14911428ee9a88",
+  "completed_steps": 4000,
+  "continuation_setup_seconds": 0.0035695559345185757,
+  "diagnostic_seconds": 1.3278683056123555,
+  "evaluation_path": "runs/advection_diffusion__looped__coefficient__s505__none/evaluation.npz",
+  "evaluation_seconds": 1.5171193722635508,
+  "evaluation_sha256": "a5679c7ad98ac2f7159ca55f69889e59ad99c0366cdb59c9483bf7e3caf1afca",
+  "family": "advection_diffusion",
+  "features": {
+    "gain_iid": 0.756794437755962,
+    "gain_smooth": 0.9749251103372933,
+    "gap_relative": 0.28575361565655927,
+    "high_power": 5.095683726526977e-16,
+    "increment_rms": 0.10917826717285398,
+    "low_power": 0.9999999999999996
+  },
+  "final_val": 0.0014609565586998958,
+  "inference_ms_per_step": 1.5664770966395736,
+  "kind": "looped",
+  "last_training_loss": 2.395992851234041e-05,
+  "matching": {
+    "atol": 2e-06,
+    "max_relative_error": 2.9375632948358543e-06,
+    "rtol": 0.002,
+    "scale_max": 1.691381812095642,
+    "scale_mean": 1.297211617231369,
+    "scale_min": 1.0592373609542847
+  },
+  "normalization": {
+    "mean": [
+      1.3955774903762208e-11
+    ],
+    "param_mean": [
+      0.042875997722148895,
+      1.298685073852539,
+      0.0560193806886673
+    ],
+    "param_scale": [
+      0.003529120236635208,
+      0.10661496222019196,
+      0.0045452844351530075
+    ],
+    "scale": [
+      0.3203774392604828
+    ]
+  },
+  "numerical_failure": null,
+  "parameter_count": 34049,
+  "prior": "coefficient",
+  "probe_seconds": 3.0265370029956102,
+  "probe_setup_seconds": 0.03465117421001196,
+  "probe_val": 0.07705889354807975,
+  "remaining_seconds": 37.1585623822175,
+  "run_id": "advection_diffusion__looped__coefficient__s505__none",
+  "seed": 505,
+  "setup_seconds": 0.038220730144530535,
+  "signature": "cfc81ae03b74cf4451ca4fe9ec6ba605df6c70c6b65a8aaea90a45b8ac13392a",
+  "stack": {
+    "cuda_runtime": "12.8",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3090 Ti",
+    "numpy": "2.1.2",
+    "python": "3.12.3",
+    "threads": 8,
+    "torch": "2.8.0+cu128",
+    "visible_gpus": 1
+  },
+  "task_id": "advection_diffusion__looped__coefficient__s505",
+  "train_seconds": 40.18509938521311
+}

@@ -1,0 +1,3 @@
+# PyTorch must already be supplied by the RunPod PyTorch template.
+# The launcher deliberately never installs or replaces torch/CUDA.
+numpy>=1.26,<3

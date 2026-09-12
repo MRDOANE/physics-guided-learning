@@ -1,0 +1,74 @@
+{
+  "arm": "iid",
+  "bank_setup_seconds": 3.006879382301122,
+  "best_step": 3600,
+  "checkpoint_sha256": "503b991756b9da0a291b0eafe54eb98a1362bb09517e4803cbf2f1c8a65c0115",
+  "completed_steps": 4000,
+  "continuation_setup_seconds": 0.003404953982681036,
+  "diagnostic_seconds": 3.006879382301122,
+  "evaluation_path": "runs/burgers__fno__coefficient__s606__iid/evaluation.npz",
+  "evaluation_seconds": 1.291216738987714,
+  "evaluation_sha256": "427928e11334746784506f3dec9037b875f4519ae2d2466d6766b12cc71c867c",
+  "family": "burgers",
+  "features": {
+    "gain_iid": 0.7157462820727529,
+    "gain_smooth": 0.9687978642664509,
+    "gap_relative": 0.2756917536254402,
+    "high_power": 0.011097082453541789,
+    "increment_rms": 0.05354152201802708,
+    "low_power": 0.9086082482207604
+  },
+  "final_val": 0.00013116423033254776,
+  "inference_ms_per_step": 1.2578025925904512,
+  "kind": "fno",
+  "last_training_loss": 2.8044121791026555e-05,
+  "matching": {
+    "atol": 2e-06,
+    "max_relative_error": 2.368441528233234e-06,
+    "rtol": 0.002,
+    "scale_max": 1.8971198797225952,
+    "scale_mean": 1.3664045967161655,
+    "scale_min": 1.0988565683364868
+  },
+  "normalization": {
+    "mean": [
+      -0.0004420291807036847
+    ],
+    "param_mean": [
+      0.055920496582984924,
+      1.2972798347473145,
+      0.06994372606277466
+    ],
+    "param_scale": [
+      0.004694347269833088,
+      0.1074380949139595,
+      0.006279046181589365
+    ],
+    "scale": [
+      0.25693193078041077
+    ]
+  },
+  "numerical_failure": null,
+  "parameter_count": 209985,
+  "prior": "coefficient",
+  "probe_seconds": 3.0489061940461397,
+  "probe_setup_seconds": 0.030827717389911413,
+  "probe_val": 0.004983842414591304,
+  "remaining_seconds": 38.6202780790627,
+  "run_id": "burgers__fno__coefficient__s606__iid",
+  "seed": 606,
+  "setup_seconds": 0.03423267137259245,
+  "signature": "be02da83acaad11a89a419ed0386193abbf142e764fac88008342b25c415753b",
+  "stack": {
+    "cuda_runtime": "12.8",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3090 Ti",
+    "numpy": "2.1.2",
+    "python": "3.12.3",
+    "threads": 8,
+    "torch": "2.8.0+cu128",
+    "visible_gpus": 1
+  },
+  "task_id": "burgers__fno__coefficient__s606",
+  "train_seconds": 41.66918427310884
+}

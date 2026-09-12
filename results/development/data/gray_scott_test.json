@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "ood": 64,
+      "test": 64
+    },
+    "family": "gray_scott",
+    "grid": 32,
+    "phase": "test",
+    "seed": 26091297,
+    "source_hash": "e74bb95889a1905c66a65463e628117bb57fd0041d2c24a4f8032aff3b6459ed",
+    "steps": 160
+  },
+  "generation_seconds": 2.1203805999830365,
+  "sha256": "d08707a932dd044a61164d9297bf78b20c9ea1a42c63dcb30fdf0ed837f321e1",
+  "signature": "10f01f8895c255d02ec12ffe9338cc5c5487af6059b00dfac15168b653b2627a"
+}

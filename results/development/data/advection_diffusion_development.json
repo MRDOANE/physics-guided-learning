@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "advection_diffusion",
+    "grid": 32,
+    "phase": "development",
+    "seed": 26091211,
+    "source_hash": "e74bb95889a1905c66a65463e628117bb57fd0041d2c24a4f8032aff3b6459ed",
+    "steps": 160
+  },
+  "generation_seconds": 0.4667521291412413,
+  "sha256": "b6a7b3fdbad32995401e8207d558f84c028c2e58021504d4111a8795f1c0907c",
+  "signature": "0ce64f574e545aa279ac35e77e71a4a4dc7f487ef00d4bd6b58e928c47d62b4c"
+}

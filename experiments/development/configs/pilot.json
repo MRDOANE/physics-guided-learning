@@ -1,0 +1,86 @@
+{
+  "profile": "pilot",
+  "families": [
+    "wave",
+    "burgers",
+    "ks",
+    "advection_diffusion",
+    "allen_cahn",
+    "gray_scott"
+  ],
+  "confirmation_family": "gray_scott",
+  "kinds": [
+    "transformer",
+    "looped",
+    "fno"
+  ],
+  "priors": [
+    "correct",
+    "coefficient"
+  ],
+  "arms": [
+    "none",
+    "iid",
+    "smooth",
+    "response_matched"
+  ],
+  "seeds": [
+    101
+  ],
+  "train_val_seed": 26091211,
+  "test_seed": 26091297,
+  "split_counts": {
+    "train": 32,
+    "val": 8,
+    "test": 12,
+    "ood": 12
+  },
+  "grid": 32,
+  "trajectory_steps": 160,
+  "burn_in": 24,
+  "steps": 300,
+  "probe_steps": 30,
+  "batch_size": 32,
+  "context": 4,
+  "width": 64,
+  "depth": 3,
+  "heads": 4,
+  "fno_modes": 8,
+  "lr": 0.0003,
+  "physics_weight": 0.1,
+  "physics_jitter": 0.05,
+  "collocation_windows": 512,
+  "primary_horizon": 64,
+  "eval_horizon": 96,
+  "validation_horizon": 16,
+  "checkpoint_every": 30,
+  "validation_every": 30,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 260912,
+  "loss_cap": 1000000.0,
+  "min_practical_reduction": 0.1,
+  "selector": {
+    "development_families": [
+      "wave",
+      "burgers",
+      "ks",
+      "advection_diffusion",
+      "allen_cahn"
+    ],
+    "confirmation_family": "gray_scott",
+    "arms": [
+      "none",
+      "iid",
+      "smooth",
+      "response_matched"
+    ],
+    "min_predicted_gain": 0.05,
+    "random_seed": 260912,
+    "ridge_alphas": [
+      0.1,
+      1,
+      10,
+      100
+    ]
+  }
+}

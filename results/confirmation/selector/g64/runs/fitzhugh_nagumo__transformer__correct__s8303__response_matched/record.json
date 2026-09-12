@@ -1,0 +1,76 @@
+{
+  "arm": "response_matched",
+  "bank_setup_seconds": 3.963249697815627,
+  "best_step": 4000,
+  "checkpoint_sha256": "cc7aae94c0aa0e5ac995314f5c8da7122904f798764e491db074713cbf15ab59",
+  "completed_steps": 4000,
+  "continuation_setup_seconds": 0.005864919163286686,
+  "diagnostic_seconds": 3.963249697815627,
+  "evaluation_path": "runs/fitzhugh_nagumo__transformer__correct__s8303__response_matched/evaluation.npz",
+  "evaluation_seconds": 1.5531945410184562,
+  "evaluation_sha256": "dcfb35a7405d11d0f06be2d2451d1deda607ecdbe0f59c3b9699acc6611bf90e",
+  "family": "fitzhugh_nagumo",
+  "features": {
+    "gain_iid": 0.7980044759515315,
+    "gain_smooth": 0.9417630893036901,
+    "gap_relative": 3.2259137674999714e-05,
+    "high_power": 0.012258841130399526,
+    "increment_rms": 0.02991692719613768,
+    "low_power": 0.616669084739404
+  },
+  "final_val": 0.0007837337745826289,
+  "inference_ms_per_step": 1.591064059175551,
+  "kind": "transformer",
+  "last_training_loss": 1.5971709217410535e-05,
+  "matching": {
+    "atol": 2e-06,
+    "max_relative_error": 1.119567400564847e-06,
+    "rtol": 0.002,
+    "scale_max": 1.412230372428894,
+    "scale_mean": 1.1821899078786373,
+    "scale_min": 1.0552912950515747
+  },
+  "normalization": {
+    "mean": [
+      -1.2127203941345215,
+      -0.17031043767929077
+    ],
+    "param_mean": [
+      0.029881030321121216,
+      0.11891736835241318,
+      0.2012079358100891
+    ],
+    "param_scale": [
+      0.002693381393328309,
+      0.010027260519564152,
+      0.01700698770582676
+    ],
+    "scale": [
+      0.7783823013305664,
+      0.4669933617115021
+    ]
+  },
+  "numerical_failure": null,
+  "parameter_count": 101122,
+  "prior": "correct",
+  "probe_seconds": 5.506730021908879,
+  "probe_setup_seconds": 0.037755823228508234,
+  "probe_val": 0.01466743616025686,
+  "remaining_seconds": 68.23285298841074,
+  "run_id": "fitzhugh_nagumo__transformer__correct__s8303__response_matched",
+  "seed": 8303,
+  "setup_seconds": 0.04362074239179492,
+  "signature": "4d8775a266124463ff02a1866754770797de0f1a08e8d0ba895522555cb52834",
+  "stack": {
+    "cuda_runtime": "12.8",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3090 Ti",
+    "numpy": "2.1.2",
+    "python": "3.12.3",
+    "threads": 8,
+    "torch": "2.8.0+cu128",
+    "visible_gpus": 1
+  },
+  "task_id": "fitzhugh_nagumo__transformer__correct__s8303",
+  "train_seconds": 73.73958301031962
+}

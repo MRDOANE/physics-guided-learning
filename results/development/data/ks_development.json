@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "ks",
+    "grid": 32,
+    "phase": "development",
+    "seed": 26091211,
+    "source_hash": "e74bb95889a1905c66a65463e628117bb57fd0041d2c24a4f8032aff3b6459ed",
+    "steps": 160
+  },
+  "generation_seconds": 1.7697818828746676,
+  "sha256": "9fd489ef5142036aadcef8b9b57287a86405ea66a6168f15476058c2562f3585",
+  "signature": "0e737cfd2abd60b12b31a9a900eede7501384f0ec345762d69514afe04849954"
+}

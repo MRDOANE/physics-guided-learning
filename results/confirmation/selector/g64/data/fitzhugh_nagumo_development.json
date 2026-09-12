@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "fitzhugh_nagumo",
+    "grid": 64,
+    "phase": "development",
+    "seed": 26100931,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "generation_seconds": 3.1395230651833117,
+  "sha256": "aa4b333dbec7dee9c6933a94e057e9be2ea88cacfd112f2efbcfe1b827ce5914",
+  "signature": "89b8c6bca4dba39fac95d724a1c08a8f38ed0866d86280904dcc5ff53bf7070a"
+}

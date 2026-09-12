@@ -1,0 +1,715 @@
+{
+  "caveats": [
+    "Single training/validation dataset per equation and grid; seed/trajectory uncertainty is conditional on it.",
+    "Two new equations do not establish universal cross-family transfer.",
+    "Same simulator family supplies labels and physical priors; no real-world validation claim.",
+    "Prediction/augmentation distinctions are not four mutually exclusive model classes.",
+    "Architectures share a step budget, not equal parameters or FLOPs."
+  ],
+  "completion": {
+    "expected": 720,
+    "label": "GREEN",
+    "requested_stages": [
+      "resolution",
+      "selector"
+    ],
+    "verified": 720
+  },
+  "costs": [
+    {
+      "interpretation": "Reconstructed from measured component times; full bank was actually trained. Includes probe/bank/setup work, excludes shared test evaluation. No claim of measured deployment speedup.",
+      "mean_target_training_seconds": 36.10068180509929,
+      "median_target_training_seconds": 39.63946448452771,
+      "policy": "none"
+    },
+    {
+      "interpretation": "Reconstructed from measured component times; full bank was actually trained. Includes probe/bank/setup work, excludes shared test evaluation. No claim of measured deployment speedup.",
+      "mean_target_training_seconds": 65.9175356789492,
+      "median_target_training_seconds": 73.85698232706636,
+      "policy": "smooth"
+    },
+    {
+      "interpretation": "Reconstructed from measured component times; full bank was actually trained. Includes probe/bank/setup work, excludes shared test evaluation. No claim of measured deployment speedup.",
+      "mean_target_training_seconds": 70.75321893914413,
+      "median_target_training_seconds": 63.92419359926134,
+      "policy": "probe_best"
+    },
+    {
+      "interpretation": "Reconstructed from measured component times; full bank was actually trained. Includes probe/bank/setup work, excludes shared test evaluation. No claim of measured deployment speedup.",
+      "mean_target_training_seconds": 47.517741170259086,
+      "median_target_training_seconds": 43.25038574193604,
+      "policy": "best_fixed"
+    },
+    {
+      "interpretation": "Reconstructed from measured component times; full bank was actually trained. Includes probe/bank/setup work, excludes shared test evaluation. No claim of measured deployment speedup.",
+      "mean_target_training_seconds": 65.81700142001716,
+      "median_target_training_seconds": 61.308056835550815,
+      "policy": "original_ridge"
+    },
+    {
+      "interpretation": "Reconstructed from measured component times; full bank was actually trained. Includes probe/bank/setup work, excludes shared test evaluation. No claim of measured deployment speedup.",
+      "mean_target_training_seconds": 64.71291952779845,
+      "median_target_training_seconds": 59.89724220428616,
+      "policy": "guarded"
+    }
+  ],
+  "errors": [],
+  "evidence_legend": {
+    "GREEN": "Evidence supports the stated direction.",
+    "NOT_EVALUATED": "Smoke, benchmark, incomplete, or integrity failure.",
+    "RED": "Evidence supports the opposite direction; not a judgment of paper quality.",
+    "YELLOW": "Evidence is inconclusive; not acceptance of a null or proof of no effect."
+  },
+  "exit_code": 0,
+  "full_package_coverage": {
+    "expected": 720,
+    "verified": 720
+  },
+  "historical_development": {
+    "archive_wall_seconds": 49334.3,
+    "candidate_training_seconds": 47627.98028369155,
+    "reused_records": 864,
+    "role": "Already incurred development cost; not part of this new run or a free deployment input."
+  },
+  "nonfinite_test_array_cells": 0,
+  "numerical_training_failures": 0,
+  "profile": "full",
+  "resolution": [
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "benefit",
+      "family": "wave",
+      "grid": 32,
+      "label": "DESCRIPTIVE",
+      "mse_ratio": 0.737617605694467,
+      "mse_reduction_percent": 26.2382394305533,
+      "p_two_sided": 0.0023998800059997,
+      "prior": "correct",
+      "ratio_ci95": [
+        0.6378410036685925,
+        0.9085504694989017
+      ],
+      "reduction_ci95_percent": [
+        9.144953050109827,
+        36.215899633140744
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "harm",
+      "family": "wave",
+      "grid": 32,
+      "label": "DESCRIPTIVE",
+      "mse_ratio": 3.382364283004358,
+      "mse_reduction_percent": -238.23642830043582,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "coefficient",
+      "ratio_ci95": [
+        2.8664137088997137,
+        3.93849436012848
+      ],
+      "reduction_ci95_percent": [
+        -293.849436012848,
+        -186.64137088997137
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "benefit",
+      "family": "advection_diffusion",
+      "grid": 32,
+      "label": "DESCRIPTIVE",
+      "mse_ratio": 0.7513353453418516,
+      "mse_reduction_percent": 24.866465465814834,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "correct",
+      "ratio_ci95": [
+        0.6801899521393159,
+        0.833861509845194
+      ],
+      "reduction_ci95_percent": [
+        16.613849015480596,
+        31.98100478606841
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "harm",
+      "family": "advection_diffusion",
+      "grid": 32,
+      "label": "DESCRIPTIVE",
+      "mse_ratio": 3.2338601519250987,
+      "mse_reduction_percent": -223.38601519250986,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "coefficient",
+      "ratio_ci95": [
+        2.492334735151447,
+        4.167749570973752
+      ],
+      "reduction_ci95_percent": [
+        -316.77495709737525,
+        -149.23347351514468
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "benefit",
+      "family": "allen_cahn",
+      "grid": 32,
+      "label": "DESCRIPTIVE",
+      "mse_ratio": 0.1594827500579847,
+      "mse_reduction_percent": 84.05172499420152,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "correct",
+      "ratio_ci95": [
+        0.1219857761665827,
+        0.22201677269523526
+      ],
+      "reduction_ci95_percent": [
+        77.79832273047647,
+        87.80142238334173
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "benefit",
+      "family": "allen_cahn",
+      "grid": 32,
+      "label": "DESCRIPTIVE",
+      "mse_ratio": 0.21003540143181368,
+      "mse_reduction_percent": 78.99645985681863,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "coefficient",
+      "ratio_ci95": [
+        0.16608877472052805,
+        0.2630170590347682
+      ],
+      "reduction_ci95_percent": [
+        73.69829409652317,
+        83.39112252794719
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "benefit",
+      "family": "wave",
+      "grid": 64,
+      "label": "GREEN",
+      "mse_ratio": 0.6467710264377579,
+      "mse_reduction_percent": 35.32289735622422,
+      "p_holm": 0.0002999850007499625,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "correct",
+      "ratio_ci95": [
+        0.557778435700008,
+        0.7256672483091261
+      ],
+      "reduction_ci95_percent": [
+        27.43327516908739,
+        44.2221564299992
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "harm",
+      "family": "wave",
+      "grid": 64,
+      "label": "GREEN",
+      "mse_ratio": 3.109399807321877,
+      "mse_reduction_percent": -210.9399807321877,
+      "p_holm": 0.0002999850007499625,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "coefficient",
+      "ratio_ci95": [
+        2.5795244688391015,
+        3.6813389601644557
+      ],
+      "reduction_ci95_percent": [
+        -268.1338960164456,
+        -157.95244688391014
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "benefit",
+      "family": "advection_diffusion",
+      "grid": 64,
+      "label": "GREEN",
+      "mse_ratio": 0.7535823130083349,
+      "mse_reduction_percent": 24.641768699166512,
+      "p_holm": 0.024098795060246987,
+      "p_two_sided": 0.024098795060246987,
+      "prior": "correct",
+      "ratio_ci95": [
+        0.5699349703582587,
+        0.9249017503468215
+      ],
+      "reduction_ci95_percent": [
+        7.509824965317846,
+        43.00650296417413
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "harm",
+      "family": "advection_diffusion",
+      "grid": 64,
+      "label": "GREEN",
+      "mse_ratio": 3.4087694615214623,
+      "mse_reduction_percent": -240.87694615214622,
+      "p_holm": 0.0002999850007499625,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "coefficient",
+      "ratio_ci95": [
+        2.7996070090349514,
+        4.160538392176435
+      ],
+      "reduction_ci95_percent": [
+        -316.05383921764354,
+        -179.96070090349514
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "benefit",
+      "family": "allen_cahn",
+      "grid": 64,
+      "label": "GREEN",
+      "mse_ratio": 0.16781352379701928,
+      "mse_reduction_percent": 83.21864762029807,
+      "p_holm": 0.0002999850007499625,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "correct",
+      "ratio_ci95": [
+        0.14479240054462297,
+        0.19340697428645134
+      ],
+      "reduction_ci95_percent": [
+        80.65930257135486,
+        85.5207599455377
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    },
+    {
+      "bootstrap_replicates": 20000,
+      "expected_direction": "benefit",
+      "family": "allen_cahn",
+      "grid": 64,
+      "label": "GREEN",
+      "mse_ratio": 0.24696331934962532,
+      "mse_reduction_percent": 75.30366806503747,
+      "p_holm": 0.0002999850007499625,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "coefficient",
+      "ratio_ci95": [
+        0.20193354035742375,
+        0.30055394572124416
+      ],
+      "reduction_ci95_percent": [
+        69.94460542787559,
+        79.80664596425763
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 4
+    }
+  ],
+  "scientific_eligibility": "ELIGIBLE_COMPLETED_STAGES",
+  "secondary": [
+    {
+      "baseline": "none",
+      "horizon": 96,
+      "mse_ratio": 0.9937290537119428,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "test"
+    },
+    {
+      "baseline": "probe_best",
+      "horizon": 96,
+      "mse_ratio": 0.7886627572233683,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "test"
+    },
+    {
+      "baseline": "best_fixed",
+      "horizon": 96,
+      "mse_ratio": 0.8777215999657294,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "test"
+    },
+    {
+      "baseline": "original_ridge",
+      "horizon": 96,
+      "mse_ratio": 0.9817364029997491,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "test"
+    },
+    {
+      "baseline": "smooth",
+      "horizon": 96,
+      "mse_ratio": 0.4867181470726634,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "test"
+    },
+    {
+      "baseline": "none",
+      "horizon": 64,
+      "mse_ratio": 1.1807245123421597,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "ood"
+    },
+    {
+      "baseline": "probe_best",
+      "horizon": 64,
+      "mse_ratio": 0.7916768044598808,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "ood"
+    },
+    {
+      "baseline": "best_fixed",
+      "horizon": 64,
+      "mse_ratio": 1.2073435988110277,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "ood"
+    },
+    {
+      "baseline": "original_ridge",
+      "horizon": 64,
+      "mse_ratio": 0.9895464733790466,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "ood"
+    },
+    {
+      "baseline": "smooth",
+      "horizon": 64,
+      "mse_ratio": 1.0274252893111009,
+      "role": "descriptive sensitivity; no confirmatory label",
+      "split": "ood"
+    }
+  ],
+  "selector_family_descriptive": [
+    {
+      "baseline": "none",
+      "bootstrap_replicates": 20000,
+      "family": "cahn_hilliard",
+      "mse_ratio": 0.971249708894202,
+      "mse_reduction_percent": 2.8750291105797965,
+      "p_two_sided": 0.6330183490825458,
+      "ratio_ci95": [
+        0.8621340375485536,
+        1.0884637205936456
+      ],
+      "reduction_ci95_percent": [
+        -8.84637205936456,
+        13.786596245144644
+      ],
+      "role": "descriptive family breakdown; not a separate confirmatory test",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "none",
+      "bootstrap_replicates": 20000,
+      "family": "fitzhugh_nagumo",
+      "mse_ratio": 0.9819119978815791,
+      "mse_reduction_percent": 1.8088002118420876,
+      "p_two_sided": 0.6664666766661667,
+      "ratio_ci95": [
+        0.8992621539042057,
+        1.0577270891529453
+      ],
+      "reduction_ci95_percent": [
+        -5.772708915294533,
+        10.073784609579429
+      ],
+      "role": "descriptive family breakdown; not a separate confirmatory test",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "probe_best",
+      "bootstrap_replicates": 20000,
+      "family": "cahn_hilliard",
+      "mse_ratio": 0.6683539637850581,
+      "mse_reduction_percent": 33.164603621494194,
+      "p_two_sided": 4.999750012499375e-05,
+      "ratio_ci95": [
+        0.601983208974972,
+        0.7281198988847593
+      ],
+      "reduction_ci95_percent": [
+        27.188010111524076,
+        39.801679102502796
+      ],
+      "role": "descriptive family breakdown; not a separate confirmatory test",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "probe_best",
+      "bootstrap_replicates": 20000,
+      "family": "fitzhugh_nagumo",
+      "mse_ratio": 0.9814964929679898,
+      "mse_reduction_percent": 1.8503507032010202,
+      "p_two_sided": 0.6773661316934153,
+      "ratio_ci95": [
+        0.8933231935304338,
+        1.062847421996376
+      ],
+      "reduction_ci95_percent": [
+        -6.284742199637594,
+        10.667680646956622
+      ],
+      "role": "descriptive family breakdown; not a separate confirmatory test",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    }
+  ],
+  "selector_primary": [
+    {
+      "baseline": "none",
+      "bootstrap_replicates": 20000,
+      "label": "YELLOW",
+      "mse_ratio": 0.9765663019489297,
+      "mse_reduction_percent": 2.3433698051070317,
+      "p_holm": 0.5104744762761861,
+      "p_two_sided": 0.5104744762761861,
+      "ratio_ci95": [
+        0.9116909207172209,
+        1.0467379775123176
+      ],
+      "reduction_ci95_percent": [
+        -4.673797751231756,
+        8.83090792827791
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "probe_best",
+      "bootstrap_replicates": 20000,
+      "label": "GREEN",
+      "mse_ratio": 0.8099302880595893,
+      "mse_reduction_percent": 19.006971194041068,
+      "p_holm": 9.99950002499875e-05,
+      "p_two_sided": 4.999750012499375e-05,
+      "ratio_ci95": [
+        0.7628039948455346,
+        0.8629761464193467
+      ],
+      "reduction_ci95_percent": [
+        13.702385358065328,
+        23.719600515446537
+      ],
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    }
+  ],
+  "selector_prior_descriptive": [
+    {
+      "baseline": "none",
+      "bootstrap_replicates": 20000,
+      "mse_ratio": 0.9091580770859193,
+      "mse_reduction_percent": 9.084192291408066,
+      "p_two_sided": 0.26038698065096744,
+      "prior": "correct",
+      "ratio_ci95": [
+        0.7693552647526649,
+        1.0714114181650252
+      ],
+      "reduction_ci95_percent": [
+        -7.1411418165025164,
+        23.064473524733508
+      ],
+      "role": "descriptive breakdown to distinguish equation transfer from new structural prior errors",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "none",
+      "bootstrap_replicates": 20000,
+      "mse_ratio": 1.0243911104063712,
+      "mse_reduction_percent": -2.439111040637121,
+      "p_two_sided": 0.5298235088245588,
+      "prior": "coefficient",
+      "ratio_ci95": [
+        0.952066774801936,
+        1.1042693326756101
+      ],
+      "reduction_ci95_percent": [
+        -10.426933267561012,
+        4.793322519806398
+      ],
+      "role": "descriptive breakdown to distinguish equation transfer from new structural prior errors",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "none",
+      "bootstrap_replicates": 20000,
+      "mse_ratio": 1.0,
+      "mse_reduction_percent": 0.0,
+      "p_two_sided": 1.0,
+      "prior": "structural",
+      "ratio_ci95": [
+        1.0,
+        1.0
+      ],
+      "reduction_ci95_percent": [
+        0.0,
+        0.0
+      ],
+      "role": "descriptive breakdown to distinguish equation transfer from new structural prior errors",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "probe_best",
+      "bootstrap_replicates": 20000,
+      "mse_ratio": 1.0331047701987672,
+      "mse_reduction_percent": -3.310477019876723,
+      "p_two_sided": 0.46382680865956705,
+      "prior": "correct",
+      "ratio_ci95": [
+        0.9420724289858539,
+        1.1234792936931988
+      ],
+      "reduction_ci95_percent": [
+        -12.347929369319877,
+        5.7927571014146135
+      ],
+      "role": "descriptive breakdown to distinguish equation transfer from new structural prior errors",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "probe_best",
+      "bootstrap_replicates": 20000,
+      "mse_ratio": 0.7153523316246975,
+      "mse_reduction_percent": 28.464766837530252,
+      "p_two_sided": 4.999750012499375e-05,
+      "prior": "coefficient",
+      "ratio_ci95": [
+        0.6549969701756068,
+        0.798360240718726
+      ],
+      "reduction_ci95_percent": [
+        20.1639759281274,
+        34.50030298243932
+      ],
+      "role": "descriptive breakdown to distinguish equation transfer from new structural prior errors",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    },
+    {
+      "baseline": "probe_best",
+      "bootstrap_replicates": 20000,
+      "mse_ratio": 0.7189166739952767,
+      "mse_reduction_percent": 28.10833260047233,
+      "p_two_sided": 0.0004999750012499375,
+      "prior": "structural",
+      "ratio_ci95": [
+        0.5885880043223048,
+        0.8640306008414239
+      ],
+      "reduction_ci95_percent": [
+        13.59693991585761,
+        41.14119956776952
+      ],
+      "role": "descriptive breakdown to distinguish equation transfer from new structural prior errors",
+      "scope": "Fixed equations/architectures/prior regimes; paired seeds and complete trajectories; conditional on generated training datasets.",
+      "test_trajectories_per_family": 64,
+      "training_seeds": 6
+    }
+  ],
+  "stage_completion": {
+    "resolution/g32": {
+      "complete": true,
+      "expected": 144,
+      "verified": 144
+    },
+    "resolution/g64": {
+      "complete": true,
+      "expected": 144,
+      "verified": 144
+    },
+    "selector/g64": {
+      "complete": true,
+      "expected": 432,
+      "verified": 432
+    }
+  },
+  "statistical_policy": "Two-sided paired bootstrap p-values; Holm control at 0.05 across six high-resolution replication comparisons, separately across two primary selector comparisons. Displayed intervals are pointwise 95%, not simultaneous. No effect-size threshold, win-count hurdle, noninferiority margin, or overall scientific pass/fail.",
+  "timing": {
+    "by_architecture": {
+      "fno": {
+        "seconds": 8766.568599671591,
+        "seconds_per_update_including_validation": 0.009131842291324573,
+        "updates": 960000
+      },
+      "looped": {
+        "seconds": 14286.930133616552,
+        "seconds_per_update_including_validation": 0.014882218889183908,
+        "updates": 960000
+      },
+      "transformer": {
+        "seconds": 15148.079943755642,
+        "seconds_per_update_including_validation": 0.015779249941412127,
+        "updates": 960000
+      }
+    },
+    "candidate_training_and_validation_seconds": 38201.578677043784,
+    "compute_cost_usd": 5.533339467285421,
+    "cpu_numerical_audit_seconds": 14.568992797285318,
+    "cpu_reference_generation_seconds": 29.91974361613393,
+    "evaluation_seconds": 1080.968577326741,
+    "hourly_rate": 0.5,
+    "interpretation": "Component timings include host overhead and validation; they are not GPU utilization measurements. Dataset generation/audits run on CPU. Neural training runs on the chosen device. Initial expectations should be replaced with timings from your own GPU benchmark.",
+    "model_setup_seconds": 29.33163933129981,
+    "shared_bank_construction_seconds": 247.59073116490617,
+    "wall_seconds": 39840.04416445503
+  }
+}

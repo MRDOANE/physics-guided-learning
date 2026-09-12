@@ -1,0 +1,22 @@
+{
+  "features": {
+    "gain_iid": 0.6880287890403393,
+    "gain_smooth": 0.8572871209124414,
+    "gap_relative": 4.91833607610196e-05,
+    "high_power": 0.02444393203086741,
+    "increment_rms": 0.006450328256165515,
+    "low_power": 0.9364884904414453
+  },
+  "matching": {
+    "atol": 2e-06,
+    "max_relative_error": 2.85140959022101e-06,
+    "rtol": 0.002,
+    "scale_max": 1.706978678703308,
+    "scale_mean": 1.2522655613720417,
+    "scale_min": 1.0166517496109009
+  },
+  "setup_seconds": 2.837487186305225,
+  "sha256": "0ba120eab162c6d221abce22a1b369a31521e650d8eba708f11ac9621a0ef141",
+  "signature": "e4d131bc9598e66d3aa17b32d2aecf8ff6501c30c9098797dbb2e882b55af408",
+  "windows": 4096
+}

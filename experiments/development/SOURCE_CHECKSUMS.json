@@ -1,0 +1,30 @@
+{
+  "files": {
+    "LICENSE": "effa86e969ea92ce5a26d42ac94c93976a8254e7dd58714ab0ba5f9df60f4980",
+    "README.md": "ebfac7657662f8a50c901c5b3d7bcfe9120cac2b72a421a6af382b7d1f9a919a",
+    "VALIDATION.md": "82c061cd546ae2e02dc39ac3fea42af1f7a2c3acbb0c0d7fb3ef3890a2dd850f",
+    "configs/full.json": "b315867114459883720f87d812af5b7fbb0796b2c61e60f4c6effce9308e1129",
+    "configs/pilot.json": "51787f57968e9ecaaf374d04ee0f9fcf808d113594d09f6cb875096e865a6488",
+    "configs/smoke.json": "d2cfeb7f9414374c6e79ef9fcfa411f06f478d70cfdbc2f609e0ef98febea10f",
+    "docs/PHYSICS.md": "30b2efbfa4786555ed8e5e6a9c80e84e9d358607c4ff517ceeb2687b3e2cc8a0",
+    "docs/PROTOCOL.md": "97ea9fbff587130d62ff1395f4c3646cdd2da4736fcc4beb248a209aaa7a8644",
+    "docs/SELECTION.md": "1d278021ee2c8b4b6076b81f031c98691a4ea856018a50baca7cc18b110eeaa4",
+    "launch.sh": "a8b925c98a997a8caa2c9415526fd691060515b887e1bc59dc8860ac9e05d01d",
+    "lpb/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lpb/augmentation.py": "bab831080862f8b49601d55a135ee23fd3985912c5d0b0c5a4ea7b1149096b77",
+    "lpb/cli.py": "443ee78c65bd67b21d9aa209adf6f64d837a81cb67d0be4c8097d0c49dbbe0ec",
+    "lpb/core.py": "029781609ae1b4cec025aded780cb029b2baa392c0649befeed5422a05b60fc0",
+    "lpb/datasets.py": "29a1a1f2dd80cfe22a097348875b5433a58df80a4efe9b3029c4760cd7d9952a",
+    "lpb/engine.py": "03001f30672b9d1bea36745cba01bad1eedaadf664d0186be5544260c218e1b5",
+    "lpb/models.py": "d8c8e2cdbac09967ef7f2df91507587f42b4f642d9312b9fc692d1d4f65a0080",
+    "lpb/physics.py": "51c4a7204f68b74ef043a045ded2a309353928164042e676881e94b34010b10e",
+    "lpb/reporting.py": "411adbcd390a904247ce112227a4f0418f1145ef952bea2a880e37a3879aabc2",
+    "lpb/selection.py": "2fc2b0999c37453fda584134f8d8cf1c3e36f2286a07a7c28a1c17c225281279",
+    "lpb/training.py": "fde740367524c8ac7946d98080fad1d592130bd4d860ebbdd3c6d0bf31d5c5b2",
+    "requirements.txt": "f3dddb33bfcb800f25a3d857add168acb6a259663e2d32a1dba95e540fa2a49f",
+    "tests/test_engine.py": "c3ebc7244521c1f53ebb1b6e32c54b70253c5ab74ccba9ebfb8244d33fac3d7e",
+    "tests/test_physics.py": "0b176176db07951c6c64c3b6f7a3d521e05394c85af4dca959d7c94013b90e27",
+    "tests/test_reporting.py": "f93333aacc80032c3a5d7dae6979bf3f2a290d5f02b97a6c2a9376e9bc5d92cf",
+    "tests/test_selection.py": "2ef85d46a6fd90954d3306eef51159e05af4a0d08f4c0aea002bbedc57f11639"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "seconds": 4.119958607945591,
+  "spatial": [
+    {
+      "family": "cahn_hilliard",
+      "grid": 64,
+      "normalized_rmse": 3.317041785855671e-14,
+      "ood": false,
+      "reference_grid": 128,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    },
+    {
+      "family": "cahn_hilliard",
+      "grid": 64,
+      "normalized_rmse": 2.8674640473403845e-14,
+      "ood": true,
+      "reference_grid": 128,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    },
+    {
+      "family": "fitzhugh_nagumo",
+      "grid": 64,
+      "normalized_rmse": 1.9935702386278594e-07,
+      "ood": false,
+      "reference_grid": 128,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    },
+    {
+      "family": "fitzhugh_nagumo",
+      "grid": 64,
+      "normalized_rmse": 8.239380596508498e-09,
+      "ood": true,
+      "reference_grid": 128,
+      "role": "descriptive spatial sensitivity; no arbitrary pass threshold",
+      "steps": 160
+    }
+  ],
+  "temporal": [
+    {
+      "coefficient_regime": "id",
+      "family": "cahn_hilliard",
+      "normalized_rmse": 2.92052239472385e-09,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "cahn_hilliard",
+      "normalized_rmse": 9.46499580653977e-09,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "id",
+      "family": "fitzhugh_nagumo",
+      "normalized_rmse": 6.305418634687776e-09,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    },
+    {
+      "coefficient_regime": "ood",
+      "family": "fitzhugh_nagumo",
+      "normalized_rmse": 5.518664007376112e-09,
+      "passed": true,
+      "steps": 32,
+      "threshold": 0.001,
+      "trajectories": 4
+    }
+  ]
+}

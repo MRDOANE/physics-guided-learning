@@ -1,0 +1,98 @@
+{
+  "config": {
+    "arms": [
+      "none",
+      "iid",
+      "smooth",
+      "response_matched"
+    ],
+    "batch_size": 32,
+    "bootstrap_replicates": 50000,
+    "bootstrap_seed": 260912,
+    "burn_in": 24,
+    "checkpoint_every": 100,
+    "collocation_windows": 4096,
+    "confirmation_family": "gray_scott",
+    "context": 4,
+    "depth": 3,
+    "eval_horizon": 96,
+    "families": [
+      "wave",
+      "burgers",
+      "ks",
+      "advection_diffusion",
+      "allen_cahn",
+      "gray_scott"
+    ],
+    "fno_modes": 8,
+    "grid": 32,
+    "heads": 4,
+    "kinds": [
+      "transformer",
+      "looped",
+      "fno"
+    ],
+    "loss_cap": 1000000.0,
+    "lr": 0.0003,
+    "min_practical_reduction": 0.1,
+    "physics_jitter": 0.05,
+    "physics_weight": 0.1,
+    "primary_horizon": 64,
+    "priors": [
+      "correct",
+      "coefficient"
+    ],
+    "probe_steps": 300,
+    "profile": "full",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505,
+      606
+    ],
+    "selector": {
+      "arms": [
+        "none",
+        "iid",
+        "smooth",
+        "response_matched"
+      ],
+      "confirmation_family": "gray_scott",
+      "development_families": [
+        "wave",
+        "burgers",
+        "ks",
+        "advection_diffusion",
+        "allen_cahn"
+      ],
+      "min_predicted_gain": 0.05,
+      "random_seed": 260912,
+      "ridge_alphas": [
+        0.1,
+        1,
+        10,
+        100
+      ]
+    },
+    "split_counts": {
+      "ood": 64,
+      "test": 64,
+      "train": 128,
+      "val": 24
+    },
+    "steps": 4000,
+    "test_seed": 26091297,
+    "train_val_seed": 26091211,
+    "trajectory_steps": 160,
+    "validation_every": 100,
+    "validation_horizon": 16,
+    "width": 64
+  },
+  "created_at": "2026-09-11T02:26:42.737320+00:00",
+  "expected_fits": 864,
+  "protocol_hash": "0088a81569ce5280c5283dd3641326611fbda7a2692b7a27e2671afc1859b207",
+  "schema": 1,
+  "source_hash": "e74bb95889a1905c66a65463e628117bb57fd0041d2c24a4f8032aff3b6459ed"
+}

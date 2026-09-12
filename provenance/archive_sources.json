@@ -1,0 +1,22 @@
+{
+  "package_version": "1.0.0",
+  "prepared_date": "2026-09-12",
+  "archives": [
+    {
+      "stage": "development",
+      "original_filename": "full_results (3).zip",
+      "sha256": "a86b889065602af6ae27904744f1389bb109d7d2c0780235a8a1832c49c54bac",
+      "bytes": 172445422,
+      "extracted_files": 1881,
+      "layout_change": "source/ moved to experiments/development/; all other members moved to results/development/; file bytes unchanged"
+    },
+    {
+      "stage": "confirmation",
+      "original_filename": "full_results (4).zip",
+      "sha256": "980c0df48a094e03a1ce11b2dea9acae3138705f90242e6f6199ac373367cf34",
+      "bytes": 143622252,
+      "extracted_files": 1625,
+      "layout_change": "source/ moved to experiments/confirmation/; all other members moved to results/confirmation/; file bytes unchanged"
+    }
+  ]
+}

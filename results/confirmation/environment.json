@@ -1,0 +1,10 @@
+{
+  "cuda_runtime": "12.8",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3090 Ti",
+  "numpy": "2.1.2",
+  "python": "3.12.3",
+  "threads": 8,
+  "torch": "2.8.0+cu128",
+  "visible_gpus": 1
+}

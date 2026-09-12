@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "wave",
+    "grid": 64,
+    "phase": "development",
+    "seed": 26100931,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "generation_seconds": 4.297428044024855,
+  "sha256": "86a11e237eec60dae2a8dc1c378f64c8b59600142678c59e883e1378415dab8f",
+  "signature": "cd9dae6a0b6e96aa38440c9721348414a77ce4164df9a417b30f949a30300712"
+}
