@@ -2,7 +2,7 @@
 
 **Michael Doane — Independent Researcher, Cary, NC**
 
-DOI: 10.5281/zenodo.22728288
+DOI: 10.5281/zenodo.22730021
 
 When does using physics to generate extra training examples help a neural network predict how a physical system changes? This repository studies that question using controlled simulations of waves, transport, diffusion, and pattern formation. It compares three neural network designs and tests both accurate and imperfect physical guidance.
 
