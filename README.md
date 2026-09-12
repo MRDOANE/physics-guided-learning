@@ -2,6 +2,8 @@
 
 **Michael Doane — Independent Researcher, Cary, NC**
 
+DOI: 10.5281/zenodo.22728288
+
 When does using physics to generate extra training examples help a neural network predict how a physical system changes? This repository studies that question using controlled simulations of waves, transport, diffusion, and pattern formation. It compares three neural network designs and tests both accurate and imperfect physical guidance.
 
 The completed experiments show that the effect depends on the equation, the architecture, and the type of physical error. Smooth perturbations help in several settings and can cause large errors in others. Selected patterns persisted when the spatial grid was refined. A guarded rule for choosing augmentation improved on selection based on short training probes in the primary pooled comparison. Its advantage over using no augmentation remains inconclusive.
