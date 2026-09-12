@@ -1,0 +1,454 @@
+{
+  "archived_normalization_compatible": true,
+  "candidate_count": 7,
+  "candidate_records": [
+    {
+      "boundary_hits": [],
+      "candidate_id": "identity",
+      "fit_seconds": 0.0,
+      "invalid_residual_calls": 0,
+      "kind": "uncalibrated_fallback",
+      "log_multipliers": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "multipliers": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "optimizer_success": null,
+      "residual_calls": 0,
+      "validation_failed_trajectories": 0,
+      "validation_failure_reasons": [],
+      "validation_nmse": 1.2198875041701421e-11,
+      "validation_seconds": 0.011149542002385715,
+      "validation_valid": true
+    },
+    {
+      "boundary_hits": [],
+      "candidate_id": "h1_start0",
+      "failure_reasons": [],
+      "final_training_valid": true,
+      "fit_seconds": 0.0181034829984128,
+      "initial_multipliers": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "invalid_residual_calls": 0,
+      "jacobian_condition_number": 32.29200152656029,
+      "jacobian_rank": 3,
+      "jacobian_singular_values": [
+        0.11378876031061749,
+        0.00395390437309786,
+        0.00352374442373991
+      ],
+      "kind": "calibrated",
+      "log_multipliers": [
+        1.8433282675654999e-06,
+        -2.5052158900197253e-06,
+        -1.958573662691039e-05
+      ],
+      "multipliers": [
+        1.0000018433299664,
+        0.999997494787248,
+        0.9999804144551724
+      ],
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "optimizer_nfev": 2,
+      "optimizer_njev": 2,
+      "optimizer_optimality": 8.172939087380622e-13,
+      "optimizer_status": 1,
+      "optimizer_success": true,
+      "residual_calls": 15,
+      "training_horizon": 1,
+      "training_nmse": 3.0062974312508707e-14,
+      "training_window_count": 256,
+      "training_window_start_indices": [
+        3,
+        159
+      ],
+      "validation_failed_trajectories": 0,
+      "validation_failure_reasons": [],
+      "validation_nmse": 7.83711112308517e-12,
+      "validation_seconds": 0.010884874001931166,
+      "validation_valid": true
+    },
+    {
+      "boundary_hits": [],
+      "candidate_id": "h1_start1",
+      "failure_reasons": [],
+      "final_training_valid": true,
+      "fit_seconds": 0.04220354500284884,
+      "initial_multipliers": [
+        0.8,
+        1.2,
+        1.0
+      ],
+      "invalid_residual_calls": 0,
+      "jacobian_condition_number": 32.29200149301199,
+      "jacobian_rank": 3,
+      "jacobian_singular_values": [
+        0.11378876030333016,
+        0.003953904380271717,
+        0.003523744427175074
+      ],
+      "kind": "calibrated",
+      "log_multipliers": [
+        1.8432884320706762e-06,
+        -2.5053336083845126e-06,
+        -1.958279228424419e-05
+      ],
+      "multipliers": [
+        1.000001843290131,
+        0.9999974946695299,
+        0.9999804173994574
+      ],
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "optimizer_nfev": 5,
+      "optimizer_njev": 5,
+      "optimizer_optimality": 5.608145439520487e-12,
+      "optimizer_status": 1,
+      "optimizer_success": true,
+      "residual_calls": 36,
+      "training_horizon": 1,
+      "training_nmse": 3.006297450715187e-14,
+      "training_window_count": 256,
+      "training_window_start_indices": [
+        3,
+        159
+      ],
+      "validation_failed_trajectories": 0,
+      "validation_failure_reasons": [],
+      "validation_nmse": 7.83711112308517e-12,
+      "validation_seconds": 0.00781810099942959,
+      "validation_valid": true
+    },
+    {
+      "boundary_hits": [],
+      "candidate_id": "h1_start2",
+      "failure_reasons": [],
+      "final_training_valid": true,
+      "fit_seconds": 0.029662631000974216,
+      "initial_multipliers": [
+        1.2,
+        0.8,
+        1.0
+      ],
+      "invalid_residual_calls": 0,
+      "jacobian_condition_number": 32.29200153100346,
+      "jacobian_rank": 3,
+      "jacobian_singular_values": [
+        0.11378876031620604,
+        0.003953904372627809,
+        0.003523744423428129
+      ],
+      "kind": "calibrated",
+      "log_multipliers": [
+        1.8433503562916418e-06,
+        -2.5051763090358156e-06,
+        -1.9585999667248174e-05
+      ],
+      "multipliers": [
+        1.0000018433520552,
+        0.9999974948268289,
+        0.9999804141921371
+      ],
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "optimizer_nfev": 5,
+      "optimizer_njev": 5,
+      "optimizer_optimality": 2.041785301752966e-12,
+      "optimizer_status": 1,
+      "optimizer_success": true,
+      "residual_calls": 36,
+      "training_horizon": 1,
+      "training_nmse": 3.0062974316914766e-14,
+      "training_window_count": 256,
+      "training_window_start_indices": [
+        3,
+        159
+      ],
+      "validation_failed_trajectories": 0,
+      "validation_failure_reasons": [],
+      "validation_nmse": 7.83711112308517e-12,
+      "validation_seconds": 0.006970124999497784,
+      "validation_valid": true
+    },
+    {
+      "boundary_hits": [],
+      "candidate_id": "h4_start0",
+      "failure_reasons": [],
+      "final_training_valid": true,
+      "fit_seconds": 0.06938607600022806,
+      "initial_multipliers": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "invalid_residual_calls": 0,
+      "jacobian_condition_number": 30.768463815860475,
+      "jacobian_rank": 3,
+      "jacobian_singular_values": [
+        0.2947595495128664,
+        0.010526947444377818,
+        0.00957992414820932
+      ],
+      "kind": "calibrated",
+      "log_multipliers": [
+        1.8880512654142318e-06,
+        6.241756542478325e-06,
+        -2.0612380636073196e-05
+      ],
+      "multipliers": [
+        1.0000018880530477,
+        1.0000062417760223,
+        0.9999793878317976
+      ],
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "optimizer_nfev": 2,
+      "optimizer_njev": 2,
+      "optimizer_optimality": 6.173222224920256e-12,
+      "optimizer_status": 1,
+      "optimizer_success": true,
+      "residual_calls": 15,
+      "training_horizon": 4,
+      "training_nmse": 2.340678480668309e-13,
+      "training_window_count": 256,
+      "training_window_start_indices": [
+        3,
+        156
+      ],
+      "validation_failed_trajectories": 0,
+      "validation_failure_reasons": [],
+      "validation_nmse": 7.478347503994307e-12,
+      "validation_seconds": 0.008749351000005845,
+      "validation_valid": true
+    },
+    {
+      "boundary_hits": [],
+      "candidate_id": "h4_start1",
+      "failure_reasons": [],
+      "final_training_valid": true,
+      "fit_seconds": 0.11146784799711895,
+      "initial_multipliers": [
+        0.8,
+        1.2,
+        1.0
+      ],
+      "invalid_residual_calls": 0,
+      "jacobian_condition_number": 30.768463672402657,
+      "jacobian_rank": 3,
+      "jacobian_singular_values": [
+        0.2947595494264784,
+        0.010526947526640943,
+        0.009579924190067991
+      ],
+      "kind": "calibrated",
+      "log_multipliers": [
+        1.8878952666566773e-06,
+        6.241371646697783e-06,
+        -2.0599773248101315e-05
+      ],
+      "multipliers": [
+        1.0000018878970487,
+        1.0000062413911242,
+        0.9999794004389257
+      ],
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "optimizer_nfev": 5,
+      "optimizer_njev": 5,
+      "optimizer_optimality": 1.6873344299768749e-10,
+      "optimizer_status": 1,
+      "optimizer_success": true,
+      "residual_calls": 36,
+      "training_horizon": 4,
+      "training_nmse": 2.3406787208728685e-13,
+      "training_window_count": 256,
+      "training_window_start_indices": [
+        3,
+        156
+      ],
+      "validation_failed_trajectories": 0,
+      "validation_failure_reasons": [],
+      "validation_nmse": 7.478347503994307e-12,
+      "validation_seconds": 0.006700770001771161,
+      "validation_valid": true
+    },
+    {
+      "boundary_hits": [],
+      "candidate_id": "h4_start2",
+      "failure_reasons": [],
+      "final_training_valid": true,
+      "fit_seconds": 0.11892164100208902,
+      "initial_multipliers": [
+        1.2,
+        0.8,
+        1.0
+      ],
+      "invalid_residual_calls": 0,
+      "jacobian_condition_number": 30.768463820015484,
+      "jacobian_rank": 3,
+      "jacobian_singular_values": [
+        0.2947595495211549,
+        0.010526947442251553,
+        0.009579924147185018
+      ],
+      "kind": "calibrated",
+      "log_multipliers": [
+        1.8880624063119575e-06,
+        6.241763144410543e-06,
+        -2.0612699798067474e-05
+      ],
+      "multipliers": [
+        1.0000018880641888,
+        1.0000062417826243,
+        0.9999793875126421
+      ],
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "optimizer_nfev": 5,
+      "optimizer_njev": 5,
+      "optimizer_optimality": 6.369494284997154e-12,
+      "optimizer_status": 1,
+      "optimizer_success": true,
+      "residual_calls": 36,
+      "training_horizon": 4,
+      "training_nmse": 2.340678480614083e-13,
+      "training_window_count": 256,
+      "training_window_start_indices": [
+        3,
+        156
+      ],
+      "validation_failed_trajectories": 0,
+      "validation_failure_reasons": [],
+      "validation_nmse": 7.478347503994307e-12,
+      "validation_seconds": 0.006759779000276467,
+      "validation_valid": true
+    }
+  ],
+  "environment": {
+    "backend": "torch",
+    "cuda_runtime": null,
+    "machine": "x86_64",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "threads": 1,
+    "torch": "2.8.0+cpu"
+  },
+  "estimator": "three positive multipliers shared across training trajectories; coefficients supplied to the solver are multiplied once",
+  "family": "wave",
+  "fit_seconds": 0.3897452240016719,
+  "fit_valid": true,
+  "identity_validation_nmse": 1.2198875041701421e-11,
+  "interpretation": "Validation selects among declared training objectives and starts, including the unchanged solver. Boundary hits and optimizer termination are diagnostics, without a minimum required improvement.",
+  "invalid_residual_calls": 0,
+  "job": {
+    "family": "wave",
+    "grid": 32,
+    "id": "resolution_g32__wave__correct",
+    "prior": "correct",
+    "stage": "resolution_g32"
+  },
+  "multipliers": [
+    1.0000018880530477,
+    1.0000062417760223,
+    0.9999793878317976
+  ],
+  "neural_training_performed": false,
+  "normalization": {
+    "mean": [
+      4.0535808217001534e-12,
+      -1.0382578043838242e-12
+    ],
+    "scale": [
+      0.21568265557289124,
+      0.2730386555194855
+    ]
+  },
+  "prior": "correct",
+  "profile": "full",
+  "regenerated_normalization": {
+    "mean": [
+      4.0535808217001534e-12,
+      -1.0382578043838242e-12
+    ],
+    "scale": [
+      0.21568265557289124,
+      0.2730386555194855
+    ]
+  },
+  "residual_calls": 174,
+  "schema_version": 1,
+  "scientific_profile": true,
+  "selected_boundary_hits": [],
+  "selected_candidate": "h4_start0",
+  "selected_multipliers": [
+    1.0000018880530477,
+    1.0000062417760223,
+    0.9999793878317976
+  ],
+  "selected_validation_nmse": 7.478347503994307e-12,
+  "settings": {
+    "context": 4,
+    "divergence_threshold": 1000000.0,
+    "fidelity": "coarse",
+    "finite_failure_penalty_nmse": 1000000.0,
+    "fit_dtype": "float64",
+    "ftol": 1e-08,
+    "gtol": 1e-08,
+    "jacobian": "3-point",
+    "max_nfev_per_fit": 60,
+    "multiplicative_bounds": [
+      0.001,
+      1000.0
+    ],
+    "optimizer": "scipy.optimize.least_squares",
+    "starts": [
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.8,
+        1.2,
+        1.0
+      ],
+      [
+        1.2,
+        0.8,
+        1.0
+      ]
+    ],
+    "training_horizons": [
+      1,
+      4
+    ],
+    "validation_dtype": "float32",
+    "validation_horizon": 16,
+    "windows_per_training_trajectory": 2,
+    "xtol": 1e-08
+  },
+  "setup_seconds": 0.005621795000479324,
+  "signature": "f7694d0e269e1a51bb0a157d5200a1bda243cc133f20db3ee859d4bcadb9a760",
+  "state_mean": [
+    4.0535808217001534e-12,
+    -1.0382578043838242e-12
+  ],
+  "state_scale": [
+    0.21568265557289124,
+    0.2730386555194855
+  ],
+  "status": "FITTED_AND_VALIDATED",
+  "structural_omissions_preserved": false,
+  "test_data_used_for_fitting_or_selection": false,
+  "total_seconds": 0.45473272500021267,
+  "train_trajectories": 128,
+  "true_parameters_used_for_fitting": false,
+  "valid_candidate_count": 7,
+  "validation_nmse": 7.478347503994307e-12,
+  "validation_seconds": 0.05903254200529773,
+  "validation_trajectories": 24
+}

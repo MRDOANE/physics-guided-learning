@@ -1,0 +1,23 @@
+{
+  "archive_generation_threads": 8,
+  "backend": "torch",
+  "exact_archive_npz_hash": true,
+  "generation_seconds": 0.6257307370033232,
+  "original_description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "advection_diffusion",
+    "grid": 32,
+    "phase": "development",
+    "seed": 26100931,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "original_sha256": "b012b33ca0b965e90454b61d97cbf5667829c38ba905702dc853d6f967e77fe7",
+  "sha256": "b012b33ca0b965e90454b61d97cbf5667829c38ba905702dc853d6f967e77fe7",
+  "signature": "f8ca0a1d171953b01b09d4e623a76ca39807ecdc1e5b59cae642e626d172703d",
+  "smoke": false
+}

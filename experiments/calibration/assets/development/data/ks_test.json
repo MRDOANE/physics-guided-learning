@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "ood": 64,
+      "test": 64
+    },
+    "family": "ks",
+    "grid": 32,
+    "phase": "test",
+    "seed": 26091297,
+    "source_hash": "e74bb95889a1905c66a65463e628117bb57fd0041d2c24a4f8032aff3b6459ed",
+    "steps": 160
+  },
+  "generation_seconds": 1.54312531510368,
+  "sha256": "a8f25040cb6ba24614b592350510da7b74740071c7a820025791a096e7cf0bce",
+  "signature": "56acf1a6ec3870228b2d85e6d10d22d61a3cfb924c475bfa844a5c83e39b44d8"
+}

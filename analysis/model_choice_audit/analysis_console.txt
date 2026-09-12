@@ -1,0 +1,11 @@
+VERIFIED development: 864/864 records
+VERIFIED resolution_g32: 144/144 records
+VERIFIED resolution_g64: 144/144 records
+VERIFIED selector_g64: 432/432 records
+AUDIT: PASS | 1,584 archived candidate records verified
+ACCURACY: AVAILABLE | paired direct neural/physics comparisons computed
+NEURAL COSTS: AVAILABLE | recorded training and batch-one inference time
+PHYSICS INFERENCE COST: MISSING | no physics-versus-neural speed claim
+INFERENCE STATUS: EXPLORATORY | no new confirmatory hypothesis test
+MODEL TRAINING: NONE
+Elapsed analysis: 10.4 seconds

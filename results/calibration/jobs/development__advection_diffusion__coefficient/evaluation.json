@@ -1,0 +1,54 @@
+{
+  "archive_compatible": true,
+  "calibration_sha256": "cccf8681d2d1c1a8afa80b4908692fe442cca47e97d645abf9560be48a130182",
+  "compatibility": {
+    "atol": 1e-07,
+    "backend_is_original_torch": true,
+    "checks": {
+      "ood_ids": {
+        "passed": true
+      },
+      "ood_persistence": {
+        "max_abs_difference": 9.5367431640625e-07,
+        "passed": true
+      },
+      "ood_uncalibrated": {
+        "max_abs_difference": 6.67572021484375e-06,
+        "passed": true
+      },
+      "test_ids": {
+        "passed": true
+      },
+      "test_persistence": {
+        "max_abs_difference": 1.9073486328125e-06,
+        "passed": true
+      },
+      "test_uncalibrated": {
+        "max_abs_difference": 7.152557373046875e-06,
+        "passed": true
+      }
+    },
+    "data_exact_hashes": {
+      "development": true,
+      "test": true
+    },
+    "eligibility_rule": "Original Torch source, full counts, ordered IDs and normalization; either exact development/test archive NPZ hashes or successful numerical reference replay.",
+    "full_data": true,
+    "normalization": true,
+    "precision_note": "Exact input-data hashes establish common forecast targets even when CPU physical forecast arithmetic differs from the archived GPU reference. Reference discrepancies remain reported.",
+    "reference_replay_passed": true,
+    "rtol": 0.0001,
+    "scope": "Reference error curves and trajectory IDs are numerical replay checks. They do not establish bitwise trajectory identity.",
+    "status": "EXACT_DATA_HASH_AND_NUMERICAL_REPLAY"
+  },
+  "evaluation_sha256": "811407abdaf6d5bf5f5081710fddc54b5d60f5e03d5ba47995e59222c316c413",
+  "failed_trajectories": {
+    "ood_calibrated": 0,
+    "ood_uncalibrated": 0,
+    "test_calibrated": 0,
+    "test_uncalibrated": 0
+  },
+  "freeze_sha256": "04efb8030f73635200bfa878e243e94f452cf169d8e3ca4b9650fc42ada06f89",
+  "seconds": 0.23108334000062314,
+  "signature": "7f74596e8a86f3350892a3e0b157fc45acc171d40427dcfbe8000e891ef4b8dc"
+}

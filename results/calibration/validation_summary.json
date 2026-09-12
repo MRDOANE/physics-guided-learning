@@ -1,0 +1,14 @@
+{
+  "completion": "GREEN",
+  "verified_settings": 30,
+  "archive_compatible_settings": 30,
+  "exact_dataset_npz_hashes": 28,
+  "dataset_npz_count": 28,
+  "neural_training_performed": false,
+  "gpu_used": false,
+  "new_neural_timing": "Initialized architectures; historical accuracy kept separate.",
+  "initial_full_run_elapsed_seconds": 85.41065822900055,
+  "test_scope": "Final delivered ZIP extracted and executed by delivered bash launcher, full profile, original Torch CPU2.8.0, four fit workers, one fit thread each, eight data generation threads.",
+  "independent_unit_tests_passed": 8,
+  "release_zip_sha256": "47126922f17f253a73b1f92eae5a0d39317524dba7252c4066e73664d5d740e0"
+}

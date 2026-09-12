@@ -1,0 +1,54 @@
+{
+  "archive_compatible": true,
+  "calibration_sha256": "58acef8ccf9e4a99e3023ec50c6a39ba0255388b824ba9603fef8b32098cce64",
+  "compatibility": {
+    "atol": 1e-07,
+    "backend_is_original_torch": true,
+    "checks": {
+      "ood_ids": {
+        "passed": true
+      },
+      "ood_persistence": {
+        "max_abs_difference": 2.9802322387695312e-08,
+        "passed": true
+      },
+      "ood_uncalibrated": {
+        "max_abs_difference": 1.0540603112563218e-11,
+        "passed": true
+      },
+      "test_ids": {
+        "passed": true
+      },
+      "test_persistence": {
+        "max_abs_difference": 5.960464477539063e-08,
+        "passed": true
+      },
+      "test_uncalibrated": {
+        "max_abs_difference": 1.061661956264226e-11,
+        "passed": true
+      }
+    },
+    "data_exact_hashes": {
+      "development": true,
+      "test": true
+    },
+    "eligibility_rule": "Original Torch source, full counts, ordered IDs and normalization; either exact development/test archive NPZ hashes or successful numerical reference replay.",
+    "full_data": true,
+    "normalization": true,
+    "precision_note": "Exact input-data hashes establish common forecast targets even when CPU physical forecast arithmetic differs from the archived GPU reference. Reference discrepancies remain reported.",
+    "reference_replay_passed": true,
+    "rtol": 0.0001,
+    "scope": "Reference error curves and trajectory IDs are numerical replay checks. They do not establish bitwise trajectory identity.",
+    "status": "EXACT_DATA_HASH_AND_NUMERICAL_REPLAY"
+  },
+  "evaluation_sha256": "50bccce8dd05174b9742a0edd4d2705be15c1ac31456f4d40d7c507fdbadec15",
+  "failed_trajectories": {
+    "ood_calibrated": 0,
+    "ood_uncalibrated": 0,
+    "test_calibrated": 0,
+    "test_uncalibrated": 0
+  },
+  "freeze_sha256": "04efb8030f73635200bfa878e243e94f452cf169d8e3ca4b9650fc42ada06f89",
+  "seconds": 0.31467924200114794,
+  "signature": "5ba9007707134f8b1f150033a27164d0d5d2f24eb55d1bbae8819689f987f5fb"
+}

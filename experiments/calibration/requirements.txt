@@ -1,0 +1,4 @@
+# Existing PyTorch is required for pilot/full; the launcher preserves it.
+numpy>=1.26,<3
+scipy>=1.11,<2
+# Tested with torch 2.8.0+cpu; do not replace a working RunPod torch install.

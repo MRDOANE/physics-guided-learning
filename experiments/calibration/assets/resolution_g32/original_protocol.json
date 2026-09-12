@@ -1,0 +1,1369 @@
+{
+  "config": {
+    "batch_size": 32,
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 260913,
+    "burn_in": 24,
+    "checkpoint_every": 100,
+    "collocation_windows": 4096,
+    "confirmation_families": [
+      "cahn_hilliard",
+      "fitzhugh_nagumo"
+    ],
+    "confirmation_grid": 64,
+    "confirmation_seeds": [
+      8101,
+      8202,
+      8303,
+      8404,
+      8505,
+      8606
+    ],
+    "context": 4,
+    "depth": 3,
+    "eval_horizon": 96,
+    "fno_modes": 8,
+    "grid": 32,
+    "heads": 4,
+    "kinds": [
+      "transformer",
+      "looped",
+      "fno"
+    ],
+    "loss_cap": 1000000.0,
+    "lr": 0.0003,
+    "physics_jitter": 0.05,
+    "physics_weight": 0.1,
+    "primary_horizon": 64,
+    "probe_steps": 300,
+    "profile": "full",
+    "resolution_families": [
+      "wave",
+      "advection_diffusion",
+      "allen_cahn"
+    ],
+    "resolution_grids": [
+      32,
+      64
+    ],
+    "resolution_seeds": [
+      7101,
+      7202,
+      7303,
+      7404
+    ],
+    "split_counts": {
+      "ood": 64,
+      "test": 64,
+      "train": 128,
+      "val": 24
+    },
+    "steps": 4000,
+    "test_seed": 26110937,
+    "train_val_seed": 26100931,
+    "trajectory_steps": 160,
+    "validation_every": 100,
+    "validation_horizon": 16,
+    "width": 64
+  },
+  "jobs": [
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "wave__transformer__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "wave__transformer__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "wave__transformer__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "wave__transformer__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "wave__transformer__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "wave__transformer__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "wave__transformer__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "wave__transformer__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "wave__transformer__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "wave__transformer__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "wave__transformer__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "wave__transformer__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "wave__transformer__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "wave__transformer__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "wave__transformer__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "wave__transformer__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "wave__transformer__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "wave__transformer__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "wave__transformer__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "wave__transformer__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "wave__transformer__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "wave__transformer__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "wave__transformer__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "wave__transformer__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "wave__transformer__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "wave__transformer__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "wave__transformer__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "wave__transformer__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "wave__transformer__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "wave__transformer__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "wave__transformer__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "wave__transformer__coefficient__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "wave__looped__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "wave__looped__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "wave__looped__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "wave__looped__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "wave__looped__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "wave__looped__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "wave__looped__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "wave__looped__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "wave__looped__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "wave__looped__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "wave__looped__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "wave__looped__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "wave__looped__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "wave__looped__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "wave__looped__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "wave__looped__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "wave__looped__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "wave__looped__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "wave__looped__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "wave__looped__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "wave__looped__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "wave__looped__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "wave__looped__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "wave__looped__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "wave__looped__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "wave__looped__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "wave__looped__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "wave__looped__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "wave__looped__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "wave__looped__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "wave__looped__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "wave__looped__coefficient__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "wave__fno__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "wave__fno__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "wave__fno__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "wave__fno__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "wave__fno__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "wave__fno__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "wave__fno__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "wave__fno__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "wave__fno__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "wave__fno__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "wave__fno__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "wave__fno__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "wave__fno__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "wave__fno__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "wave__fno__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "wave__fno__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "wave__fno__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "wave__fno__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "wave__fno__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "wave__fno__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "wave__fno__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "wave__fno__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "wave__fno__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "wave__fno__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "wave__fno__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "wave__fno__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "wave__fno__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "wave__fno__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "wave__fno__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "wave__fno__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "wave",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "wave__fno__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "wave__fno__coefficient__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "advection_diffusion__transformer__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "advection_diffusion__transformer__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "advection_diffusion__transformer__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "advection_diffusion__transformer__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "advection_diffusion__transformer__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "advection_diffusion__transformer__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "advection_diffusion__transformer__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "advection_diffusion__transformer__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "advection_diffusion__transformer__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "advection_diffusion__transformer__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "advection_diffusion__transformer__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "advection_diffusion__transformer__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "advection_diffusion__transformer__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "advection_diffusion__transformer__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "advection_diffusion__transformer__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "advection_diffusion__transformer__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__transformer__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "advection_diffusion__transformer__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__transformer__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "advection_diffusion__transformer__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__transformer__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "advection_diffusion__transformer__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__transformer__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "advection_diffusion__transformer__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__transformer__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "advection_diffusion__transformer__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__transformer__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "advection_diffusion__transformer__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__transformer__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "advection_diffusion__transformer__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__transformer__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "advection_diffusion__transformer__coefficient__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "advection_diffusion__looped__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "advection_diffusion__looped__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "advection_diffusion__looped__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "advection_diffusion__looped__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "advection_diffusion__looped__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "advection_diffusion__looped__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "advection_diffusion__looped__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "advection_diffusion__looped__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "advection_diffusion__looped__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "advection_diffusion__looped__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "advection_diffusion__looped__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "advection_diffusion__looped__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "advection_diffusion__looped__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "advection_diffusion__looped__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "advection_diffusion__looped__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "advection_diffusion__looped__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__looped__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "advection_diffusion__looped__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__looped__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "advection_diffusion__looped__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__looped__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "advection_diffusion__looped__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__looped__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "advection_diffusion__looped__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__looped__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "advection_diffusion__looped__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__looped__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "advection_diffusion__looped__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__looped__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "advection_diffusion__looped__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__looped__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "advection_diffusion__looped__coefficient__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "advection_diffusion__fno__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "advection_diffusion__fno__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "advection_diffusion__fno__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "advection_diffusion__fno__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "advection_diffusion__fno__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "advection_diffusion__fno__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "advection_diffusion__fno__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "advection_diffusion__fno__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "advection_diffusion__fno__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "advection_diffusion__fno__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "advection_diffusion__fno__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "advection_diffusion__fno__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "advection_diffusion__fno__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "advection_diffusion__fno__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "advection_diffusion__fno__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "advection_diffusion__fno__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__fno__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "advection_diffusion__fno__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__fno__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "advection_diffusion__fno__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__fno__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "advection_diffusion__fno__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__fno__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "advection_diffusion__fno__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__fno__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "advection_diffusion__fno__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__fno__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "advection_diffusion__fno__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__fno__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "advection_diffusion__fno__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "advection_diffusion",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "advection_diffusion__fno__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "advection_diffusion__fno__coefficient__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "allen_cahn__transformer__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "allen_cahn__transformer__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "allen_cahn__transformer__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "allen_cahn__transformer__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "allen_cahn__transformer__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "allen_cahn__transformer__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "allen_cahn__transformer__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "allen_cahn__transformer__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "allen_cahn__transformer__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "allen_cahn__transformer__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "allen_cahn__transformer__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "allen_cahn__transformer__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "allen_cahn__transformer__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "allen_cahn__transformer__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "correct",
+      "run_id": "allen_cahn__transformer__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "allen_cahn__transformer__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__transformer__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "allen_cahn__transformer__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__transformer__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "allen_cahn__transformer__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__transformer__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "allen_cahn__transformer__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__transformer__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "allen_cahn__transformer__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__transformer__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "allen_cahn__transformer__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__transformer__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "allen_cahn__transformer__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__transformer__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "allen_cahn__transformer__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "transformer",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__transformer__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "allen_cahn__transformer__coefficient__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "allen_cahn__looped__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "allen_cahn__looped__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "allen_cahn__looped__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "allen_cahn__looped__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "allen_cahn__looped__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "allen_cahn__looped__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "allen_cahn__looped__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "allen_cahn__looped__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "allen_cahn__looped__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "allen_cahn__looped__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "allen_cahn__looped__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "allen_cahn__looped__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "allen_cahn__looped__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "allen_cahn__looped__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "correct",
+      "run_id": "allen_cahn__looped__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "allen_cahn__looped__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__looped__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "allen_cahn__looped__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__looped__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "allen_cahn__looped__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__looped__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "allen_cahn__looped__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__looped__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "allen_cahn__looped__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__looped__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "allen_cahn__looped__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__looped__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "allen_cahn__looped__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__looped__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "allen_cahn__looped__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "looped",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__looped__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "allen_cahn__looped__coefficient__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "allen_cahn__fno__correct__s7101__none",
+      "seed": 7101,
+      "task_id": "allen_cahn__fno__correct__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "allen_cahn__fno__correct__s7101__smooth",
+      "seed": 7101,
+      "task_id": "allen_cahn__fno__correct__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "allen_cahn__fno__correct__s7202__none",
+      "seed": 7202,
+      "task_id": "allen_cahn__fno__correct__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "allen_cahn__fno__correct__s7202__smooth",
+      "seed": 7202,
+      "task_id": "allen_cahn__fno__correct__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "allen_cahn__fno__correct__s7303__none",
+      "seed": 7303,
+      "task_id": "allen_cahn__fno__correct__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "allen_cahn__fno__correct__s7303__smooth",
+      "seed": 7303,
+      "task_id": "allen_cahn__fno__correct__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "allen_cahn__fno__correct__s7404__none",
+      "seed": 7404,
+      "task_id": "allen_cahn__fno__correct__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "correct",
+      "run_id": "allen_cahn__fno__correct__s7404__smooth",
+      "seed": 7404,
+      "task_id": "allen_cahn__fno__correct__s7404"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__fno__coefficient__s7101__none",
+      "seed": 7101,
+      "task_id": "allen_cahn__fno__coefficient__s7101"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__fno__coefficient__s7101__smooth",
+      "seed": 7101,
+      "task_id": "allen_cahn__fno__coefficient__s7101"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__fno__coefficient__s7202__none",
+      "seed": 7202,
+      "task_id": "allen_cahn__fno__coefficient__s7202"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__fno__coefficient__s7202__smooth",
+      "seed": 7202,
+      "task_id": "allen_cahn__fno__coefficient__s7202"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__fno__coefficient__s7303__none",
+      "seed": 7303,
+      "task_id": "allen_cahn__fno__coefficient__s7303"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__fno__coefficient__s7303__smooth",
+      "seed": 7303,
+      "task_id": "allen_cahn__fno__coefficient__s7303"
+    },
+    {
+      "arm": "none",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__fno__coefficient__s7404__none",
+      "seed": 7404,
+      "task_id": "allen_cahn__fno__coefficient__s7404"
+    },
+    {
+      "arm": "smooth",
+      "family": "allen_cahn",
+      "kind": "fno",
+      "prior": "coefficient",
+      "run_id": "allen_cahn__fno__coefficient__s7404__smooth",
+      "seed": 7404,
+      "task_id": "allen_cahn__fno__coefficient__s7404"
+    }
+  ],
+  "selector_model_sha256": "f499a6458c5702a5dd150ee32a7e14456ac693f0da4030b51b85f08bb4f75647",
+  "signature": "d6571789d64dc483604fe7c3c27ea57aef44f6bfdf5114305a05ff6314d3f1cb"
+}

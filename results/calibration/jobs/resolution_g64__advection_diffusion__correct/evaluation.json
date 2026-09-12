@@ -1,0 +1,54 @@
+{
+  "archive_compatible": true,
+  "calibration_sha256": "94adde126fd83510ff2a67995e50607adc4571a17de5e203e767666ae5fb94ba",
+  "compatibility": {
+    "atol": 1e-07,
+    "backend_is_original_torch": true,
+    "checks": {
+      "ood_ids": {
+        "passed": true
+      },
+      "ood_persistence": {
+        "max_abs_difference": 9.5367431640625e-07,
+        "passed": true
+      },
+      "ood_uncalibrated": {
+        "max_abs_difference": 1.1501802982261111e-11,
+        "passed": true
+      },
+      "test_ids": {
+        "passed": true
+      },
+      "test_persistence": {
+        "max_abs_difference": 1.9073486328125e-06,
+        "passed": true
+      },
+      "test_uncalibrated": {
+        "max_abs_difference": 2.9782766530761506e-11,
+        "passed": true
+      }
+    },
+    "data_exact_hashes": {
+      "development": true,
+      "test": true
+    },
+    "eligibility_rule": "Original Torch source, full counts, ordered IDs and normalization; either exact development/test archive NPZ hashes or successful numerical reference replay.",
+    "full_data": true,
+    "normalization": true,
+    "precision_note": "Exact input-data hashes establish common forecast targets even when CPU physical forecast arithmetic differs from the archived GPU reference. Reference discrepancies remain reported.",
+    "reference_replay_passed": true,
+    "rtol": 0.0001,
+    "scope": "Reference error curves and trajectory IDs are numerical replay checks. They do not establish bitwise trajectory identity.",
+    "status": "EXACT_DATA_HASH_AND_NUMERICAL_REPLAY"
+  },
+  "evaluation_sha256": "1d2dd67171c1d0ac9a7d20131e2c4fde04ca127465265d6a46f848553b621fbd",
+  "failed_trajectories": {
+    "ood_calibrated": 0,
+    "ood_uncalibrated": 0,
+    "test_calibrated": 0,
+    "test_uncalibrated": 0
+  },
+  "freeze_sha256": "04efb8030f73635200bfa878e243e94f452cf169d8e3ca4b9650fc42ada06f89",
+  "seconds": 0.2763492710000719,
+  "signature": "cbaeb9834f0fd6685c651b41a31c68b640614bf3338132c9309d6d9b582c0075"
+}

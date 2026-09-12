@@ -1,0 +1,151 @@
+{
+  "source": "evidence.json:resolution",
+  "metric": "Geometric mean of paired MSE ratios; 64-step rollouts; architectures pooled",
+  "interval": "Pointwise 95% paired bootstrap intervals; Holm-adjusted hypothesis tests are reported separately",
+  "rows": [
+    {
+      "family": "wave",
+      "prior": "correct",
+      "grid": 32,
+      "mse_ratio": 0.737617605694467,
+      "ratio_confidence_interval": [
+        0.6378410036685925,
+        0.9085504694989017
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "benefit"
+    },
+    {
+      "family": "wave",
+      "prior": "correct",
+      "grid": 64,
+      "mse_ratio": 0.6467710264377579,
+      "ratio_confidence_interval": [
+        0.557778435700008,
+        0.7256672483091261
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "benefit"
+    },
+    {
+      "family": "wave",
+      "prior": "coefficient",
+      "grid": 32,
+      "mse_ratio": 3.382364283004358,
+      "ratio_confidence_interval": [
+        2.8664137088997137,
+        3.93849436012848
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "harm"
+    },
+    {
+      "family": "wave",
+      "prior": "coefficient",
+      "grid": 64,
+      "mse_ratio": 3.109399807321877,
+      "ratio_confidence_interval": [
+        2.5795244688391015,
+        3.6813389601644557
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "harm"
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "correct",
+      "grid": 32,
+      "mse_ratio": 0.7513353453418516,
+      "ratio_confidence_interval": [
+        0.6801899521393159,
+        0.833861509845194
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "benefit"
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "correct",
+      "grid": 64,
+      "mse_ratio": 0.7535823130083349,
+      "ratio_confidence_interval": [
+        0.5699349703582587,
+        0.9249017503468215
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "benefit"
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "coefficient",
+      "grid": 32,
+      "mse_ratio": 3.2338601519250987,
+      "ratio_confidence_interval": [
+        2.492334735151447,
+        4.167749570973752
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "harm"
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "coefficient",
+      "grid": 64,
+      "mse_ratio": 3.4087694615214623,
+      "ratio_confidence_interval": [
+        2.7996070090349514,
+        4.160538392176435
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "harm"
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "correct",
+      "grid": 32,
+      "mse_ratio": 0.1594827500579847,
+      "ratio_confidence_interval": [
+        0.1219857761665827,
+        0.22201677269523526
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "benefit"
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "correct",
+      "grid": 64,
+      "mse_ratio": 0.16781352379701928,
+      "ratio_confidence_interval": [
+        0.14479240054462297,
+        0.19340697428645134
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "benefit"
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "coefficient",
+      "grid": 32,
+      "mse_ratio": 0.21003540143181368,
+      "ratio_confidence_interval": [
+        0.16608877472052805,
+        0.2630170590347682
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "benefit"
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "coefficient",
+      "grid": 64,
+      "mse_ratio": 0.24696331934962532,
+      "ratio_confidence_interval": [
+        0.20193354035742375,
+        0.30055394572124416
+      ],
+      "interval_level": 0.95,
+      "expected_direction": "benefit"
+    }
+  ]
+}

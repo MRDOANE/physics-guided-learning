@@ -1,0 +1,54 @@
+{
+  "archive_compatible": true,
+  "calibration_sha256": "8d492e30e615c3117018c366f01a984c4108732e631de2ff960551c36977868c",
+  "compatibility": {
+    "atol": 1e-07,
+    "backend_is_original_torch": true,
+    "checks": {
+      "ood_ids": {
+        "passed": true
+      },
+      "ood_persistence": {
+        "max_abs_difference": 9.5367431640625e-07,
+        "passed": true
+      },
+      "ood_uncalibrated": {
+        "max_abs_difference": 1.53114854128944e-10,
+        "passed": true
+      },
+      "test_ids": {
+        "passed": true
+      },
+      "test_persistence": {
+        "max_abs_difference": 9.5367431640625e-07,
+        "passed": true
+      },
+      "test_uncalibrated": {
+        "max_abs_difference": 4.36144453885845e-11,
+        "passed": true
+      }
+    },
+    "data_exact_hashes": {
+      "development": true,
+      "test": true
+    },
+    "eligibility_rule": "Original Torch source, full counts, ordered IDs and normalization; either exact development/test archive NPZ hashes or successful numerical reference replay.",
+    "full_data": true,
+    "normalization": true,
+    "precision_note": "Exact input-data hashes establish common forecast targets even when CPU physical forecast arithmetic differs from the archived GPU reference. Reference discrepancies remain reported.",
+    "reference_replay_passed": true,
+    "rtol": 0.0001,
+    "scope": "Reference error curves and trajectory IDs are numerical replay checks. They do not establish bitwise trajectory identity.",
+    "status": "EXACT_DATA_HASH_AND_NUMERICAL_REPLAY"
+  },
+  "evaluation_sha256": "22ccbd35ee70fabc92c58b79a04b8937f6e55e13edfd09e374be07e6ed9a19a2",
+  "failed_trajectories": {
+    "ood_calibrated": 0,
+    "ood_uncalibrated": 0,
+    "test_calibrated": 0,
+    "test_uncalibrated": 0
+  },
+  "freeze_sha256": "04efb8030f73635200bfa878e243e94f452cf169d8e3ca4b9650fc42ada06f89",
+  "seconds": 0.3354259160005313,
+  "signature": "ee0e0ab737a9c7dd478e4762595e76494c96d4995e8377e9c88a5a3bb9c0df75"
+}

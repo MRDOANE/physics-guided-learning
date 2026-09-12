@@ -1,0 +1,9 @@
+{
+  "doi": "10.5281/zenodo.22728288",
+  "github": "https://github.com/MRDOANE/physics-guided-learning",
+  "version": "1.0.0",
+  "records": 1584,
+  "settings": 30,
+  "new_neural_training": false,
+  "source_note": "Archived physics/models copied byte-for-byte from confirmation source; existing six-family branches unchanged from development."
+}

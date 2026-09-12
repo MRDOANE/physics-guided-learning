@@ -1,0 +1,152 @@
+{
+  "source": "evidence.json:resolution_architecture_descriptive; stage=resolution_g64",
+  "metric": "100 * (1 - geometric mean of paired per-seed smooth / none MSE ratios); 64-step rollouts",
+  "inference": "Descriptive point estimates; no architecture-specific confidence intervals or tests are displayed",
+  "color_scale": "Linear and symmetric from -550% to +550%; values are not clipped",
+  "rows": [
+    {
+      "family": "wave",
+      "prior": "correct",
+      "architecture": "transformer",
+      "grid": 64,
+      "mse_reduction_percent": 19.194554924032946,
+      "mse_ratio": 0.8080544507596705
+    },
+    {
+      "family": "wave",
+      "prior": "correct",
+      "architecture": "looped",
+      "grid": 64,
+      "mse_reduction_percent": 4.429384492262822,
+      "mse_ratio": 0.9557061550773718
+    },
+    {
+      "family": "wave",
+      "prior": "correct",
+      "architecture": "fno",
+      "grid": 64,
+      "mse_reduction_percent": 64.96624732486606,
+      "mse_ratio": 0.35033752675133933
+    },
+    {
+      "family": "wave",
+      "prior": "coefficient",
+      "architecture": "transformer",
+      "grid": 64,
+      "mse_reduction_percent": -136.3587891006549,
+      "mse_ratio": 2.363587891006549
+    },
+    {
+      "family": "wave",
+      "prior": "coefficient",
+      "architecture": "looped",
+      "grid": 64,
+      "mse_reduction_percent": -107.53355770429312,
+      "mse_ratio": 2.075335577042931
+    },
+    {
+      "family": "wave",
+      "prior": "coefficient",
+      "architecture": "fno",
+      "grid": 64,
+      "mse_reduction_percent": -512.8717657896697,
+      "mse_ratio": 6.128717657896697
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "correct",
+      "architecture": "transformer",
+      "grid": 64,
+      "mse_reduction_percent": -12.15517781679376,
+      "mse_ratio": 1.1215517781679376
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "correct",
+      "architecture": "looped",
+      "grid": 64,
+      "mse_reduction_percent": -17.788350705396283,
+      "mse_ratio": 1.1778835070539628
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "correct",
+      "architecture": "fno",
+      "grid": 64,
+      "mse_reduction_percent": 67.60556413386358,
+      "mse_ratio": 0.3239443586613641
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "coefficient",
+      "architecture": "transformer",
+      "grid": 64,
+      "mse_reduction_percent": -290.5708276335603,
+      "mse_ratio": 3.905708276335603
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "coefficient",
+      "architecture": "looped",
+      "grid": 64,
+      "mse_reduction_percent": -124.94161643075108,
+      "mse_ratio": 2.249416164307511
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "coefficient",
+      "architecture": "fno",
+      "grid": 64,
+      "mse_reduction_percent": -350.8408684574018,
+      "mse_ratio": 4.508408684574018
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "correct",
+      "architecture": "transformer",
+      "grid": 64,
+      "mse_reduction_percent": 41.43229210303885,
+      "mse_ratio": 0.5856770789696115
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "correct",
+      "architecture": "looped",
+      "grid": 64,
+      "mse_reduction_percent": 52.78160783415626,
+      "mse_ratio": 0.4721839216584373
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "correct",
+      "architecture": "fno",
+      "grid": 64,
+      "mse_reduction_percent": 98.29112046774884,
+      "mse_ratio": 0.017088795322511605
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "coefficient",
+      "architecture": "transformer",
+      "grid": 64,
+      "mse_reduction_percent": 34.01901952240989,
+      "mse_ratio": 0.6598098047759011
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "coefficient",
+      "architecture": "looped",
+      "grid": 64,
+      "mse_reduction_percent": 44.741905990800625,
+      "mse_ratio": 0.5525809400919938
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "coefficient",
+      "architecture": "fno",
+      "grid": 64,
+      "mse_reduction_percent": 95.86873840876329,
+      "mse_ratio": 0.04131261591236704
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.1.0",
+  "status": "prepared_unpublished_release",
+  "repository": "https://github.com/MRDOANE/physics-guided-learning",
+  "previous_version": "1.0.0",
+  "previous_version_doi": "10.5281/zenodo.22728288",
+  "current_version_doi": null,
+  "original_source_and_results_preserved_byte_for_byte": true,
+  "added_paths": [
+    "experiments/calibration/",
+    "results/calibration/",
+    "analysis/model_choice_audit/",
+    "manuscript/"
+  ],
+  "omitted_calibration_artifacts": [
+    "regenerated raw trajectory NPZ caches",
+    "nested full_results.zip",
+    "installed Python environments",
+    "compiled Python caches"
+  ],
+  "raw_data_reproduction": "Original data generation source and all 28 exact archived dataset hash records are supplied.",
+  "calibration_source_inventory_sha256": "e0ca42d7f2047bdac10e0b8244047bd529bcbc2b05f6de974cdaf0806ef2bf9f",
+  "calibration_results_inventory_sha256": "2b1b7763542f4c955858109f25ef3d920fdbd76a6c7b29d7332ccd5eaf74b3b6",
+  "source_publication_scope": "The previous DOI identifies v1.0.0. The new version DOI is assigned by Zenodo at publication."
+}

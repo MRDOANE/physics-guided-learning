@@ -1,0 +1,394 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2026-09-11T12:21:23Z",
+      "timestamp": 1789129283685,
+      "version": "build-2803163510"
+    },
+    "reference-count": 29,
+    "publisher": "IOP Publishing",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              10,
+              28
+            ]
+          ],
+          "date-time": "2014-10-28T00:00:00Z",
+          "timestamp": 1414454400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              10,
+              28
+            ]
+          ],
+          "date-time": "2014-10-28T00:00:00Z",
+          "timestamp": 1414454400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://iopscience.iop.org/page/copyright"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Inverse Problems"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1088/0266-5611/30/11/114007",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          10,
+          29
+        ]
+      ],
+      "date-time": "2014-10-29T13:31:01Z",
+      "timestamp": 1414589461000
+    },
+    "page": "114007",
+    "source": "Crossref",
+    "is-referenced-by-count": 411,
+    "title": [
+      "Learning about physical parameters: the importance of model discrepancy"
+    ],
+    "prefix": "10.1088",
+    "volume": "30",
+    "author": [
+      {
+        "given": "Jenný",
+        "family": "Brynjarsdóttir",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anthony",
+        "family": "OʼHagan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "266",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          10,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9780898718980"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.2204974"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmarsys.2007.07.004"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/jasa.2009.ap06623"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/004017007000000092"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(01)00421-8"
+      },
+      {
+        "key": "7",
+        "author": "Box G E P",
+        "year": "1987",
+        "journal-title": "Empirical Model-Building and Response Surfaces"
+      },
+      {
+        "key": "8",
+        "author": "Chkrebtii O A",
+        "year": "2014"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5802/afst.1344"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jspi.2008.07.019"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214508000000689"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.76.083503"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214507000000888"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S1064827503426693"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9868.00294"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214507000000833"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2007.2077"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1111/j.2517-6161.1978.tb01643.x",
+        "volume": "40",
+        "author": "OʼHagan A",
+        "year": "1978",
+        "journal-title": "J. R. Statist. Soc.",
+        "ISSN": "https://id.crossref.org/issn/0035-9246",
+        "issn-type": "print"
+      },
+      {
+        "key": "19",
+        "first-page": "345",
+        "author": "OʼHagan A ed Bernardo J M",
+        "year": "1992",
+        "journal-title": "Baysian Statistics 4"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/004017008000000082"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009WR007814"
+      },
+      {
+        "key": "22",
+        "first-page": "645",
+        "volume": "9",
+        "author": "Riihimäki J",
+        "year": "2010",
+        "journal-title": "J. Mach. Learning Res.: Workshop and Conf. Proc."
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00143942"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584-006-9156-9"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9876.2009.00669.x"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2007.2074"
+      },
+      {
+        "key": "27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9876.2011.01014.x"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nucengdes.2011.01.048"
+      },
+      {
+        "key": "29",
+        "first-page": "5162",
+        "author": "Wang X",
+        "year": "2011",
+        "journal-title": "JSM Proc., Section on Nonparametric Statistics"
+      }
+    ],
+    "container-title": [
+      "Inverse Problems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/0266-5611/30/11/114007/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/0266-5611/30/11/114007",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/0266-5611/30/11/114007/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/0266-5611/30/11/114007/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/0266-5611/30/11/114007",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          17
+        ]
+      ],
+      "date-time": "2020-03-17T10:44:55Z",
+      "timestamp": 1584441895000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/0266-5611/30/11/114007"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          10,
+          29
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            11,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1088/0266-5611/30/11/114007",
+    "relation": {},
+    "ISSN": [
+      "0266-5611",
+      "1361-6420"
+    ],
+    "issn-type": [
+      {
+        "value": "0266-5611",
+        "type": "print"
+      },
+      {
+        "value": "1361-6420",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          10,
+          29
+        ]
+      ]
+    }
+  }
+}

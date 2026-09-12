@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "ood": 64,
+      "test": 64
+    },
+    "family": "wave",
+    "grid": 64,
+    "phase": "test",
+    "seed": 26110937,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "generation_seconds": 3.4855748838745058,
+  "sha256": "efc884c7a5022dadb57cc231f52bd76092dea94b4b9fa52b6e2c8a336ad24cfb",
+  "signature": "c6ae95835d82858306ed4d438315d0846063578cbe19a8378ba1082de987a09e"
+}

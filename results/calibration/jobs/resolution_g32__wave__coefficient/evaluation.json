@@ -1,0 +1,54 @@
+{
+  "archive_compatible": true,
+  "calibration_sha256": "e798b0503768e4081626e98a8e63739750abd601581a792362ebb04476833623",
+  "compatibility": {
+    "atol": 1e-07,
+    "backend_is_original_torch": true,
+    "checks": {
+      "ood_ids": {
+        "passed": true
+      },
+      "ood_persistence": {
+        "max_abs_difference": 9.5367431640625e-07,
+        "passed": true
+      },
+      "ood_uncalibrated": {
+        "max_abs_difference": 4.76837158203125e-07,
+        "passed": true
+      },
+      "test_ids": {
+        "passed": true
+      },
+      "test_persistence": {
+        "max_abs_difference": 9.5367431640625e-07,
+        "passed": true
+      },
+      "test_uncalibrated": {
+        "max_abs_difference": 7.152557373046875e-07,
+        "passed": true
+      }
+    },
+    "data_exact_hashes": {
+      "development": true,
+      "test": true
+    },
+    "eligibility_rule": "Original Torch source, full counts, ordered IDs and normalization; either exact development/test archive NPZ hashes or successful numerical reference replay.",
+    "full_data": true,
+    "normalization": true,
+    "precision_note": "Exact input-data hashes establish common forecast targets even when CPU physical forecast arithmetic differs from the archived GPU reference. Reference discrepancies remain reported.",
+    "reference_replay_passed": true,
+    "rtol": 0.0001,
+    "scope": "Reference error curves and trajectory IDs are numerical replay checks. They do not establish bitwise trajectory identity.",
+    "status": "EXACT_DATA_HASH_AND_NUMERICAL_REPLAY"
+  },
+  "evaluation_sha256": "17dee5f9719ac4c38120911a1ef0417cacf8315b62d98cc08b0667d50991f7bb",
+  "failed_trajectories": {
+    "ood_calibrated": 0,
+    "ood_uncalibrated": 0,
+    "test_calibrated": 0,
+    "test_uncalibrated": 0
+  },
+  "freeze_sha256": "04efb8030f73635200bfa878e243e94f452cf169d8e3ca4b9650fc42ada06f89",
+  "seconds": 0.2629301699998905,
+  "signature": "fede006bdf1db0443d5b89cc5d5c5c9919ffb26d0184248003053d8ea9168471"
+}

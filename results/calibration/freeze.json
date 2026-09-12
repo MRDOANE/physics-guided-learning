@@ -1,0 +1,1816 @@
+{
+  "calibrations_sha256": {
+    "development__advection_diffusion__coefficient": "cccf8681d2d1c1a8afa80b4908692fe442cca47e97d645abf9560be48a130182",
+    "development__advection_diffusion__correct": "08c61a0e97dec09a9ebb2343f7499df71c9370c6e7480e9ea1d043524dcd4cee",
+    "development__allen_cahn__coefficient": "6eca8adf1b12f7a4c56443a4d2fb5fc256cf5ebea33aa7be94f918f8e1d23be4",
+    "development__allen_cahn__correct": "58acef8ccf9e4a99e3023ec50c6a39ba0255388b824ba9603fef8b32098cce64",
+    "development__burgers__coefficient": "3b221b0d37f8f6daab224dc20424f7af103e7904bc980a3af468b8d4319b30a4",
+    "development__burgers__correct": "272edf1ec67f5e94c04417c15ea88d47d3a4af7b46ecaa430cffa8166a754e8e",
+    "development__gray_scott__coefficient": "c0dc43eae38cf021fd06e6500ff0f835d878b1d6336b9bbbcb71ccbb51904037",
+    "development__gray_scott__correct": "5d46ad0f52e280f0bfcab19d6c539f50239587ffa500cbd08f8d27a26fd286c8",
+    "development__ks__coefficient": "aacd1fcbe66ddfb462909d5a41cbe69b1e69b112d935b9e76577d7e6b54fd9f6",
+    "development__ks__correct": "0c85bbee10b9911f636ec217ace01df2790847e93dc085929cd4f04fdbfed612",
+    "development__wave__coefficient": "132a9fe29a8a13fd65e9e8f586eebc25a0b7e5139e3366ec6ffd91b54296775c",
+    "development__wave__correct": "49ffb2d83fa884653705f719a10fa71ec6d527c4ca578615da61ec9a3ac07da6",
+    "resolution_g32__advection_diffusion__coefficient": "401def99c250d52aebc9eec1e92d91ea29ff6620b230913542b756c3da750559",
+    "resolution_g32__advection_diffusion__correct": "33ce6cfea265cf4c6475e16e04feeb127137d43f3032da286bf58dba2897d326",
+    "resolution_g32__allen_cahn__coefficient": "9a72b06c12ffd8f4d4fbf11d64d2bf22f71f80e2b60105f86fe98a36ce90d887",
+    "resolution_g32__allen_cahn__correct": "8b5a0eaa202daa31b793dd73e229fe966e9288af1e89009d587ab66440bdcede",
+    "resolution_g32__wave__coefficient": "e798b0503768e4081626e98a8e63739750abd601581a792362ebb04476833623",
+    "resolution_g32__wave__correct": "8d492e30e615c3117018c366f01a984c4108732e631de2ff960551c36977868c",
+    "resolution_g64__advection_diffusion__coefficient": "180e819e625847a344ab538d16168260c8b1d8009566c8191cf1c6e2b103cc3c",
+    "resolution_g64__advection_diffusion__correct": "94adde126fd83510ff2a67995e50607adc4571a17de5e203e767666ae5fb94ba",
+    "resolution_g64__allen_cahn__coefficient": "33d810430d61f13ec45f5c7f5316f8b9a4d5dad6425b689106b0fb69b44729f3",
+    "resolution_g64__allen_cahn__correct": "f0234c75c190cfa2e4092b78dca5306d31c61c07a136c3af83d745925af9d635",
+    "resolution_g64__wave__coefficient": "afd8c906c24a12b0a82a88648e10b5f6cf12765b39e1f078a21fc828b9be80ae",
+    "resolution_g64__wave__correct": "6c94ba2851f4f7e4577f0def90d19f5d74c94367b2f836981f0c45072b617778",
+    "selector_g64__cahn_hilliard__coefficient": "6d7d71366acf5b5cdd33e31dae5afdc4047c6c9379565ef1764d55a9f58f28b0",
+    "selector_g64__cahn_hilliard__correct": "22d2f08f3dccd8e2434d65d596fca5848b106b6f4957d18c19e69bc410aaa63c",
+    "selector_g64__cahn_hilliard__structural": "3ebae805998b2c575a301d61e12736f5b105118c5983bc1faebcb237d82acfe5",
+    "selector_g64__fitzhugh_nagumo__coefficient": "3d675c8522c8753cba2d85cff1196c55e22d47206a38c1b2a5a38146bcf193df",
+    "selector_g64__fitzhugh_nagumo__correct": "1c4f56d9d1e419f6797ca1b8c70491984d15261a2265d630b0570c5925010795",
+    "selector_g64__fitzhugh_nagumo__structural": "39223862ec3fd3de6aa5fb34c8dc9c6cd3730a509cec7387111f26225a7d17c4"
+  },
+  "decisions": {
+    "development__advection_diffusion__coefficient": [
+      {
+        "historical_candidate_training_seconds": 670.3697305493988,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.431984869903484e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.840111946795796e-13
+      },
+      {
+        "historical_candidate_training_seconds": 669.4691115585156,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.185678677997427e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.840111946795796e-13
+      },
+      {
+        "historical_candidate_training_seconds": 662.2563971155323,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.455435106620908e-05,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.840111946795796e-13
+      },
+      {
+        "historical_candidate_training_seconds": 660.903338003438,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.756506303133107e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.840111946795796e-13
+      },
+      {
+        "historical_candidate_training_seconds": 662.2905605952255,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.798368565020547e-05,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.840111946795796e-13
+      },
+      {
+        "historical_candidate_training_seconds": 659.1698305364698,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.840858534423583e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.840111946795796e-13
+      }
+    ],
+    "development__advection_diffusion__correct": [
+      {
+        "historical_candidate_training_seconds": 660.3191333301365,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.7977287570617822e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 5.024246433655898e-13
+      },
+      {
+        "historical_candidate_training_seconds": 655.1306998576038,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.0146914167407104e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 5.024246433655898e-13
+      },
+      {
+        "historical_candidate_training_seconds": 660.0597527264617,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.321098735129905e-05,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 5.024246433655898e-13
+      },
+      {
+        "historical_candidate_training_seconds": 658.1424865885638,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.8045174126467565e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 5.024246433655898e-13
+      },
+      {
+        "historical_candidate_training_seconds": 661.2731943707913,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.2594389795053498e-05,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 5.024246433655898e-13
+      },
+      {
+        "historical_candidate_training_seconds": 668.2087795818225,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.4555048998083546e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 5.024246433655898e-13
+      }
+    ],
+    "development__allen_cahn__coefficient": [
+      {
+        "historical_candidate_training_seconds": 661.0651831408031,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.985270824943196e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.581517465163802e-12
+      },
+      {
+        "historical_candidate_training_seconds": 660.8949524336495,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.564879846287063e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.581517465163802e-12
+      },
+      {
+        "historical_candidate_training_seconds": 669.9292616350576,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.0001255823350021501,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.581517465163802e-12
+      },
+      {
+        "historical_candidate_training_seconds": 658.3954716529697,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.031944462656016e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.581517465163802e-12
+      },
+      {
+        "historical_candidate_training_seconds": 660.0381546728313,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00013484370717605407,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.581517465163802e-12
+      },
+      {
+        "historical_candidate_training_seconds": 656.8250341955572,
+        "neural_arm": "iid",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.355626403725817e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.581517465163802e-12
+      }
+    ],
+    "development__allen_cahn__correct": [
+      {
+        "historical_candidate_training_seconds": 660.3471459681168,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.4139723065207406e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.5978170892655919e-12
+      },
+      {
+        "historical_candidate_training_seconds": 659.2041404852644,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.405818432041426e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.5978170892655919e-12
+      },
+      {
+        "historical_candidate_training_seconds": 658.8403412438929,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.428411841174191e-05,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.5978170892655919e-12
+      },
+      {
+        "historical_candidate_training_seconds": 659.1207212591544,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.196623243628682e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.5978170892655919e-12
+      },
+      {
+        "historical_candidate_training_seconds": 664.5718568623997,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00010004863579767449,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.5978170892655919e-12
+      },
+      {
+        "historical_candidate_training_seconds": 656.7710599903949,
+        "neural_arm": "iid",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.6720954064586685e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.5978170892655919e-12
+      }
+    ],
+    "development__burgers__coefficient": [
+      {
+        "historical_candidate_training_seconds": 667.1448478088714,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 9.331694096323395e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0511404499965203e-11
+      },
+      {
+        "historical_candidate_training_seconds": 660.3449382204562,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 9.457243712544343e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0511404499965203e-11
+      },
+      {
+        "historical_candidate_training_seconds": 654.66833711043,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00012496392472871598,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0511404499965203e-11
+      },
+      {
+        "historical_candidate_training_seconds": 656.7420027167536,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00012020939570023259,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0511404499965203e-11
+      },
+      {
+        "historical_candidate_training_seconds": 658.4939777529798,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00011326209711023012,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0511404499965203e-11
+      },
+      {
+        "historical_candidate_training_seconds": 659.2560524409637,
+        "neural_arm": "response_matched",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00012706301416698373,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0511404499965203e-11
+      }
+    ],
+    "development__burgers__correct": [
+      {
+        "historical_candidate_training_seconds": 659.181477219332,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.4002687567804934e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 7.396090368862254e-12
+      },
+      {
+        "historical_candidate_training_seconds": 665.021584586706,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.918182901020457e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 7.396090368862254e-12
+      },
+      {
+        "historical_candidate_training_seconds": 664.7662744740956,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.5205355961317096e-05,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 7.396090368862254e-12
+      },
+      {
+        "historical_candidate_training_seconds": 662.906090545468,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.938403217477552e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 7.396090368862254e-12
+      },
+      {
+        "historical_candidate_training_seconds": 667.8683986053802,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.442711668306565e-05,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 7.396090368862254e-12
+      },
+      {
+        "historical_candidate_training_seconds": 660.7235635467805,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.0162589969564934e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 7.396090368862254e-12
+      }
+    ],
+    "development__gray_scott__coefficient": [
+      {
+        "historical_candidate_training_seconds": 661.0859268773347,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.855643344663484e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0471915756867728e-12
+      },
+      {
+        "historical_candidate_training_seconds": 662.4961186712608,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.098626348032376e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0471915756867728e-12
+      },
+      {
+        "historical_candidate_training_seconds": 659.177733880002,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.036283942128923e-05,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0471915756867728e-12
+      },
+      {
+        "historical_candidate_training_seconds": 660.4589983946644,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.601694691623969e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0471915756867728e-12
+      },
+      {
+        "historical_candidate_training_seconds": 669.0192117989063,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.8039022703661995e-05,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0471915756867728e-12
+      },
+      {
+        "historical_candidate_training_seconds": 665.0196544765495,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.435691536811929e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0471915756867728e-12
+      }
+    ],
+    "development__gray_scott__correct": [
+      {
+        "historical_candidate_training_seconds": 656.1113125868142,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.537381975574997e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0060468847523673e-12
+      },
+      {
+        "historical_candidate_training_seconds": 661.150036867708,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.7881997420237866e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0060468847523673e-12
+      },
+      {
+        "historical_candidate_training_seconds": 662.667104608845,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.9769142579082484e-05,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0060468847523673e-12
+      },
+      {
+        "historical_candidate_training_seconds": 658.1486227698624,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.601778505402109e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0060468847523673e-12
+      },
+      {
+        "historical_candidate_training_seconds": 664.2741491822526,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.817268762039804e-05,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0060468847523673e-12
+      },
+      {
+        "historical_candidate_training_seconds": 661.8781951009296,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.075853896298645e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.0060468847523673e-12
+      }
+    ],
+    "development__ks__coefficient": [
+      {
+        "historical_candidate_training_seconds": 663.2589910053648,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.0004428308744252411,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.308036020405976e-09
+      },
+      {
+        "historical_candidate_training_seconds": 659.7030167733319,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00035332080116131276,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.308036020405976e-09
+      },
+      {
+        "historical_candidate_training_seconds": 662.9148057647981,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.0004580027904010538,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.308036020405976e-09
+      },
+      {
+        "historical_candidate_training_seconds": 660.3997832695022,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.0002637978655391689,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.308036020405976e-09
+      },
+      {
+        "historical_candidate_training_seconds": 662.0486768223345,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00023188869917763663,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.308036020405976e-09
+      },
+      {
+        "historical_candidate_training_seconds": 659.1090853065252,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00032240654904547306,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.308036020405976e-09
+      }
+    ],
+    "development__ks__correct": [
+      {
+        "historical_candidate_training_seconds": 658.6229131459258,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.0002202379309252193,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.3088612442786825e-09
+      },
+      {
+        "historical_candidate_training_seconds": 664.0110260592774,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00018850902288184793,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.3088612442786825e-09
+      },
+      {
+        "historical_candidate_training_seconds": 665.944029672537,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.0001939039528297363,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.3088612442786825e-09
+      },
+      {
+        "historical_candidate_training_seconds": 659.2825212371536,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00019433544046757825,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.3088612442786825e-09
+      },
+      {
+        "historical_candidate_training_seconds": 662.954735272564,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00018972628988711548,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.3088612442786825e-09
+      },
+      {
+        "historical_candidate_training_seconds": 664.6268939827569,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.0001831615585918082,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.3088612442786825e-09
+      }
+    ],
+    "development__wave__coefficient": [
+      {
+        "historical_candidate_training_seconds": 662.6538318754174,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.733907937960209e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.88779535944151e-12
+      },
+      {
+        "historical_candidate_training_seconds": 664.8147417316213,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.8200200897677114e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.88779535944151e-12
+      },
+      {
+        "historical_candidate_training_seconds": 653.5692461985163,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.377528302306459e-05,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.88779535944151e-12
+      },
+      {
+        "historical_candidate_training_seconds": 654.9171117199585,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.376909029378077e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.88779535944151e-12
+      },
+      {
+        "historical_candidate_training_seconds": 664.6164589449763,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.325338864744141e-05,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.88779535944151e-12
+      },
+      {
+        "historical_candidate_training_seconds": 663.8047807966359,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.7895599257976578e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.88779535944151e-12
+      }
+    ],
+    "development__wave__correct": [
+      {
+        "historical_candidate_training_seconds": 661.6145834629424,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.0632315763491338e-05,
+        "seed": 101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.947840786746393e-12
+      },
+      {
+        "historical_candidate_training_seconds": 663.3971479479223,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.4505750954528782e-05,
+        "seed": 202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.947840786746393e-12
+      },
+      {
+        "historical_candidate_training_seconds": 666.8769312319346,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.971823610338949e-05,
+        "seed": 303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.947840786746393e-12
+      },
+      {
+        "historical_candidate_training_seconds": 662.8527025566436,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.870012990414412e-05,
+        "seed": 404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.947840786746393e-12
+      },
+      {
+        "historical_candidate_training_seconds": 658.6051887315698,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.4186911511292486e-05,
+        "seed": 505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.947840786746393e-12
+      },
+      {
+        "historical_candidate_training_seconds": 655.1801315839402,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.7864829979156543e-05,
+        "seed": 606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 6.947840786746393e-12
+      }
+    ],
+    "resolution_g32__advection_diffusion__coefficient": [
+      {
+        "historical_candidate_training_seconds": 298.3654371853918,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.7862736415132194e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.770580902051081e-13
+      },
+      {
+        "historical_candidate_training_seconds": 295.3496212447062,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.878822085186714e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.770580902051081e-13
+      },
+      {
+        "historical_candidate_training_seconds": 297.62445238325745,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.627855411282339e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.770580902051081e-13
+      },
+      {
+        "historical_candidate_training_seconds": 297.2033150023781,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.528010178197263e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 4.770580902051081e-13
+      }
+    ],
+    "resolution_g32__advection_diffusion__correct": [
+      {
+        "historical_candidate_training_seconds": 297.0337167168036,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.358941648421802e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 4.95625342943429e-13
+      },
+      {
+        "historical_candidate_training_seconds": 295.58719992730767,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.0105490140412233e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 4.95625342943429e-13
+      },
+      {
+        "historical_candidate_training_seconds": 296.51069492381066,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.176739792483859e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 4.95625342943429e-13
+      },
+      {
+        "historical_candidate_training_seconds": 294.8778219586238,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.296416041320693e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "uncalibrated",
+        "validation_nmse": 4.95625342943429e-13
+      }
+    ],
+    "resolution_g32__allen_cahn__coefficient": [
+      {
+        "historical_candidate_training_seconds": 292.830885484349,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00010913129637287373,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.0658367599329736e-12
+      },
+      {
+        "historical_candidate_training_seconds": 294.7797059668228,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.277560814177558e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.0658367599329736e-12
+      },
+      {
+        "historical_candidate_training_seconds": 293.50501071475446,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.0001628489866705903,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.0658367599329736e-12
+      },
+      {
+        "historical_candidate_training_seconds": 294.41968861501664,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 9.84324563266803e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.0658367599329736e-12
+      }
+    ],
+    "resolution_g32__allen_cahn__correct": [
+      {
+        "historical_candidate_training_seconds": 294.8145990562625,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.527525835030839e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.0601025295215412e-12
+      },
+      {
+        "historical_candidate_training_seconds": 294.4687118297443,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.898607674293994e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.0601025295215412e-12
+      },
+      {
+        "historical_candidate_training_seconds": 294.88013433432207,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.606083100870521e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.0601025295215412e-12
+      },
+      {
+        "historical_candidate_training_seconds": 293.1807039263658,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.793679275220789e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.0601025295215412e-12
+      }
+    ],
+    "resolution_g32__wave__coefficient": [
+      {
+        "historical_candidate_training_seconds": 297.2063791002147,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.122214452679536e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.461706335519845e-12
+      },
+      {
+        "historical_candidate_training_seconds": 293.6154522304423,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.2236407819435183e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.461706335519845e-12
+      },
+      {
+        "historical_candidate_training_seconds": 295.6836490249261,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.223814415896179e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.461706335519845e-12
+      },
+      {
+        "historical_candidate_training_seconds": 294.16963862162083,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.1254704532690525e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.461706335519845e-12
+      }
+    ],
+    "resolution_g32__wave__correct": [
+      {
+        "historical_candidate_training_seconds": 292.2308877329342,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.3760045862269235e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.478347503994307e-12
+      },
+      {
+        "historical_candidate_training_seconds": 297.73146829754114,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.1392789660771665e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.478347503994307e-12
+      },
+      {
+        "historical_candidate_training_seconds": 295.5613677040674,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.5944019807053362e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.478347503994307e-12
+      },
+      {
+        "historical_candidate_training_seconds": 297.0736354216933,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.3654238191755189e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.478347503994307e-12
+      }
+    ],
+    "resolution_g64__advection_diffusion__coefficient": [
+      {
+        "historical_candidate_training_seconds": 295.35145858163014,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.330725534562596e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.6800929441900437e-13
+      },
+      {
+        "historical_candidate_training_seconds": 293.7233109846711,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.105045101956197e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.6800929441900437e-13
+      },
+      {
+        "historical_candidate_training_seconds": 294.44948219461367,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.641468860497547e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.6800929441900437e-13
+      },
+      {
+        "historical_candidate_training_seconds": 293.41759018739685,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.545523534813192e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.6800929441900437e-13
+      }
+    ],
+    "resolution_g64__advection_diffusion__correct": [
+      {
+        "historical_candidate_training_seconds": 294.51525316992775,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.619801764624212e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.6654478135850543e-13
+      },
+      {
+        "historical_candidate_training_seconds": 295.151198070962,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.485319309955622e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.6654478135850543e-13
+      },
+      {
+        "historical_candidate_training_seconds": 294.84979870775715,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.210144806021665e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.6654478135850543e-13
+      },
+      {
+        "historical_candidate_training_seconds": 293.6688817371614,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.6959666098142684e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.6654478135850543e-13
+      }
+    ],
+    "resolution_g64__allen_cahn__coefficient": [
+      {
+        "historical_candidate_training_seconds": 295.079587160144,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00010797623720737448,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.9703650905975254e-12
+      },
+      {
+        "historical_candidate_training_seconds": 296.0228959256783,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 9.470647075282557e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.9703650905975254e-12
+      },
+      {
+        "historical_candidate_training_seconds": 295.5202336013317,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00015688731517530621,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.9703650905975254e-12
+      },
+      {
+        "historical_candidate_training_seconds": 295.2224628543481,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.000112714128364703,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.9703650905975254e-12
+      }
+    ],
+    "resolution_g64__allen_cahn__correct": [
+      {
+        "historical_candidate_training_seconds": 292.25864089420065,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.398998394140636e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.895110675381489e-12
+      },
+      {
+        "historical_candidate_training_seconds": 294.3331336644478,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.128242619287462e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.895110675381489e-12
+      },
+      {
+        "historical_candidate_training_seconds": 297.06379087781534,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.04754759261191e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.895110675381489e-12
+      },
+      {
+        "historical_candidate_training_seconds": 292.42959922226146,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.922413289063179e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.895110675381489e-12
+      }
+    ],
+    "resolution_g64__wave__coefficient": [
+      {
+        "historical_candidate_training_seconds": 295.16856633266434,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.288207712030348e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.462477559609478e-13
+      },
+      {
+        "historical_candidate_training_seconds": 295.3917344259098,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.4378568494391278e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.462477559609478e-13
+      },
+      {
+        "historical_candidate_training_seconds": 297.6285315291025,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.168342064489386e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.462477559609478e-13
+      },
+      {
+        "historical_candidate_training_seconds": 296.14728224184364,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.1042359571483345e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.462477559609478e-13
+      }
+    ],
+    "resolution_g64__wave__correct": [
+      {
+        "historical_candidate_training_seconds": 296.75680555868894,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.2596321971462357e-05,
+        "seed": 7101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.50434203323737e-13
+      },
+      {
+        "historical_candidate_training_seconds": 295.43763736775145,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.004612789123043e-05,
+        "seed": 7202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.50434203323737e-13
+      },
+      {
+        "historical_candidate_training_seconds": 295.8620012453757,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.5409882989444085e-05,
+        "seed": 7303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.50434203323737e-13
+      },
+      {
+        "historical_candidate_training_seconds": 295.3718859059736,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 1.800131897117252e-05,
+        "seed": 7404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 7.50434203323737e-13
+      }
+    ],
+    "selector_g64__cahn_hilliard__coefficient": [
+      {
+        "historical_candidate_training_seconds": 665.6619466422126,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.514786574546682e-06,
+        "seed": 8101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1940931348157508e-13
+      },
+      {
+        "historical_candidate_training_seconds": 667.355001334101,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.646760113090723e-06,
+        "seed": 8202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1940931348157508e-13
+      },
+      {
+        "historical_candidate_training_seconds": 666.138391460292,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.171950630407299e-06,
+        "seed": 8303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1940931348157508e-13
+      },
+      {
+        "historical_candidate_training_seconds": 666.6759890937246,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.925712177519878e-06,
+        "seed": 8404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1940931348157508e-13
+      },
+      {
+        "historical_candidate_training_seconds": 666.5592599343508,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.874795019542717e-06,
+        "seed": 8505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1940931348157508e-13
+      },
+      {
+        "historical_candidate_training_seconds": 668.8418375654146,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.2632305618596775e-06,
+        "seed": 8606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1940931348157508e-13
+      }
+    ],
+    "selector_g64__cahn_hilliard__correct": [
+      {
+        "historical_candidate_training_seconds": 668.634046047926,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.384391618516345e-06,
+        "seed": 8101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1526417328436202e-13
+      },
+      {
+        "historical_candidate_training_seconds": 666.5276064150967,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.454455533758819e-06,
+        "seed": 8202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1526417328436202e-13
+      },
+      {
+        "historical_candidate_training_seconds": 667.8959344420582,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.261562999318235e-06,
+        "seed": 8303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1526417328436202e-13
+      },
+      {
+        "historical_candidate_training_seconds": 665.3479208345525,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.594832180616944e-06,
+        "seed": 8404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1526417328436202e-13
+      },
+      {
+        "historical_candidate_training_seconds": 666.6446017562412,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 2.9625591130659026e-06,
+        "seed": 8505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1526417328436202e-13
+      },
+      {
+        "historical_candidate_training_seconds": 665.9198214318603,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 3.0071538932238684e-06,
+        "seed": 8606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 1.1526417328436202e-13
+      }
+    ],
+    "selector_g64__cahn_hilliard__structural": [
+      {
+        "historical_candidate_training_seconds": 667.4054229464382,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.698616128434891e-06,
+        "seed": 8101,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 5.698616128434891e-06
+      },
+      {
+        "historical_candidate_training_seconds": 668.4214735641144,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.652689693636045e-06,
+        "seed": 8202,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 6.652689693636045e-06
+      },
+      {
+        "historical_candidate_training_seconds": 665.8101533246227,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 4.115276955750137e-06,
+        "seed": 8303,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 4.115276955750137e-06
+      },
+      {
+        "historical_candidate_training_seconds": 667.3105295891874,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.8287139096969516e-06,
+        "seed": 8404,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 5.8287139096969516e-06
+      },
+      {
+        "historical_candidate_training_seconds": 668.1112426556647,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.880215374715521e-06,
+        "seed": 8505,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 5.880215374715521e-06
+      },
+      {
+        "historical_candidate_training_seconds": 666.104667196516,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 5.4074571056902015e-06,
+        "seed": 8606,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 5.4074571056902015e-06
+      }
+    ],
+    "selector_g64__fitzhugh_nagumo__coefficient": [
+      {
+        "historical_candidate_training_seconds": 668.8184805247001,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.438501449211284e-05,
+        "seed": 8101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.92646496755699e-12
+      },
+      {
+        "historical_candidate_training_seconds": 669.3537372811697,
+        "neural_arm": "iid",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 9.986435627255356e-05,
+        "seed": 8202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.92646496755699e-12
+      },
+      {
+        "historical_candidate_training_seconds": 665.1139025413431,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00010068838147825332,
+        "seed": 8303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.92646496755699e-12
+      },
+      {
+        "historical_candidate_training_seconds": 669.6989448806271,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.021569107397892e-05,
+        "seed": 8404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.92646496755699e-12
+      },
+      {
+        "historical_candidate_training_seconds": 668.4193450920284,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.532341172388473e-05,
+        "seed": 8505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.92646496755699e-12
+      },
+      {
+        "historical_candidate_training_seconds": 664.993999121245,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00010564546460904249,
+        "seed": 8606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 2.92646496755699e-12
+      }
+    ],
+    "selector_g64__fitzhugh_nagumo__correct": [
+      {
+        "historical_candidate_training_seconds": 666.9474474266171,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.815440984922557e-05,
+        "seed": 8101,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.002700175373721e-12
+      },
+      {
+        "historical_candidate_training_seconds": 669.7612353172153,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.525826573654786e-05,
+        "seed": 8202,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.002700175373721e-12
+      },
+      {
+        "historical_candidate_training_seconds": 668.3243804066442,
+        "neural_arm": "iid",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.555315966670325e-05,
+        "seed": 8303,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.002700175373721e-12
+      },
+      {
+        "historical_candidate_training_seconds": 667.9336363663897,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 6.318326590119365e-05,
+        "seed": 8404,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.002700175373721e-12
+      },
+      {
+        "historical_candidate_training_seconds": 669.4159680861048,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.058149634472007e-05,
+        "seed": 8505,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.002700175373721e-12
+      },
+      {
+        "historical_candidate_training_seconds": 667.6174390162341,
+        "neural_arm": "smooth",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.617372277308633e-05,
+        "seed": 8606,
+        "selected_arm": null,
+        "selected_kind": null,
+        "selected_method": "calibrated",
+        "validation_nmse": 3.002700175373721e-12
+      }
+    ],
+    "selector_g64__fitzhugh_nagumo__structural": [
+      {
+        "historical_candidate_training_seconds": 671.7773270229809,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.572205939461064e-05,
+        "seed": 8101,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 8.572205939461064e-05
+      },
+      {
+        "historical_candidate_training_seconds": 668.936359601561,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00011608321603880552,
+        "seed": 8202,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 0.00011608321603880552
+      },
+      {
+        "historical_candidate_training_seconds": 666.6934131011367,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00010070854179359638,
+        "seed": 8303,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 0.00010070854179359638
+      },
+      {
+        "historical_candidate_training_seconds": 667.09678794723,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 7.076144292050834e-05,
+        "seed": 8404,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 7.076144292050834e-05
+      },
+      {
+        "historical_candidate_training_seconds": 668.0809596907347,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 8.477816111292687e-05,
+        "seed": 8505,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 8.477816111292687e-05
+      },
+      {
+        "historical_candidate_training_seconds": 667.7035275404342,
+        "neural_arm": "none",
+        "neural_kind": "fno",
+        "neural_validation_nmse": 0.00010579521698946455,
+        "seed": 8606,
+        "selected_arm": "none",
+        "selected_kind": "fno",
+        "selected_method": "neural",
+        "validation_nmse": 0.00010579521698946455
+      }
+    ]
+  },
+  "heldout_scores_read_for_selection": false,
+  "note": "This follow-up is exploratory; prior held-out results informed its design.",
+  "protocol_sha256": "97672671c088b8d94a7d49ad1647023c1fd0a6b479ed58f6f9561b37ac0f13e9",
+  "selection": "Minimum 16-step validation NMSE. Ties use uncalibrated physics, calibrated physics, then neural."
+}

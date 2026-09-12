@@ -1,0 +1,849 @@
+[
+  {
+    "key": "li2021fno",
+    "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+    "authors": [
+      "Zongyi Li",
+      "Nikola Kovachki",
+      "Kamyar Azizzadenesheli",
+      "Burigede Liu",
+      "Kaushik Bhattacharya",
+      "Andrew Stuart",
+      "Anima Anandkumar"
+    ],
+    "year": 2021,
+    "venue": "International Conference on Learning Representations",
+    "url": "https://arxiv.org/abs/2010.08895v3",
+    "arxiv": "2010.08895v3",
+    "doi": null,
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "lu2021deeponet",
+    "title": "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators",
+    "authors": [
+      "Lu Lu",
+      "Pengzhan Jin",
+      "Guofei Pang",
+      "Zhongqiang Zhang",
+      "George Em Karniadakis"
+    ],
+    "year": 2021,
+    "venue": "Nature Machine Intelligence",
+    "volume": "3",
+    "pages": "218–229",
+    "doi": "10.1038/s42256-021-00302-5",
+    "url": "https://doi.org/10.1038/s42256-021-00302-5",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "holzschuh2025pdetransformer",
+    "title": "PDE-Transformer: Efficient and Versatile Transformers for Physics Simulations",
+    "authors": [
+      "Benjamin Holzschuh",
+      "Qiang Liu",
+      "Georg Kohl",
+      "Nils Thuerey"
+    ],
+    "year": 2025,
+    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "url": "https://proceedings.mlr.press/v267/holzschuh25a.html",
+    "arxiv": "2505.24717",
+    "doi": null,
+    "publication_status": "published",
+    "volume": "267",
+    "bibtex_type": "inproceedings",
+    "pages": "23562–23602"
+  },
+  {
+    "key": "raissi2019pinn",
+    "authors": [
+      "Maziar Raissi",
+      "Paris Perdikaris",
+      "George E. Karniadakis"
+    ],
+    "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+    "year": 2019,
+    "venue": "Journal of Computational Physics",
+    "volume": "378",
+    "pages": "686–707",
+    "url": "https://doi.org/10.1016/j.jcp.2018.10.045",
+    "doi": "10.1016/j.jcp.2018.10.045",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "li2024pino",
+    "authors": [
+      "Zongyi Li",
+      "Hongkai Zheng",
+      "Nikola Kovachki",
+      "David Jin",
+      "Haoxuan Chen",
+      "Burigede Liu",
+      "Kamyar Azizzadenesheli",
+      "Anima Anandkumar"
+    ],
+    "title": "Physics-Informed Neural Operator for Learning Partial Differential Equations",
+    "year": 2024,
+    "venue": "ACM / IMS Journal of Data Science",
+    "volume": "1",
+    "pages": "1–27",
+    "doi": "10.1145/3648506",
+    "arxiv": "2111.03794",
+    "url": "https://dl.acm.org/doi/10.1145/3648506",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "Leiteritz2022SurrogateData",
+    "title": "Surrogate-data-enriched Physics-Aware Neural Networks",
+    "authors": [
+      "Raphael Leiteritz",
+      "Patrick Buchfink",
+      "Bernard Haasdonk",
+      "Dirk Pflüger"
+    ],
+    "year": 2022,
+    "venue": "Proceedings of the Northern Lights Deep Learning Workshop",
+    "volume": "3",
+    "doi": "10.7557/18.6268",
+    "arxiv": "2112.05489",
+    "url": "https://septentrio.uit.no/index.php/nldl/article/view/6268",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "karniadakis2021piml",
+    "title": "Physics-informed machine learning",
+    "authors": [
+      "George Em Karniadakis",
+      "Ioannis G. Kevrekidis",
+      "Lu Lu",
+      "Paris Perdikaris",
+      "Sifan Wang",
+      "Liu Yang"
+    ],
+    "year": 2021,
+    "venue": "Nature Reviews Physics",
+    "volume": "3",
+    "pages": "422–440",
+    "doi": "10.1038/s42254-021-00314-5",
+    "url": "https://doi.org/10.1038/s42254-021-00314-5",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "brandstetter2022lpsda",
+    "authors": [
+      "Johannes Brandstetter",
+      "Max Welling",
+      "Daniel E. Worrall"
+    ],
+    "title": "Lie Point Symmetry Data Augmentation for Neural PDE Solvers",
+    "year": 2022,
+    "venue": "Proceedings of the 39th International Conference on Machine Learning",
+    "volume": "162",
+    "pages": "2241–2256",
+    "doi": null,
+    "arxiv": "2202.07643",
+    "url": "https://proceedings.mlr.press/v162/brandstetter22a.html",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "fanaskov2023gcda",
+    "authors": [
+      "Vladimir Fanaskov",
+      "Tianchi Yu",
+      "Alexander Rudikov",
+      "Ivan Oseledets"
+    ],
+    "title": "General Covariance Data Augmentation for Neural PDE Solvers",
+    "year": 2023,
+    "venue": "Proceedings of the 40th International Conference on Machine Learning",
+    "volume": "202",
+    "pages": "9665–9688",
+    "doi": null,
+    "arxiv": "2301.12730",
+    "url": "https://proceedings.mlr.press/v202/fanaskov23a.html",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "liu2025inverseaugmentation",
+    "authors": [
+      "Chaoyu Liu",
+      "Chris Budd",
+      "Carola-Bibiane Schönlieb"
+    ],
+    "title": "Inverse evolution data augmentation for neural PDE solvers",
+    "year": 2025,
+    "venue": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "volume": "383",
+    "pages": "20240242",
+    "doi": "10.1098/rsta.2024.0242",
+    "arxiv": "2501.14604",
+    "url": "https://royalsocietypublishing.org/rsta/article/383/2298/20240242/236269/Inverse-evolution-data-augmentation-for-neural-PDE",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "um2020solverloop",
+    "title": "Solver-in-the-Loop: Learning from Differentiable Physics to Interact with Iterative PDE-Solvers",
+    "authors": [
+      "Kiwon Um",
+      "Robert Brand",
+      "Yun (Raymond) Fei",
+      "Philipp Holl",
+      "Nils Thuerey"
+    ],
+    "year": 2020,
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "33",
+    "url": "https://arxiv.org/abs/2007.00016",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "bishop1995noise",
+    "authors": [
+      "Chris M. Bishop"
+    ],
+    "title": "Training with Noise is Equivalent to Tikhonov Regularization",
+    "year": 1995,
+    "venue": "Neural Computation",
+    "volume": "7",
+    "pages": "108–116",
+    "doi": "10.1162/neco.1995.7.1.108",
+    "arxiv": null,
+    "url": "https://www.microsoft.com/en-us/research/publication/training-with-noise-is-equivalent-to-tikhonov-regularization/",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "sanchezgonzalez2020gns",
+    "authors": [
+      "Alvaro Sanchez-Gonzalez",
+      "Jonathan Godwin",
+      "Tobias Pfaff",
+      "Rex Ying",
+      "Jure Leskovec",
+      "Peter W. Battaglia"
+    ],
+    "title": "Learning to Simulate Complex Physics with Graph Networks",
+    "year": 2020,
+    "venue": "Proceedings of the 37th International Conference on Machine Learning",
+    "volume": "119",
+    "pages": "8459–8468",
+    "doi": null,
+    "arxiv": "2002.09405",
+    "url": "https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "lippe2023pderefiner",
+    "authors": [
+      "Phillip Lippe",
+      "Bastiaan S. Veeling",
+      "Paris Perdikaris",
+      "Richard E. Turner",
+      "Johannes Brandstetter"
+    ],
+    "title": "PDE-Refiner: Achieving Accurate Long Rollouts with Neural PDE Solvers",
+    "year": 2023,
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "36",
+    "doi": null,
+    "arxiv": "2308.05732",
+    "url": "https://arxiv.org/abs/2308.05732",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "huang2026stablepdenet",
+    "authors": [
+      "Chutian Huang",
+      "Chang Ma",
+      "Kaibo Wang",
+      "Yang Xiang"
+    ],
+    "title": "StablePDENet: Enhancing Neural Operator Stability through Physics-Informed Residual-Sensitivity Regularization",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "doi": "10.48550/arXiv.2601.06472",
+    "arxiv": "2601.06472",
+    "version": "v2, 2026-08-26; first submitted 2026-01-10 under an earlier title",
+    "url": "https://arxiv.org/abs/2601.06472",
+    "publication_status": "preprint",
+    "bibtex_type": "misc"
+  },
+  {
+    "key": "czarnecki2017sobolev",
+    "authors": [
+      "Wojciech Marian Czarnecki",
+      "Simon Osindero",
+      "Max Jaderberg",
+      "Grzegorz Świrszcz",
+      "Razvan Pascanu"
+    ],
+    "title": "Sobolev Training for Neural Networks",
+    "year": 2017,
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "30",
+    "pages": "4278–4287",
+    "doi": null,
+    "arxiv": "1706.04859",
+    "url": "https://papers.nips.cc/paper_files/paper/2017/hash/758a06618c69880a6cee5314ee42d52f-Abstract.html",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "zou2024misspecification",
+    "authors": [
+      "Zongren Zou",
+      "Xuhui Meng",
+      "George Em Karniadakis"
+    ],
+    "title": "Correcting model misspecification in physics-informed neural networks (PINNs)",
+    "year": 2024,
+    "venue": "Journal of Computational Physics",
+    "volume": "505",
+    "pages": "112918",
+    "doi": "10.1016/j.jcp.2024.112918",
+    "arxiv": "2310.10776",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021999124001670",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "ma2026operatorcorrection",
+    "authors": [
+      "Lei Ma",
+      "Nicolas Boullé",
+      "Yu-Sen Yang",
+      "Hao Wu",
+      "Ling Guo"
+    ],
+    "title": "Physics-guided correction for operator learning under model misspecification",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "doi": "10.48550/arXiv.2606.03469",
+    "arxiv": "2606.03469",
+    "version": "v2, 2026-08-01; first submitted 2026-06-02",
+    "url": "https://arxiv.org/abs/2606.03469",
+    "publication_status": "preprint",
+    "bibtex_type": "misc"
+  },
+  {
+    "key": "takamoto2022pdebench",
+    "title": "PDEBench: An Extensive Benchmark for Scientific Machine Learning",
+    "authors": [
+      "Makoto Takamoto",
+      "Timothy Praditia",
+      "Raphael Leiteritz",
+      "Dan MacKinlay",
+      "Francesco Alesiani",
+      "Dirk Pflüger",
+      "Mathias Niepert"
+    ],
+    "year": 2022,
+    "venue": "Advances in Neural Information Processing Systems, Datasets and Benchmarks",
+    "url": "https://arxiv.org/abs/2210.07182",
+    "arxiv": "2210.07182",
+    "doi": null,
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "koehler2024apebench",
+    "title": "APEBench: A Benchmark for Autoregressive Neural Emulators of PDEs",
+    "authors": [
+      "Felix Koehler",
+      "Simon Niedermayr",
+      "Rüdiger Westermann",
+      "Nils Thuerey"
+    ],
+    "year": 2024,
+    "venue": "Advances in Neural Information Processing Systems",
+    "url": "https://arxiv.org/abs/2411.00180",
+    "arxiv": "2411.00180",
+    "doi": null,
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "ohana2024well",
+    "title": "The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning",
+    "authors": [
+      "Ruben Ohana",
+      "Michael McCabe",
+      "Lucas Meyer",
+      "Rudy Morel",
+      "Fruzsina J. Agocs",
+      "Miguel Beneitez",
+      "Marsha Berger",
+      "Blakesley Burkhart",
+      "Stuart B. Dalziel",
+      "Drummond B. Fielding",
+      "Daniel Fortunato",
+      "Jared A. Goldberg",
+      "Keiya Hirashima",
+      "Yan-Fei Jiang",
+      "Rich R. Kerswell",
+      "Suryanarayana Maddu",
+      "Jonah Miller",
+      "Payel Mukhopadhyay",
+      "Stefan S. Nixon",
+      "Jeff Shen",
+      "Romain Watteaux",
+      "Bruno Régaldo-Saint Blancard",
+      "François Rozet",
+      "Liam H. Parker",
+      "Miles Cranmer",
+      "Shirley Ho"
+    ],
+    "year": 2024,
+    "venue": "Advances in Neural Information Processing Systems, Datasets and Benchmarks",
+    "url": "https://arxiv.org/abs/2412.00568v1",
+    "arxiv": "2412.00568v1",
+    "doi": "10.48550/arXiv.2412.00568",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "dehghani2019universal",
+    "title": "Universal Transformers",
+    "authors": [
+      "Mostafa Dehghani",
+      "Stephan Gouws",
+      "Oriol Vinyals",
+      "Jakob Uszkoreit",
+      "Łukasz Kaiser"
+    ],
+    "year": 2019,
+    "venue": "International Conference on Learning Representations",
+    "url": "https://arxiv.org/abs/1807.03819",
+    "arxiv": "1807.03819",
+    "doi": null,
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "majid2026recurrsim",
+    "title": "Test-Time Accuracy-Cost Control in Neural Simulators via Recurrent-Depth",
+    "authors": [
+      "Harris Abdul Majid",
+      "Pietro Sittoni",
+      "Francesco Tudisco"
+    ],
+    "year": 2026,
+    "venue": "International Conference on Learning Representations",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/a3b73551d62d7758bdd99fc018b167a9-Paper-Conference.pdf",
+    "arxiv": null,
+    "doi": null,
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "herde2024poseidon",
+    "title": "Poseidon: Efficient Foundation Models for PDEs",
+    "authors": [
+      "Maximilian Herde",
+      "Bogdan Raonić",
+      "Tobias Rohner",
+      "Roger Käppeli",
+      "Roberto Molinaro",
+      "Emmanuel de Bézenac",
+      "Siddhartha Mishra"
+    ],
+    "year": 2024,
+    "venue": "Advances in Neural Information Processing Systems",
+    "url": "https://arxiv.org/abs/2405.19101",
+    "arxiv": "2405.19101",
+    "doi": null,
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "Rice1976AlgorithmSelection",
+    "title": "The Algorithm Selection Problem",
+    "authors": [
+      "John R. Rice"
+    ],
+    "year": 1976,
+    "venue": "Advances in Computers",
+    "volume": "15",
+    "pages": "65–118",
+    "doi": "10.1016/S0065-2458(08)60520-3",
+    "url": "https://doi.org/10.1016/S0065-2458(08)60520-3",
+    "publication_status": "published",
+    "bibtex_type": "incollection"
+  },
+  {
+    "key": "Xu2008SATzilla",
+    "title": "SATzilla: Portfolio-based Algorithm Selection for SAT",
+    "authors": [
+      "Lin Xu",
+      "Frank Hutter",
+      "Holger H. Hoos",
+      "Kevin Leyton-Brown"
+    ],
+    "year": 2008,
+    "venue": "Journal of Artificial Intelligence Research",
+    "volume": "32",
+    "pages": "565–606",
+    "doi": "10.1613/jair.2490",
+    "arxiv": "1111.2249",
+    "url": "https://jair.org/index.php/jair/article/view/10556",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "Ruhkopf2023MASIF",
+    "title": "MASIF: Meta-learned Algorithm Selection using Implicit Fidelity Information",
+    "authors": [
+      "Tim Ruhkopf",
+      "Aditya Mohan",
+      "Difan Deng",
+      "Alexander Tornede",
+      "Frank Hutter",
+      "Marius Lindauer"
+    ],
+    "year": 2023,
+    "venue": "Transactions on Machine Learning Research",
+    "url": "https://openreview.net/forum?id=5aYGXxByI6",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "Nguyen2024MetaLC",
+    "title": "Meta-Learning from Learning Curves for Budget-Limited Algorithm Selection",
+    "authors": [
+      "Manh Hung Nguyen",
+      "Lisheng Sun-Hosoya",
+      "Isabelle Guyon"
+    ],
+    "year": 2024,
+    "venue": "Pattern Recognition Letters",
+    "volume": "185",
+    "doi": "10.1016/j.patrec.2024.08.010",
+    "arxiv": "2410.07696",
+    "url": "https://arxiv.org/abs/2410.07696",
+    "publication_status": "published",
+    "bibtex_type": "article",
+    "pages": "225–231"
+  },
+  {
+    "key": "Li2023METALIC",
+    "title": "Meta Learning of Interface Conditions for Multi-Domain Physics-Informed Neural Networks",
+    "authors": [
+      "Shibo Li",
+      "Michael Penwarden",
+      "Yiming Xu",
+      "Conor Tillinghast",
+      "Akil Narayan",
+      "Robert M. Kirby",
+      "Shandian Zhe"
+    ],
+    "year": 2023,
+    "venue": "Proceedings of the 40th International Conference on Machine Learning",
+    "volume": "202",
+    "pages": "19855–19881",
+    "arxiv": "2210.12669",
+    "url": "https://proceedings.mlr.press/v202/li23w.html",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "Psaros2022MetaPINNLoss",
+    "title": "Meta-learning PINN loss functions",
+    "authors": [
+      "Apostolos F. Psaros",
+      "Kenji Kawaguchi",
+      "George Em Karniadakis"
+    ],
+    "year": 2022,
+    "venue": "Journal of Computational Physics",
+    "volume": "458",
+    "article_number": "111121",
+    "doi": "10.1016/j.jcp.2022.111121",
+    "arxiv": "2107.05544",
+    "url": "https://arxiv.org/abs/2107.05544",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "Jiang2023ForkMerge",
+    "title": "ForkMerge: Mitigating Negative Transfer in Auxiliary-Task Learning",
+    "authors": [
+      "Junguang Jiang",
+      "Baixu Chen",
+      "Junwei Pan",
+      "Ximei Wang",
+      "Dapeng Liu",
+      "Jie Jiang",
+      "Mingsheng Long"
+    ],
+    "year": 2023,
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "36",
+    "arxiv": "2301.12618",
+    "url": "https://arxiv.org/abs/2301.12618",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "Wu2025RobustAlgorithmSelection",
+    "title": "Towards Robustness and Explainability of Automatic Algorithm Selection",
+    "authors": [
+      "Xingyu Wu",
+      "Jibin Wu",
+      "Yu Zhou",
+      "Liang Feng",
+      "Kc Tan"
+    ],
+    "year": 2025,
+    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "volume": "267",
+    "pages": "67864–67887",
+    "url": "https://proceedings.mlr.press/v267/wu25aj.html",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "vaswani2017attention",
+    "title": "Attention Is All You Need",
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan N. Gomez",
+      "Łukasz Kaiser",
+      "Illia Polosukhin"
+    ],
+    "year": 2017,
+    "venue": "Advances in Neural Information Processing Systems",
+    "volume": "30",
+    "url": "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "loshchilov2019adamw",
+    "title": "Decoupled Weight Decay Regularization",
+    "authors": [
+      "Ilya Loshchilov",
+      "Frank Hutter"
+    ],
+    "year": 2019,
+    "venue": "International Conference on Learning Representations",
+    "url": "https://arxiv.org/abs/1711.05101",
+    "publication_status": "published",
+    "bibtex_type": "inproceedings"
+  },
+  {
+    "key": "holm1979",
+    "title": "A simple sequentially rejective multiple test procedure",
+    "authors": [
+      "Sture Holm"
+    ],
+    "year": 1979,
+    "venue": "Scandinavian Journal of Statistics",
+    "volume": "6",
+    "pages": "65–70",
+    "url": "https://www.jstor.org/stable/4615733",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "cox2002etd",
+    "title": "Exponential time differencing for stiff systems",
+    "authors": [
+      "S. M. Cox",
+      "P. C. Matthews"
+    ],
+    "year": 2002,
+    "venue": "Journal of Computational Physics",
+    "volume": "176",
+    "pages": "430–455",
+    "doi": "10.1006/jcph.2002.6995",
+    "url": "https://doi.org/10.1006/jcph.2002.6995",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "kassam2005etd",
+    "title": "Fourth-Order Time-Stepping for Stiff PDEs",
+    "authors": [
+      "Aly-Khan Kassam",
+      "Lloyd N. Trefethen"
+    ],
+    "year": 2005,
+    "venue": "SIAM Journal on Scientific Computing",
+    "volume": "26",
+    "pages": "1214–1233",
+    "doi": "10.1137/s1064827502410633",
+    "url": "https://doi.org/10.1137/s1064827502410633",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "list2025unrolled",
+    "authors": [
+      "Bjoern List",
+      "Li-Wei Chen",
+      "Kartik Bali",
+      "Nils Thuerey"
+    ],
+    "title": "Differentiability in unrolled training of neural physics simulators on transient dynamics",
+    "year": 2025,
+    "venue": "Computer Methods in Applied Mechanics and Engineering",
+    "volume": "433",
+    "pages": "117441",
+    "doi": "10.1016/j.cma.2024.117441",
+    "arxiv": null,
+    "url": "https://doi.org/10.1016/j.cma.2024.117441",
+    "publication_status": "published",
+    "bibtex_type": "article"
+  },
+  {
+    "key": "mcgreivy2024weak",
+    "title": "Weak baselines and reporting biases lead to overoptimism in machine learning for fluid-related partial differential equations",
+    "authors": [
+      "Nick McGreivy",
+      "Ammar Hakim"
+    ],
+    "year": 2024,
+    "venue": "Nature Machine Intelligence",
+    "url": "https://arxiv.org/abs/2407.07218",
+    "arxiv": "2407.07218",
+    "doi": "10.1038/s42256-024-00897-5",
+    "publication_status": "published",
+    "bibtex_type": "article",
+    "volume": "6",
+    "pages": "1256–1269"
+  },
+  {
+    "key": "doane2026physicsrelease",
+    "title": "Perturbation structure and imperfect physics in neural PDE forecasting",
+    "authors": [
+      "Michael Doane"
+    ],
+    "year": 2026,
+    "venue": "Zenodo",
+    "version": "1.0.0",
+    "resource_type": "software",
+    "doi": "10.5281/zenodo.22728288",
+    "url": "https://doi.org/10.5281/zenodo.22728288",
+    "publication_status": "published software",
+    "bibtex_type": "misc"
+  },
+  {
+    "key": "ljung2010identification",
+    "title": "Perspectives on system identification",
+    "authors": [
+      "Lennart Ljung"
+    ],
+    "year": 2010,
+    "venue": "Annual Reviews in Control",
+    "volume": "34",
+    "issue": "1",
+    "pages": "1-12",
+    "doi": "10.1016/j.arcontrol.2009.12.001",
+    "url": "https://doi.org/10.1016/j.arcontrol.2009.12.001",
+    "publication_status": "published",
+    "bibtex_type": "article",
+    "relevance_note": "Established fitting of dynamical-system models from observed input-output data. Cite when introducing physical coefficient fitting; this baseline is an application of system identification, not a new parameter-estimation method.",
+    "verified_sources": [
+      "https://doi.org/10.1016/j.arcontrol.2009.12.001",
+      "https://isy.gitlab-pages.liu.se/staff/lenlj48/seoul2dvinew/plenary2.pdf"
+    ],
+    "verification": "Crossref publisher-deposited metadata; primary publisher/author/project page checked at the level described in JOURNAL_AUDIT.md",
+    "checked_on": "2026-09-12"
+  },
+  {
+    "key": "brynjarsdottir2014discrepancy",
+    "title": "Learning about physical parameters: the importance of model discrepancy",
+    "authors": [
+      "Jenný Brynjarsdóttir",
+      "Anthony O'Hagan"
+    ],
+    "year": 2014,
+    "venue": "Inverse Problems",
+    "volume": "30",
+    "issue": "11",
+    "pages": "114007",
+    "doi": "10.1088/0266-5611/30/11/114007",
+    "url": "https://doi.org/10.1088/0266-5611/30/11/114007",
+    "publication_status": "published",
+    "bibtex_type": "article",
+    "relevance_note": "Distinguishes uncertainty in physical parameters from errors in the simulator form. Use to qualify parameter interpretation when equation terms are omitted; do not describe the present least-squares procedure as Bayesian calibration.",
+    "verified_sources": [
+      "https://doi.org/10.1088/0266-5611/30/11/114007",
+      "https://www.tonyohagan.co.uk/academic/pub.html"
+    ],
+    "verification": "Crossref publisher-deposited metadata; primary publisher/author/project page checked at the level described in JOURNAL_AUDIT.md",
+    "checked_on": "2026-09-12"
+  },
+  {
+    "key": "virtanen2020scipy",
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "authors": [
+      "Pauli Virtanen",
+      "Ralf Gommers",
+      "Travis E. Oliphant",
+      "Matt Haberland",
+      "Tyler Reddy",
+      "David Cournapeau",
+      "Evgeni Burovski",
+      "Pearu Peterson",
+      "Warren Weckesser",
+      "Jonathan Bright",
+      "Stéfan J. van der Walt",
+      "Matthew Brett",
+      "Joshua Wilson",
+      "K. Jarrod Millman",
+      "Nikolay Mayorov",
+      "Andrew R. J. Nelson",
+      "Eric Jones",
+      "Robert Kern",
+      "Eric Larson",
+      "C J Carey",
+      "İlhan Polat",
+      "Yu Feng",
+      "Eric W. Moore",
+      "Jake VanderPlas",
+      "Denis Laxalde",
+      "Josef Perktold",
+      "Robert Cimrman",
+      "Ian Henriksen",
+      "E. A. Quintero",
+      "Charles R. Harris",
+      "Anne M. Archibald",
+      "Antônio H. Ribeiro",
+      "Fabian Pedregosa",
+      "Paul van Mulbregt",
+      "SciPy 1.0 Contributors"
+    ],
+    "year": 2020,
+    "venue": "Nature Methods",
+    "volume": "17",
+    "issue": "3",
+    "pages": "261-272",
+    "doi": "10.1038/s41592-019-0686-2",
+    "url": "https://doi.org/10.1038/s41592-019-0686-2",
+    "publication_status": "published",
+    "bibtex_type": "article",
+    "relevance_note": "Credits SciPy, whose bounded least_squares optimizer is used in the calibration implementation.",
+    "verified_sources": [
+      "https://doi.org/10.1038/s41592-019-0686-2",
+      "https://scipy.org/citing-scipy/"
+    ],
+    "verification": "Crossref publisher-deposited metadata; primary publisher/author/project page checked at the level described in JOURNAL_AUDIT.md",
+    "checked_on": "2026-09-12"
+  }
+]

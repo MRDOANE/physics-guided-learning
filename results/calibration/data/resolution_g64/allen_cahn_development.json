@@ -1,0 +1,23 @@
+{
+  "archive_generation_threads": 8,
+  "backend": "torch",
+  "exact_archive_npz_hash": true,
+  "generation_seconds": 1.8992648919993371,
+  "original_description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "allen_cahn",
+    "grid": 64,
+    "phase": "development",
+    "seed": 26100931,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "original_sha256": "63a0ea66c2e57d0e2f7227e5be4467645ef4147b2179315fd3c0f21482dea4dc",
+  "sha256": "63a0ea66c2e57d0e2f7227e5be4467645ef4147b2179315fd3c0f21482dea4dc",
+  "signature": "2006ff71426a31004f00b9ea78b8dae077e17daf281c6fdbe965936972f772ff",
+  "smoke": false
+}

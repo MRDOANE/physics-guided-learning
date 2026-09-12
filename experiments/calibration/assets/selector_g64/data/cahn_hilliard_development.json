@@ -1,0 +1,18 @@
+{
+  "description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "cahn_hilliard",
+    "grid": 64,
+    "phase": "development",
+    "seed": 26100931,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "generation_seconds": 2.4097896851599216,
+  "sha256": "8a73f88e65fe200af51b39c6789274e984752ff1d43ba411a4718a3eaa4f9d6d",
+  "signature": "f3eb50427f7daf65fa31c136a3813cd3d7cd9b04cf47c716bbf360248b0b211f"
+}

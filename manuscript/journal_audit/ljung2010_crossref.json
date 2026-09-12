@@ -1,0 +1,851 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2026-09-10T22:47:16Z",
+      "timestamp": 1789080436884,
+      "version": "build-2803163510"
+    },
+    "reference-count": 79,
+    "publisher": "Elsevier BV",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2010-04-01T00:00:00Z",
+          "timestamp": 1270080000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Annual Reviews in Control"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.arcontrol.2009.12.001",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2010-04-11T04:25:15Z",
+      "timestamp": 1270959915000
+    },
+    "page": "1-12",
+    "source": "Crossref",
+    "is-referenced-by-count": 636,
+    "title": [
+      "Perspectives on system identification"
+    ],
+    "prefix": "10.1016",
+    "volume": "34",
+    "author": [
+      {
+        "given": "Lennart",
+        "family": "Ljung",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "716",
+        "DOI": "10.1109/TAC.1974.1100705",
+        "article-title": "A new look at the statistical model identification",
+        "volume": "AC-19",
+        "author": "Akaike",
+        "year": "1974",
+        "journal-title": "IEEE Transactions on Automatic Control"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib2",
+        "series-title": "Advances in system identification",
+        "article-title": "Canonical correlation",
+        "author": "Akaike",
+        "year": "1976"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "423",
+        "DOI": "10.1109/JPROC.2003.823142",
+        "article-title": "Particle methods for change detection, system identification and control",
+        "volume": "92",
+        "author": "Andrieu",
+        "year": "2004",
+        "journal-title": "Proceeding of IEEE"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib4",
+        "series-title": "IFAC symposium on self-adaptive systems",
+        "article-title": "Numerical identification of linear dynamic systems from normal operating records",
+        "author": "Åström",
+        "year": "1965"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1016/0005-1098(73)90073-3",
+        "article-title": "On self-tuning regulators",
+        "volume": "9",
+        "author": "Åström",
+        "year": "1973",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "841",
+        "DOI": "10.1002/rnc.706",
+        "article-title": "Identification of linear parameter varying models",
+        "volume": "12",
+        "author": "Bamieh",
+        "year": "2002",
+        "journal-title": "International Journal of Robust and Nonlinear Control"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1497",
+        "DOI": "10.1214/009053605000000282",
+        "article-title": "Local Rademacher complexities",
+        "volume": "33",
+        "author": "Bartlett",
+        "year": "2005",
+        "journal-title": "Annals of Statistics"
+      },
+      {
+        "issue": "473",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "138",
+        "DOI": "10.1198/016214505000000907",
+        "article-title": "Convexity, classification and risk bounds",
+        "volume": "101",
+        "author": "Bartlett",
+        "year": "2006",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1567",
+        "DOI": "10.1109/TAC.2005.856667",
+        "article-title": "A bounded-error approach to piecewise affine system identification",
+        "volume": "50",
+        "author": "Bemporad",
+        "year": "2005",
+        "journal-title": "IEEE Transactions on Automatic Control"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1150",
+        "DOI": "10.1109/TCS.1985.1085649",
+        "article-title": "Fading memory and the problem of approximating nonlinear operators with Volterra series",
+        "volume": "CAS-32",
+        "author": "Boyd",
+        "year": "1985",
+        "journal-title": "IEEE Transactions on Circuits and Systems"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib11",
+        "series-title": "Convex optimization",
+        "author": "Boyd",
+        "year": "2004"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib12",
+        "first-page": "1245",
+        "article-title": "Sensor networks. Evolution, opportunities and challenges",
+        "volume": "91",
+        "author": "Chong",
+        "year": "2003",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib13",
+        "series-title": "Mathematical methods of statistics",
+        "author": "Cramér",
+        "year": "1946"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "377",
+        "DOI": "10.1007/BF01404567",
+        "article-title": "Smoothing noisy data with spline functions: Estimating the correct degree of smoothing by the method of generalized cross-validation",
+        "volume": "31",
+        "author": "Craven",
+        "year": "1979",
+        "journal-title": "Numerische Mathematik"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib15",
+        "series-title": "Identification, adaptation, learning, NATO ASI series",
+        "first-page": "423",
+        "article-title": "Just-in-time learning and estimation",
+        "author": "Cybenko",
+        "year": "1996"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "987",
+        "DOI": "10.2307/1912773",
+        "article-title": "Autoregressive conditional heteroscedasticity with estimates of variance of United Kingdom inflation",
+        "volume": "50",
+        "author": "Engle",
+        "year": "1982",
+        "journal-title": "Econometrica"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.2307/1913236",
+        "article-title": "Co-integration and error-correction: Representation, estimation and testing",
+        "volume": "55",
+        "author": "Engle",
+        "year": "1987",
+        "journal-title": "Econometrica"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib18",
+        "unstructured": "Enqvist, M. (2005). Linear models of nonlinear systems. PhD thesis, Linköping University, Sweden. Linköping Studies in Science and Technology. Dissertation No. 985."
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib19",
+        "unstructured": "Frisch, R. (1934). Statistical confluence analysis by means of complete regression systems. Technical Report 5, Economics Institute, University of Oslo, Oslo, Norway."
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib20",
+        "series-title": "Principles of object-oriented modeling and simulation with Modelica",
+        "author": "Fritzson",
+        "year": "2003"
+      },
+      {
+        "issue": "G4",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1243/09544100JAERO28",
+        "article-title": "Model identification of linear parameter varying aircraft systems",
+        "volume": "220",
+        "author": "Fujimori",
+        "year": "2006",
+        "journal-title": "Proceedings of the Institution of Mechanical Engineers Part G: Journal of Aerospace Engineering"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib22",
+        "unstructured": "Gerdin, M. (2006). Identification and estimation for models described by differential-algebraic equations. Linköping Studies in Science and Technology. Dissertation No. 1046, Linköping University, SE-581 83 Linköping, Sweden."
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib23",
+        "series-title": "Essays on control: Perspectives in the theory and its applications, ECC 93’",
+        "article-title": "Towards a joint design of identification and control?",
+        "author": "Gevers",
+        "year": "1993"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3166/ejc.11.335-352",
+        "article-title": "Identification for control: From the early achievments to the revival of experiment design. Semiplenary at CDC-ECC 2005",
+        "volume": "11",
+        "author": "Gevers",
+        "year": "2005",
+        "journal-title": "European Journal of Control"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "913",
+        "DOI": "10.1109/9.148344",
+        "article-title": "Quantifying the error in estimated transfer functions with application to model order selection",
+        "volume": "37",
+        "author": "Goodwin",
+        "year": "1992",
+        "journal-title": "IEEE Transactions on Automatic Control"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib26",
+        "series-title": "The elements of statistical learning",
+        "author": "Hastie",
+        "year": "2001"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib27",
+        "series-title": "Neural networks",
+        "author": "Haykin",
+        "year": "1999"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "393",
+        "DOI": "10.1016/j.automatica.2004.11.021",
+        "article-title": "From experiment design to closed loop control",
+        "volume": "41",
+        "author": "Hjalmarsson",
+        "year": "2005",
+        "journal-title": "Automatica"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib29",
+        "first-page": "545",
+        "article-title": "Effective constuction of linear state-variable models form input/output functions",
+        "volume": "14",
+        "author": "Ho",
+        "year": "1966",
+        "journal-title": "Regelungstechnik"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib30",
+        "series-title": "Proc. IFAC symposium on system identification",
+        "article-title": "A kernel based approach to structured nonlinear system identification, part I: Algorithms, part II: Convergence and consistency",
+        "author": "Hsu",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib31",
+        "series-title": "Bayesian networks and decision graphs",
+        "author": "Jensen",
+        "year": "2001"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib32",
+        "series-title": "Investigations in currency and finance",
+        "author": "Jevons",
+        "year": "1884"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1016/0005-1098(94)00096-2",
+        "article-title": "Identification of nonlinear-system structure and parameters using regime decomposition",
+        "volume": "31",
+        "author": "Johansen",
+        "year": "1995",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib34",
+        "first-page": "468",
+        "article-title": "Design of a self-optimizing control system",
+        "volume": "80",
+        "author": "Kalman",
+        "year": "1958",
+        "journal-title": "Transaction ASME, Journal of Basic Engineering"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib35",
+        "series-title": "Aircraft system identification: Theory and practice",
+        "author": "Klein",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib36",
+        "series-title": "Self-organization and associative memory",
+        "author": "Kohonen",
+        "year": "1984"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib37",
+        "series-title": "Statistical inference in dynamic economic models, volume 10 of Cowles Commission Monograph, Chapter II",
+        "article-title": "Measuring the equation systems of dynamic economics",
+        "author": "Koopmans",
+        "year": "1950"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib38",
+        "series-title": "Proc. 1983 American control conference",
+        "article-title": "System identification, reduced order filtering and modelling via canonical variate analysis",
+        "author": "Larimore",
+        "year": "1983"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1115/1.2802444",
+        "article-title": "Identification of linear parameter-varying systems using non-linear programming",
+        "volume": "121",
+        "author": "Lee",
+        "year": "1999",
+        "journal-title": "ASME Journal of Dynamic Systems, Measurement and Control"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib40",
+        "series-title": "System identification—Theory for the user",
+        "author": "Ljung",
+        "year": "1999"
+      },
+      {
+        "issue": "2–3",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.3166/ejc.7.203-219",
+        "article-title": "Estimating linear time invariant models of non-linear time-varying systems",
+        "volume": "7",
+        "author": "Ljung",
+        "year": "2001",
+        "journal-title": "European Journal of Control"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib42",
+        "series-title": "System Identification Toolbox for use with Matlab. Version 7",
+        "author": "Ljung",
+        "year": "2007"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1016/0005-1098(94)90029-9",
+        "article-title": "On global identifiability of arbitrary model parameterizations",
+        "volume": "30",
+        "author": "Ljung",
+        "year": "1994",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib44",
+        "unstructured": "Ljung, L., & Vicino, A. (Eds.). (2005). IEEE Trans. Automatic Control: Special issue on identification (Vol. AC-50)."
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib45",
+        "series-title": "Proc. of the IFAC conference on system identification, SYSID’03",
+        "article-title": "Data-based methods for process analysis, monitoring and control",
+        "author": "MacGregor",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.2307/1905674",
+        "article-title": "On the statistical treatment of linear stochastic difference equations",
+        "volume": "11",
+        "author": "Mann",
+        "year": "1943",
+        "journal-title": "Econometrica"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1109/TAC.1981.1102568",
+        "article-title": "Principal component analysis in linear systems: Controllability, observability and model reduction",
+        "volume": "AC-26",
+        "author": "Moore",
+        "year": "1981",
+        "journal-title": "IEEE Transactions on Automatic Control"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib48",
+        "series-title": "Multiple model approaches to modeling and control",
+        "year": "1997"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib49",
+        "series-title": "Mathematical perspectives in neural networks",
+        "first-page": "347",
+        "article-title": "Neural networks in control systems",
+        "author": "Narandra",
+        "year": "1996"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib50",
+        "series-title": "Learning machines",
+        "author": "Nilsson",
+        "year": "1965"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib51",
+        "series-title": "Control: Three decades of progress",
+        "article-title": "Semi-supervised regression in system identification",
+        "author": "Ohlsson",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib52",
+        "series-title": "Proc. IEEE conference on decision and control",
+        "article-title": "Regression with manifold-valued data",
+        "author": "Ohlsson",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib53",
+        "series-title": "Proc. 13th IFAC symposium on system identification",
+        "first-page": "1524",
+        "article-title": "Initialization of physical parameter estimates",
+        "author": "Parrilo",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib54",
+        "series-title": "Algorithmic and quantitative real algebraic geometry, volume 60 of DIMACS series in discrete mathematics and theoretical computer science",
+        "article-title": "Minimizing polynomial functions",
+        "author": "Parrilo",
+        "year": "2003"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1007/BF00116251",
+        "article-title": "Induction of decision trees",
+        "volume": "1",
+        "author": "Quinlan",
+        "year": "1986",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib56",
+        "series-title": "Gaussian processes for machine learning",
+        "author": "Rasmussen",
+        "year": "2006"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/j.automatica.2003.08.006",
+        "article-title": "Identification of piecewise affine systems via mixed-integer programming",
+        "volume": "40",
+        "author": "Roll",
+        "year": "2004",
+        "journal-title": "Automatica"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1016/j.automatica.2004.11.010",
+        "article-title": "Non-linear system identification via direct weight optimization",
+        "volume": "41",
+        "author": "Roll",
+        "year": "2005",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib59",
+        "series-title": "Principles of neurodynamics: Perceptrons and the theory of brain mechanisms",
+        "author": "Rosenblatt",
+        "year": "1962"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "2323",
+        "DOI": "10.1126/science.290.5500.2323",
+        "article-title": "Nonlinear dimension reduction by locally linear embedding",
+        "volume": "290",
+        "author": "Roweis",
+        "year": "2000",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "883",
+        "DOI": "10.1016/S0362-546X(01)00867-7",
+        "article-title": "Nonlinear Hilbert adjoints: Properties and applications to Hankel singular values",
+        "volume": "51",
+        "author": "Scherpen",
+        "year": "2002",
+        "journal-title": "Nonlinear Analysis: Theory, Methods, Applications"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib62",
+        "series-title": "Numerical data fitting in dynamical systems",
+        "author": "Schittkowski",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib63",
+        "series-title": "Advances in kernel methods—Support vector learning",
+        "first-page": "327",
+        "article-title": "Kernel principal component analysis",
+        "author": "Schölkopf",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib64",
+        "series-title": "Proceedings of the 14th IFAC symposium on system identification",
+        "article-title": "Maximum likelihood nonlinear system estimation",
+        "author": "Schön",
+        "year": "2006"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "1267",
+        "DOI": "10.1016/S0005-1098(03)00083-9",
+        "article-title": "Fast approximate identification of nonlinear systems",
+        "volume": "39",
+        "author": "Schoukens",
+        "year": "2003",
+        "journal-title": "Automatica"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "456",
+        "DOI": "10.1109/TCAD.2008.915544",
+        "article-title": "A quasi-convex optimization approach to parameterized model order reduction",
+        "volume": "27",
+        "author": "Sou",
+        "year": "2008",
+        "journal-title": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib67",
+        "series-title": "Model reduction routines for MATLAB",
+        "author": "Sun",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib68",
+        "series-title": "Least squares support vector machines",
+        "author": "Suykens",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib69",
+        "series-title": "Introduction to data mining",
+        "author": "Tan",
+        "year": "2006"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "1359",
+        "DOI": "10.1016/j.automatica.2009.01.010",
+        "article-title": "Asymptotically optimal orthogonal basis functions for LPV system identification",
+        "volume": "45",
+        "author": "Toth",
+        "year": "2009",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib71",
+        "series-title": "Subspace identification of linear systems: Theory, implementation, applications",
+        "author": "Van Overschee",
+        "year": "1996"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib72",
+        "series-title": "Estimation of dependencies based on empirical data",
+        "author": "Vapnik",
+        "year": "1982"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib73",
+        "series-title": "Statistical learning theory",
+        "author": "Vapnik",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib74",
+        "series-title": "Advances in kernel methods—Support vector learning",
+        "first-page": "69",
+        "article-title": "Support vector machines, reproducing kernel Hilbert spaces, and the randomized GACV",
+        "author": "Wahba",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib75",
+        "series-title": "Proc. 17th IFAC world congress",
+        "article-title": "On identification of cascade systems",
+        "author": "Wahlberg",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib76",
+        "series-title": "A study in the analysis of stationary time series",
+        "author": "Wold",
+        "year": "1938"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.arcontrol.2009.12.001_bib77",
+        "doi-asserted-by": "crossref",
+        "first-page": "735",
+        "DOI": "10.1137/0905052",
+        "article-title": "The collinearity problem in linear regression, the partial least squares(PLS) approach to generalized inverses",
+        "volume": "5",
+        "author": "Wold",
+        "year": "1984",
+        "journal-title": "SIAM Journal on Scientific and Statistical Computing"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib78",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1098/rsta.1927.0007",
+        "article-title": "On a method of investigating periodicities in disturbed series, with special reference to Wolfer's sunspot numbers",
+        "volume": "226",
+        "author": "Yule",
+        "year": "1927",
+        "journal-title": "Philosophical Transactions of the Royal Society of London Series A"
+      },
+      {
+        "key": "10.1016/j.arcontrol.2009.12.001_bib79",
+        "doi-asserted-by": "crossref",
+        "first-page": "277",
+        "DOI": "10.1109/TCT.1956.1086328",
+        "article-title": "On the identification problem",
+        "volume": "3",
+        "author": "Zadeh",
+        "year": "1956",
+        "journal-title": "IRE Transactions on Circuit Theory"
+      }
+    ],
+    "container-title": [
+      "Annual Reviews in Control"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1367578810000027?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1367578810000027?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          11
+        ]
+      ],
+      "date-time": "2018-12-11T21:23:02Z",
+      "timestamp": 1544563382000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1367578810000027"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          4
+        ]
+      ]
+    },
+    "references-count": 79,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S1367578810000027"
+    ],
+    "URL": "https://doi.org/10.1016/j.arcontrol.2009.12.001",
+    "relation": {},
+    "ISSN": [
+      "1367-5788"
+    ],
+    "issn-type": [
+      {
+        "value": "1367-5788",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          4
+        ]
+      ]
+    }
+  }
+}

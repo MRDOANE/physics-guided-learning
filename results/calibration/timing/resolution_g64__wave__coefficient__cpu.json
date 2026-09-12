@@ -1,0 +1,231 @@
+{
+  "accuracy_evaluation": false,
+  "batch_sizes": [
+    1
+  ],
+  "block_orders": [
+    {
+      "batch_size": 1,
+      "block": 0,
+      "order": [
+        "transformer",
+        "looped",
+        "fno",
+        "physics_calibrated",
+        "physics_uncalibrated"
+      ]
+    },
+    {
+      "batch_size": 1,
+      "block": 1,
+      "order": [
+        "transformer",
+        "physics_uncalibrated",
+        "physics_calibrated",
+        "fno",
+        "looped"
+      ]
+    },
+    {
+      "batch_size": 1,
+      "block": 2,
+      "order": [
+        "physics_calibrated",
+        "fno",
+        "physics_uncalibrated",
+        "looped",
+        "transformer"
+      ]
+    },
+    {
+      "batch_size": 1,
+      "block": 3,
+      "order": [
+        "looped",
+        "transformer",
+        "fno",
+        "physics_uncalibrated",
+        "physics_calibrated"
+      ]
+    },
+    {
+      "batch_size": 1,
+      "block": 4,
+      "order": [
+        "physics_uncalibrated",
+        "transformer",
+        "fno",
+        "looped",
+        "physics_calibrated"
+      ]
+    }
+  ],
+  "blocks": 5,
+  "context": 4,
+  "elapsed_seconds": 0.7517673020010989,
+  "environment": {
+    "cuda_runtime": null,
+    "cudnn_allow_tf32": true,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": false,
+    "device": "cpu",
+    "gpu": null,
+    "interop_threads": 9,
+    "matmul_allow_tf32": false,
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "python": "3.12.14",
+    "threads": 1,
+    "torch": "2.8.0+cpu"
+  },
+  "family": "wave",
+  "freeze_sha256": "04efb8030f73635200bfa878e243e94f452cf169d8e3ca4b9650fc42ada06f89",
+  "grid": 64,
+  "job": {
+    "family": "wave",
+    "grid": 64,
+    "id": "resolution_g64__wave__coefficient",
+    "prior": "coefficient",
+    "stage": "resolution_g64"
+  },
+  "limitations": [
+    "Neural weights are initialized solely for execution timing. Historical accuracy uses archived trained models and remains a separate measurement.",
+    "Forward graphs have fixed dimensions and zero-initialized output heads; all layers execute. No trained-checkpoint latency is claimed.",
+    "Float32 refers to resident inputs. The archived solver retains float64/complex128 exponential-coefficient calculations and its existing transforms and substeps.",
+    "This times the existing solver implementation without coefficient caching, solver optimization, compilation, or a tolerance sweep.",
+    "Fixed validation contexts are reused. Measurements describe one-step execution, not complete rollout wall time or sustained deployment throughput.",
+    "Structural omissions remain in both physical implementations; calibration only multiplies supplied coefficients.",
+    "Fresh physical and neural latency rows are comparable within this call. They must not be pooled with historical timings from other hardware."
+  ],
+  "multipliers": [
+    1.428571606229899,
+    0.7692312239380278,
+    0.7142852105809093
+  ],
+  "neural_checkpoints_loaded": false,
+  "neural_training": false,
+  "prior": "coefficient",
+  "repeats_per_block": 20,
+  "rows": [
+    {
+      "batch_size": 1,
+      "block_ms_per_batch_step": [
+        0.40748155,
+        0.45538615,
+        0.4497852,
+        0.449647,
+        0.6341922
+      ],
+      "calibration_multiplication_included": false,
+      "family": "wave",
+      "fitted_global_multiplier_count": 0,
+      "grid": 64,
+      "kind": "physics_uncalibrated",
+      "max_ms_per_batch_step": 0.6341922,
+      "median_ms_per_batch_step": 0.4497852,
+      "min_ms_per_batch_step": 0.40748155,
+      "parameter_count": null,
+      "parameter_count_convention": null,
+      "prior": "coefficient",
+      "timing_source": "fresh_matched_execution_benchmark",
+      "weights": "physical coefficients supplied per trajectory"
+    },
+    {
+      "batch_size": 1,
+      "block_ms_per_batch_step": [
+        0.4207881,
+        0.4279599,
+        0.46225445,
+        0.47621045,
+        0.57176425
+      ],
+      "calibration_multiplication_included": true,
+      "family": "wave",
+      "fitted_global_multiplier_count": 3,
+      "grid": 64,
+      "kind": "physics_calibrated",
+      "max_ms_per_batch_step": 0.57176425,
+      "median_ms_per_batch_step": 0.46225445,
+      "min_ms_per_batch_step": 0.4207881,
+      "parameter_count": null,
+      "parameter_count_convention": null,
+      "prior": "coefficient",
+      "timing_source": "fresh_matched_execution_benchmark",
+      "weights": "physical coefficients supplied per trajectory"
+    },
+    {
+      "batch_size": 1,
+      "block_ms_per_batch_step": [
+        2.5043108,
+        2.5255798,
+        2.41310955,
+        4.03772365,
+        2.6811188
+      ],
+      "calibration_multiplication_included": false,
+      "family": "wave",
+      "fitted_global_multiplier_count": 0,
+      "grid": 64,
+      "kind": "transformer",
+      "max_ms_per_batch_step": 4.03772365,
+      "median_ms_per_batch_step": 2.5255798,
+      "min_ms_per_batch_step": 2.41310955,
+      "parameter_count": 101122,
+      "parameter_count_convention": "real scalar equivalents; complex neural weights count twice",
+      "prior": "coefficient",
+      "timing_source": "fresh_matched_execution_benchmark",
+      "weights": "initialized; no checkpoint; no training"
+    },
+    {
+      "batch_size": 1,
+      "block_ms_per_batch_step": [
+        2.79603895,
+        2.3385985,
+        2.5498819,
+        2.5043684,
+        2.7386784
+      ],
+      "calibration_multiplication_included": false,
+      "family": "wave",
+      "fitted_global_multiplier_count": 0,
+      "grid": 64,
+      "kind": "looped",
+      "max_ms_per_batch_step": 2.79603895,
+      "median_ms_per_batch_step": 2.5498819,
+      "min_ms_per_batch_step": 2.3385985,
+      "parameter_count": 34178,
+      "parameter_count_convention": "real scalar equivalents; complex neural weights count twice",
+      "prior": "coefficient",
+      "timing_source": "fresh_matched_execution_benchmark",
+      "weights": "initialized; no checkpoint; no training"
+    },
+    {
+      "batch_size": 1,
+      "block_ms_per_batch_step": [
+        0.7200323,
+        0.7154389,
+        0.7431691,
+        0.85918065,
+        0.75459935
+      ],
+      "calibration_multiplication_included": false,
+      "family": "wave",
+      "fitted_global_multiplier_count": 0,
+      "grid": 64,
+      "kind": "fno",
+      "max_ms_per_batch_step": 0.85918065,
+      "median_ms_per_batch_step": 0.7431691,
+      "min_ms_per_batch_step": 0.7154389,
+      "parameter_count": 210306,
+      "parameter_count_convention": "real scalar equivalents; complex neural weights count twice",
+      "prior": "coefficient",
+      "timing_source": "fresh_matched_execution_benchmark",
+      "weights": "initialized; no checkpoint; no training"
+    }
+  ],
+  "status": "COMPLETED_EXECUTION_BENCHMARK",
+  "timing_scope": "Resident float32 validation inputs on one device. One batch-step forward call; full neural normalization/denormalization or the archived coarse physical step. Calibrated physics includes applying fitted multipliers. Transfer, input-view creation, history updates, fitting, and forecast-error calculation are excluded. Physical predictors consume the last state/action; neural predictors consume the observed context. CUDA synchronization brackets each repeated block.",
+  "timing_signature": "441bf9ddc82fb130cbce2a81827d7dca85382affaaf5841908ce8ed6b56c3447",
+  "warmup_calls_per_method": 5
+}

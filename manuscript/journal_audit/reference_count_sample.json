@@ -1,0 +1,95 @@
+{
+  "retrieval_date": "2026-09-12",
+  "method": "First 12 results returned in Crossref relevance order for journal ISSN 1877-7503, query neural physics, journal-article type, publication dates 2023-01-01 through 2026-09-12. All 12 concern physical neural modeling. This is a small relevance-selected comparison sample, not a random sample or a journal requirement.",
+  "source_url": "https://api.crossref.org/journals/1877-7503/works?filter=from-pub-date:2023-01-01,until-pub-date:2026-09-12,type:journal-article&query=neural%20physics&rows=12",
+  "n": 12,
+  "median": 51.0,
+  "minimum": 23,
+  "maximum": 95,
+  "items": [
+    {
+      "title": "Physics-informed neural networks for discovering localised eigenstates in disordered media",
+      "doi": "10.1016/j.jocs.2023.102136",
+      "year": 2023,
+      "reference_count": 40,
+      "url": "https://doi.org/10.1016/j.jocs.2023.102136"
+    },
+    {
+      "title": "Two improved physics-informed Neural Networks for solving Burgers equation",
+      "doi": "10.1016/j.jocs.2025.102756",
+      "year": 2026,
+      "reference_count": 27,
+      "url": "https://doi.org/10.1016/j.jocs.2025.102756"
+    },
+    {
+      "title": "Solving the dopant diffusion dynamics with physics-informed neural networks",
+      "doi": "10.1016/j.jocs.2025.102695",
+      "year": 2025,
+      "reference_count": 34,
+      "url": "https://doi.org/10.1016/j.jocs.2025.102695"
+    },
+    {
+      "title": "Physics-informed neural networks and higher-order high-resolution methods for resolving discontinuities and shocks: A comprehensive study",
+      "doi": "10.1016/j.jocs.2024.102466",
+      "year": 2024,
+      "reference_count": 51,
+      "url": "https://doi.org/10.1016/j.jocs.2024.102466"
+    },
+    {
+      "title": "PINN-parafoil: A physics-informed neural network method for complex parafoil dynamics simulating",
+      "doi": "10.1016/j.jocs.2025.102639",
+      "year": 2025,
+      "reference_count": 55,
+      "url": "https://doi.org/10.1016/j.jocs.2025.102639"
+    },
+    {
+      "title": "Comparison of Physics Informed Neural Networks and Finite Element Method Solvers for advection-dominated diffusion problems",
+      "doi": "10.1016/j.jocs.2024.102340",
+      "year": 2024,
+      "reference_count": 23,
+      "url": "https://doi.org/10.1016/j.jocs.2024.102340"
+    },
+    {
+      "title": "Instability-wave prediction in hypersonic boundary layers with physics-informed neural operators",
+      "doi": "10.1016/j.jocs.2023.102120",
+      "year": 2023,
+      "reference_count": 85,
+      "url": "https://doi.org/10.1016/j.jocs.2023.102120"
+    },
+    {
+      "title": "Stable weak-form physics-informed neural network with fixed random Fourier features for elliptic interface problems with discontinuous coefficients",
+      "doi": "10.1016/j.jocs.2026.102901",
+      "year": 2026,
+      "reference_count": 48,
+      "url": "https://doi.org/10.1016/j.jocs.2026.102901"
+    },
+    {
+      "title": "Physics-constrained neural networks as multi-material Riemann solvers for compressible two-gas simulations",
+      "doi": "10.1016/j.jocs.2024.102261",
+      "year": 2024,
+      "reference_count": 51,
+      "url": "https://doi.org/10.1016/j.jocs.2024.102261"
+    },
+    {
+      "title": "Physics-informed neural networks for microflows: Rarefied gas dynamics in cylinder arrays",
+      "doi": "10.1016/j.jocs.2025.102575",
+      "year": 2025,
+      "reference_count": 72,
+      "url": "https://doi.org/10.1016/j.jocs.2025.102575"
+    },
+    {
+      "title": "Energy dissipation preserving physics informed neural network for Allen–Cahn equations",
+      "doi": "10.1016/j.jocs.2025.102577",
+      "year": 2025,
+      "reference_count": 95,
+      "url": "https://doi.org/10.1016/j.jocs.2025.102577"
+    },
+    {
+      "title": "Solution of stress and deformation field and inversion of material parameter for gravity dams based on physics-informed neural networks",
+      "doi": "10.1016/j.jocs.2025.102613",
+      "year": 2025,
+      "reference_count": 63,
+      "url": "https://doi.org/10.1016/j.jocs.2025.102613"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "archive_compatible": true,
+  "calibration_sha256": "9a72b06c12ffd8f4d4fbf11d64d2bf22f71f80e2b60105f86fe98a36ce90d887",
+  "compatibility": {
+    "atol": 1e-07,
+    "backend_is_original_torch": true,
+    "checks": {
+      "ood_ids": {
+        "passed": true
+      },
+      "ood_persistence": {
+        "max_abs_difference": 5.960464477539063e-08,
+        "passed": true
+      },
+      "ood_uncalibrated": {
+        "max_abs_difference": 4.217028617858887e-06,
+        "passed": false
+      },
+      "test_ids": {
+        "passed": true
+      },
+      "test_persistence": {
+        "max_abs_difference": 2.9802322387695312e-08,
+        "passed": true
+      },
+      "test_uncalibrated": {
+        "max_abs_difference": 9.532086551189423e-07,
+        "passed": false
+      }
+    },
+    "data_exact_hashes": {
+      "development": true,
+      "test": true
+    },
+    "eligibility_rule": "Original Torch source, full counts, ordered IDs and normalization; either exact development/test archive NPZ hashes or successful numerical reference replay.",
+    "full_data": true,
+    "normalization": true,
+    "precision_note": "Exact input-data hashes establish common forecast targets even when CPU physical forecast arithmetic differs from the archived GPU reference. Reference discrepancies remain reported.",
+    "reference_replay_passed": false,
+    "rtol": 0.0001,
+    "scope": "Reference error curves and trajectory IDs are numerical replay checks. They do not establish bitwise trajectory identity.",
+    "status": "EXACT_DATA_HASH_REFERENCE_ROUNDING_DIFFERS"
+  },
+  "evaluation_sha256": "5339c76d2218acc56d44faffd381a45539b77b6f7cd812e8872f65134b3c5b7c",
+  "failed_trajectories": {
+    "ood_calibrated": 0,
+    "ood_uncalibrated": 0,
+    "test_calibrated": 0,
+    "test_uncalibrated": 0
+  },
+  "freeze_sha256": "04efb8030f73635200bfa878e243e94f452cf169d8e3ca4b9650fc42ada06f89",
+  "seconds": 0.3419979930004047,
+  "signature": "27480d28a79f9fb3c8eecb562010b80e7dcb9dfe708b28e45240624bc484b961"
+}

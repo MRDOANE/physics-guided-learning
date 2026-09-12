@@ -1,0 +1,23 @@
+test_development_and_confirmation_existing_equations_match (test_numerics.NumericalEquivalence.test_development_and_confirmation_existing_equations_match)
+The newer module must preserve the six original PDE baselines. ... ok
+test_full_wave_and_allen_cahn_datasets_match_archived_npz_hashes (test_numerics.NumericalEquivalence.test_full_wave_and_allen_cahn_datasets_match_archived_npz_hashes)
+Reconstruct full historical arrays with exactly the original key order. ... ok
+test_numpy_float64_pde_transitions_match_archived_torch (test_numerics.NumericalEquivalence.test_numpy_float64_pde_transitions_match_archived_torch)
+Catch a wrong equation, mask, forcing, ETD coefficient, or substep. ... ok
+test_parameter_adjustment_preserves_archived_float32_rounding (test_numerics.NumericalEquivalence.test_parameter_adjustment_preserves_archived_float32_rounding)
+Avoid a silent extra-precision factor or double application of bias. ... ok
+test_divergent_trajectory_remains_in_scoring (test_protocol.CalibrationProtocol.test_divergent_trajectory_remains_in_scoring) ... ok
+test_modified_calibration_cannot_unlock_test_evaluation (test_protocol.CalibrationProtocol.test_modified_calibration_cannot_unlock_test_evaluation) ... ok
+test_recovers_unknown_shared_coefficients_from_observed_transitions (test_protocol.CalibrationProtocol.test_recovers_unknown_shared_coefficients_from_observed_transitions) ... ok
+test_test_data_requires_a_frozen_manifest (test_protocol.CalibrationProtocol.test_test_data_requires_a_frozen_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 12.662s
+
+OK
+Development/confirmation: 144 two-step cases bitwise equal
+Exact archived NPZ: wave/development 86a11e237eec60dae2a8dc1c378f64c8b59600142678c59e883e1378415dab8f
+Exact archived NPZ: wave/test efc884c7a5022dadb57cc231f52bd76092dea94b4b9fa52b6e2c8a336ad24cfb
+Exact archived NPZ: allen_cahn/development 63a0ea66c2e57d0e2f7227e5be4467645ef4147b2179315fd3c0f21482dea4dc
+Exact archived NPZ: allen_cahn/test eef315cad121649195cb8a67c8f9be5330d2699c7a5657879fa9e48ec281533f
+NumPy/PyTorch: 96 four-step cases; max absolute difference 5.08e-15

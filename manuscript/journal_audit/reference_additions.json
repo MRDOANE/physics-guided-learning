@@ -1,0 +1,106 @@
+[
+  {
+    "key": "ljung2010identification",
+    "title": "Perspectives on system identification",
+    "authors": [
+      "Lennart Ljung"
+    ],
+    "year": 2010,
+    "venue": "Annual Reviews in Control",
+    "volume": "34",
+    "issue": "1",
+    "pages": "1-12",
+    "doi": "10.1016/j.arcontrol.2009.12.001",
+    "url": "https://doi.org/10.1016/j.arcontrol.2009.12.001",
+    "publication_status": "published",
+    "bibtex_type": "article",
+    "relevance_note": "Established fitting of dynamical-system models from observed input-output data. Cite when introducing physical coefficient fitting; this baseline is an application of system identification, not a new parameter-estimation method.",
+    "verified_sources": [
+      "https://doi.org/10.1016/j.arcontrol.2009.12.001",
+      "https://isy.gitlab-pages.liu.se/staff/lenlj48/seoul2dvinew/plenary2.pdf"
+    ],
+    "verification": "Crossref publisher-deposited metadata; primary publisher/author/project page checked at the level described in JOURNAL_AUDIT.md",
+    "checked_on": "2026-09-12"
+  },
+  {
+    "key": "brynjarsdottir2014discrepancy",
+    "title": "Learning about physical parameters: the importance of model discrepancy",
+    "authors": [
+      "Jenný Brynjarsdóttir",
+      "Anthony O'Hagan"
+    ],
+    "year": 2014,
+    "venue": "Inverse Problems",
+    "volume": "30",
+    "issue": "11",
+    "pages": "114007",
+    "doi": "10.1088/0266-5611/30/11/114007",
+    "url": "https://doi.org/10.1088/0266-5611/30/11/114007",
+    "publication_status": "published",
+    "bibtex_type": "article",
+    "relevance_note": "Distinguishes uncertainty in physical parameters from errors in the simulator form. Use to qualify parameter interpretation when equation terms are omitted; do not describe the present least-squares procedure as Bayesian calibration.",
+    "verified_sources": [
+      "https://doi.org/10.1088/0266-5611/30/11/114007",
+      "https://www.tonyohagan.co.uk/academic/pub.html"
+    ],
+    "verification": "Crossref publisher-deposited metadata; primary publisher/author/project page checked at the level described in JOURNAL_AUDIT.md",
+    "checked_on": "2026-09-12"
+  },
+  {
+    "key": "virtanen2020scipy",
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "authors": [
+      "Pauli Virtanen",
+      "Ralf Gommers",
+      "Travis E. Oliphant",
+      "Matt Haberland",
+      "Tyler Reddy",
+      "David Cournapeau",
+      "Evgeni Burovski",
+      "Pearu Peterson",
+      "Warren Weckesser",
+      "Jonathan Bright",
+      "Stéfan J. van der Walt",
+      "Matthew Brett",
+      "Joshua Wilson",
+      "K. Jarrod Millman",
+      "Nikolay Mayorov",
+      "Andrew R. J. Nelson",
+      "Eric Jones",
+      "Robert Kern",
+      "Eric Larson",
+      "C J Carey",
+      "İlhan Polat",
+      "Yu Feng",
+      "Eric W. Moore",
+      "Jake VanderPlas",
+      "Denis Laxalde",
+      "Josef Perktold",
+      "Robert Cimrman",
+      "Ian Henriksen",
+      "E. A. Quintero",
+      "Charles R. Harris",
+      "Anne M. Archibald",
+      "Antônio H. Ribeiro",
+      "Fabian Pedregosa",
+      "Paul van Mulbregt",
+      "SciPy 1.0 Contributors"
+    ],
+    "year": 2020,
+    "venue": "Nature Methods",
+    "volume": "17",
+    "issue": "3",
+    "pages": "261-272",
+    "doi": "10.1038/s41592-019-0686-2",
+    "url": "https://doi.org/10.1038/s41592-019-0686-2",
+    "publication_status": "published",
+    "bibtex_type": "article",
+    "relevance_note": "Credits SciPy, whose bounded least_squares optimizer is used in the calibration implementation.",
+    "verified_sources": [
+      "https://doi.org/10.1038/s41592-019-0686-2",
+      "https://scipy.org/citing-scipy/"
+    ],
+    "verification": "Crossref publisher-deposited metadata; primary publisher/author/project page checked at the level described in JOURNAL_AUDIT.md",
+    "checked_on": "2026-09-12"
+  }
+]

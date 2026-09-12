@@ -1,0 +1,375 @@
+Verified existing release; saved outputs and environment are preserved.
+Existing PyTorch: 2.8.0+cpu | CPU execution is supported
+Running profile=full | backend=torch | jobs=4 | threads=1 | timing=cpu
+DATA development/advection_diffusion/development: 0.5 s; exact archive hash=True
+DATA development/allen_cahn/development: 1.6 s; exact archive hash=True
+DATA development/burgers/development: 1.7 s; exact archive hash=True
+DATA development/gray_scott/development: 2.3 s; exact archive hash=True
+DATA development/ks/development: 1.8 s; exact archive hash=True
+DATA development/wave/development: 2.1 s; exact archive hash=True
+DATA resolution_g32/advection_diffusion/development: 0.6 s; exact archive hash=True
+DATA resolution_g32/allen_cahn/development: 1.6 s; exact archive hash=True
+DATA resolution_g32/wave/development: 1.9 s; exact archive hash=True
+DATA resolution_g64/advection_diffusion/development: 0.7 s; exact archive hash=True
+DATA resolution_g64/allen_cahn/development: 1.9 s; exact archive hash=True
+DATA resolution_g64/wave/development: 4.3 s; exact archive hash=True
+DATA selector_g64/cahn_hilliard/development: 2.5 s; exact archive hash=True
+DATA selector_g64/fitzhugh_nagumo/development: 3.0 s; exact archive hash=True
+CALIBRATION development__advection_diffusion__correct: 0.4 s
+CALIBRATION development__allen_cahn__correct: 0.5 s
+CALIBRATION development__advection_diffusion__coefficient: 0.6 s
+CALIBRATION development__allen_cahn__coefficient: 0.7 s
+CALIBRATION development__burgers__correct: 0.7 s
+CALIBRATION development__burgers__coefficient: 0.8 s
+CALIBRATION development__gray_scott__correct: 0.8 s
+CALIBRATION development__ks__correct: 0.6 s
+CALIBRATION development__gray_scott__coefficient: 1.2 s
+CALIBRATION development__ks__coefficient: 0.9 s
+CALIBRATION development__wave__correct: 0.4 s
+CALIBRATION development__wave__coefficient: 0.7 s
+CALIBRATION resolution_g32__advection_diffusion__correct: 0.4 s
+CALIBRATION resolution_g32__advection_diffusion__coefficient: 0.5 s
+CALIBRATION resolution_g32__allen_cahn__correct: 0.5 s
+CALIBRATION resolution_g32__allen_cahn__coefficient: 0.6 s
+CALIBRATION resolution_g32__wave__correct: 0.5 s
+CALIBRATION resolution_g32__wave__coefficient: 0.6 s
+CALIBRATION resolution_g64__advection_diffusion__correct: 0.5 s
+CALIBRATION resolution_g64__advection_diffusion__coefficient: 0.8 s
+CALIBRATION resolution_g64__allen_cahn__correct: 0.7 s
+CALIBRATION resolution_g64__allen_cahn__coefficient: 0.9 s
+CALIBRATION resolution_g64__wave__correct: 1.0 s
+CALIBRATION selector_g64__cahn_hilliard__correct: 0.9 s
+CALIBRATION selector_g64__cahn_hilliard__coefficient: 1.2 s
+CALIBRATION resolution_g64__wave__coefficient: 1.4 s
+CALIBRATION selector_g64__fitzhugh_nagumo__correct: 1.3 s
+CALIBRATION selector_g64__fitzhugh_nagumo__coefficient: 1.7 s
+CALIBRATION selector_g64__cahn_hilliard__structural: 2.0 s
+CALIBRATION selector_g64__fitzhugh_nagumo__structural: 1.9 s
+FROZEN: every requested calibration and validation selection. Held-out evaluation unlocked.
+DATA development/advection_diffusion/test: 0.6 s; exact archive hash=True
+DATA development/allen_cahn/test: 1.4 s; exact archive hash=True
+DATA development/burgers/test: 1.7 s; exact archive hash=True
+DATA development/gray_scott/test: 2.2 s; exact archive hash=True
+DATA development/ks/test: 1.7 s; exact archive hash=True
+DATA development/wave/test: 1.4 s; exact archive hash=True
+DATA resolution_g32/advection_diffusion/test: 0.4 s; exact archive hash=True
+DATA resolution_g32/allen_cahn/test: 1.5 s; exact archive hash=True
+DATA resolution_g32/wave/test: 1.5 s; exact archive hash=True
+DATA resolution_g64/advection_diffusion/test: 0.5 s; exact archive hash=True
+DATA resolution_g64/allen_cahn/test: 1.6 s; exact archive hash=True
+DATA resolution_g64/wave/test: 3.5 s; exact archive hash=True
+DATA selector_g64/cahn_hilliard/test: 1.7 s; exact archive hash=True
+DATA selector_g64/fitzhugh_nagumo/test: 2.6 s; exact archive hash=True
+EVALUATED development__advection_diffusion__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.2 s
+EVALUATED development__advection_diffusion__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.2 s
+EVALUATED development__allen_cahn__coefficient: archive=EXACT_DATA_HASH_REFERENCE_ROUNDING_DIFFERS; 0.4 s
+EVALUATED development__allen_cahn__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.3 s
+EVALUATED development__burgers__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED development__burgers__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.3 s
+EVALUATED development__gray_scott__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED development__gray_scott__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED development__ks__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED development__ks__correct: archive=EXACT_DATA_HASH_REFERENCE_ROUNDING_DIFFERS; 0.4 s
+EVALUATED development__wave__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.3 s
+EVALUATED development__wave__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.2 s
+EVALUATED resolution_g32__advection_diffusion__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.2 s
+EVALUATED resolution_g32__advection_diffusion__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.2 s
+EVALUATED resolution_g32__allen_cahn__coefficient: archive=EXACT_DATA_HASH_REFERENCE_ROUNDING_DIFFERS; 0.3 s
+EVALUATED resolution_g32__allen_cahn__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.3 s
+EVALUATED resolution_g32__wave__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.3 s
+EVALUATED resolution_g32__wave__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.3 s
+EVALUATED resolution_g64__advection_diffusion__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.3 s
+EVALUATED resolution_g64__advection_diffusion__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.3 s
+EVALUATED resolution_g64__allen_cahn__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED resolution_g64__allen_cahn__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED resolution_g64__wave__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED resolution_g64__wave__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED selector_g64__cahn_hilliard__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED selector_g64__cahn_hilliard__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.5 s
+EVALUATED selector_g64__cahn_hilliard__structural: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.4 s
+EVALUATED selector_g64__fitzhugh_nagumo__coefficient: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.5 s
+EVALUATED selector_g64__fitzhugh_nagumo__correct: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.5 s
+EVALUATED selector_g64__fitzhugh_nagumo__structural: archive=EXACT_DATA_HASH_AND_NUMERICAL_REPLAY; 0.6 s
+TIMING development__advection_diffusion__coefficient: cpu
+TIMING development__advection_diffusion__correct: cpu
+TIMING development__allen_cahn__coefficient: cpu
+TIMING development__allen_cahn__correct: cpu
+TIMING development__burgers__coefficient: cpu
+TIMING development__burgers__correct: cpu
+TIMING development__gray_scott__coefficient: cpu
+TIMING development__gray_scott__correct: cpu
+TIMING development__ks__coefficient: cpu
+TIMING development__ks__correct: cpu
+TIMING development__wave__coefficient: cpu
+TIMING development__wave__correct: cpu
+TIMING resolution_g32__advection_diffusion__coefficient: cpu
+TIMING resolution_g32__advection_diffusion__correct: cpu
+TIMING resolution_g32__allen_cahn__coefficient: cpu
+TIMING resolution_g32__allen_cahn__correct: cpu
+TIMING resolution_g32__wave__coefficient: cpu
+TIMING resolution_g32__wave__correct: cpu
+TIMING resolution_g64__advection_diffusion__coefficient: cpu
+TIMING resolution_g64__advection_diffusion__correct: cpu
+TIMING resolution_g64__allen_cahn__coefficient: cpu
+TIMING resolution_g64__allen_cahn__correct: cpu
+TIMING resolution_g64__wave__coefficient: cpu
+TIMING resolution_g64__wave__correct: cpu
+TIMING selector_g64__cahn_hilliard__coefficient: cpu
+TIMING selector_g64__cahn_hilliard__correct: cpu
+TIMING selector_g64__cahn_hilliard__structural: cpu
+TIMING selector_g64__fitzhugh_nagumo__coefficient: cpu
+TIMING selector_g64__fitzhugh_nagumo__correct: cpu
+TIMING selector_g64__fitzhugh_nagumo__structural: cpu
+
+CALIBRATED PHYSICS RESULTS
+COMPLETION: GREEN | 30/30 settings verified
+Scientific evidence: EXPLORATORY_COMPLETED_SETTINGS
+No minimum improvement requirement; no required count of successful systems.
+GREEN=lower candidate error | YELLOW=inconclusive | RED=higher candidate error | BLUE=identical scores
+advection_diffusion/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g32 test H64 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+advection_diffusion/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g32 test H96 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+advection_diffusion/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g32 ood H64 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+advection_diffusion/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g32 ood H96 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+advection_diffusion/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g32 test H64 | CALIBRATED vs uncalibrated | RED | MSE reduction -100% [95% CI -222.5, -24.66]
+allen_cahn/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g32 test H96 | CALIBRATED vs uncalibrated | RED | MSE reduction -111% [95% CI -216.9, -39.3]
+allen_cahn/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g32 ood H64 | CALIBRATED vs uncalibrated | RED | MSE reduction -15.31% [95% CI -28.9, -4.909]
+allen_cahn/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g32 ood H96 | CALIBRATED vs uncalibrated | RED | MSE reduction -31.33% [95% CI -51.29, -15.66]
+allen_cahn/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/correct g32 test H64 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+burgers/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/correct g32 test H96 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+burgers/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/correct g32 ood H64 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+burgers/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+burgers/correct g32 ood H96 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+burgers/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/correct g32 test H64 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction -3.136% [95% CI -16.01, 9.21]
+gray_scott/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/correct g32 test H96 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction -6.694% [95% CI -20.3, 6.237]
+gray_scott/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/correct g32 ood H64 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction 1.247% [95% CI -7.797, 10.46]
+gray_scott/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+gray_scott/correct g32 ood H96 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction 0.6242% [95% CI -13.23, 13.58]
+gray_scott/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+ks/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+ks/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+ks/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+ks/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 99.99, 100]
+ks/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+ks/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+ks/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 99.99% [95% CI 99.99, 100]
+ks/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 99.99% [95% CI 99.98, 100]
+ks/correct g32 test H64 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction 25.57% [95% CI -38.21, 51.59]
+ks/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+ks/correct g32 test H96 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction 15.68% [95% CI -26.9, 38.19]
+ks/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 99.99% [95% CI 99.99, 100]
+ks/correct g32 ood H64 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction -1.167% [95% CI -7.01, 5.53]
+ks/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+ks/correct g32 ood H96 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction 7.742% [95% CI -3.698, 18.99]
+ks/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 99.99% [95% CI 99.98, 100]
+wave/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 49.54% [95% CI 47.71, 51.89]
+wave/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 50.05% [95% CI 48.13, 52.52]
+wave/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 19.7% [95% CI 19, 20.6]
+wave/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 19.57% [95% CI 18.89, 20.46]
+wave/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g32 test H64 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+advection_diffusion/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g32 test H96 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+advection_diffusion/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g32 ood H64 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+advection_diffusion/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g32 ood H96 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+advection_diffusion/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g32 test H64 | CALIBRATED vs uncalibrated | RED | MSE reduction -154.3% [95% CI -235.5, -85.62]
+allen_cahn/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g32 test H96 | CALIBRATED vs uncalibrated | RED | MSE reduction -194.9% [95% CI -279.4, -122.3]
+allen_cahn/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g32 ood H64 | CALIBRATED vs uncalibrated | RED | MSE reduction -10.21% [95% CI -21.04, -1.741]
+allen_cahn/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g32 ood H96 | CALIBRATED vs uncalibrated | RED | MSE reduction -24.25% [95% CI -39.59, -11.5]
+allen_cahn/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g32 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 46.44% [95% CI 45.06, 48.45]
+wave/correct g32 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g32 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 46.94% [95% CI 45.43, 49.12]
+wave/correct g32 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g32 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 20.46% [95% CI 19.8, 21.23]
+wave/correct g32 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g32 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 20.24% [95% CI 19.61, 20.98]
+wave/correct g32 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g64 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g64 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g64 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g64 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/coefficient g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g64 test H64 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction -0.3182% [95% CI -1.163, 0.04125]
+advection_diffusion/correct g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g64 test H96 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction -0.772% [95% CI -2.847, 0.1004]
+advection_diffusion/correct g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g64 ood H64 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction -3.435% [95% CI -10.44, 0.6013]
+advection_diffusion/correct g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+advection_diffusion/correct g64 ood H96 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction -2.298% [95% CI -8.646, 2.136]
+advection_diffusion/correct g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g64 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g64 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g64 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g64 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/coefficient g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g64 test H64 | CALIBRATED vs uncalibrated | RED | MSE reduction -172.7% [95% CI -270.4, -94.52]
+allen_cahn/correct g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g64 test H96 | CALIBRATED vs uncalibrated | RED | MSE reduction -249.8% [95% CI -365.4, -158.9]
+allen_cahn/correct g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g64 ood H64 | CALIBRATED vs uncalibrated | RED | MSE reduction -11.39% [95% CI -23.79, -2.04]
+allen_cahn/correct g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+allen_cahn/correct g64 ood H96 | CALIBRATED vs uncalibrated | RED | MSE reduction -28.18% [95% CI -46.63, -13.75]
+allen_cahn/correct g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g64 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g64 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g64 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g64 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/coefficient g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g64 test H64 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction 4.23% [95% CI -6.984, 13.93]
+wave/correct g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g64 test H96 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction 5.853% [95% CI -3.29, 13.38]
+wave/correct g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g64 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 6.496% [95% CI 2.797, 9.968]
+wave/correct g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+wave/correct g64 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 9% [95% CI 6.705, 11.15]
+wave/correct g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/coefficient g64 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/coefficient g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/coefficient g64 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/coefficient g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/coefficient g64 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/coefficient g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/coefficient g64 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/coefficient g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/correct g64 test H64 | CALIBRATED vs uncalibrated | YELLOW | MSE reduction 10.13% [95% CI -2.022, 22.71]
+cahn_hilliard/correct g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/correct g64 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 13.76% [95% CI 0.3033, 27.64]
+cahn_hilliard/correct g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/correct g64 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 9.731% [95% CI 1.286, 18.7]
+cahn_hilliard/correct g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/correct g64 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 9.854% [95% CI 0.9705, 18.96]
+cahn_hilliard/correct g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+cahn_hilliard/structural g64 test H64 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+cahn_hilliard/structural g64 test H64 | CALIBRATED vs validation_best_neural | RED | MSE reduction -5.692e+05% [95% CI -7.944e+05, -3.827e+05]
+cahn_hilliard/structural g64 test H96 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+cahn_hilliard/structural g64 test H96 | CALIBRATED vs validation_best_neural | RED | MSE reduction -3.034e+06% [95% CI -5.113e+06, -1.563e+06]
+cahn_hilliard/structural g64 ood H64 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+cahn_hilliard/structural g64 ood H64 | CALIBRATED vs validation_best_neural | RED | MSE reduction -3.637e+04% [95% CI -6.756e+04, -2.391e+04]
+cahn_hilliard/structural g64 ood H96 | CALIBRATED vs uncalibrated | BLUE | MSE reduction 0% [95% CI 0, 0]
+cahn_hilliard/structural g64 ood H96 | CALIBRATED vs validation_best_neural | RED | MSE reduction -2.244e+05% [95% CI -4.402e+05, -1.389e+05]
+fitzhugh_nagumo/coefficient g64 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/coefficient g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/coefficient g64 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/coefficient g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/coefficient g64 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/coefficient g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/coefficient g64 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/coefficient g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/correct g64 test H64 | CALIBRATED vs uncalibrated | RED | MSE reduction -14.07% [95% CI -19.46, -9.274]
+fitzhugh_nagumo/correct g64 test H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/correct g64 test H96 | CALIBRATED vs uncalibrated | RED | MSE reduction -10.98% [95% CI -16.29, -6.31]
+fitzhugh_nagumo/correct g64 test H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/correct g64 ood H64 | CALIBRATED vs uncalibrated | RED | MSE reduction -10.37% [95% CI -14.33, -6.415]
+fitzhugh_nagumo/correct g64 ood H64 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/correct g64 ood H96 | CALIBRATED vs uncalibrated | RED | MSE reduction -10.75% [95% CI -14.96, -6.465]
+fitzhugh_nagumo/correct g64 ood H96 | CALIBRATED vs validation_best_neural | GREEN | MSE reduction 100% [95% CI 100, 100]
+fitzhugh_nagumo/structural g64 test H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 7.917% [95% CI 6.796, 9.25]
+fitzhugh_nagumo/structural g64 test H64 | CALIBRATED vs validation_best_neural | RED | MSE reduction -2.96e+05% [95% CI -4.492e+05, -2.096e+05]
+fitzhugh_nagumo/structural g64 test H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 7.051% [95% CI 6.078, 8.269]
+fitzhugh_nagumo/structural g64 test H96 | CALIBRATED vs validation_best_neural | RED | MSE reduction -6.922e+05% [95% CI -1.041e+06, -4.988e+05]
+fitzhugh_nagumo/structural g64 ood H64 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 7.932% [95% CI 6.571, 9.425]
+fitzhugh_nagumo/structural g64 ood H64 | CALIBRATED vs validation_best_neural | RED | MSE reduction -3.09e+04% [95% CI -5.817e+04, -1.971e+04]
+fitzhugh_nagumo/structural g64 ood H96 | CALIBRATED vs uncalibrated | GREEN | MSE reduction 7.786% [95% CI 6.349, 9.402]
+fitzhugh_nagumo/structural g64 ood H96 | CALIBRATED vs validation_best_neural | RED | MSE reduction -6.483e+04% [95% CI -1.119e+05, -4.254e+04]
+TIME: elapsed 85.41 s; calibration 9.179 s; data 48.8 s; evaluation 10.63 s.
+Intervals are exploratory, pointwise, and conditional on the fitted solver; no multiplicity adjustment.
+NOTICE: development__allen_cahn__coefficient: exact development/test data hashes establish shared targets; CPU/GPU physical-reference rounding differences remain recorded
+NOTICE: development__ks__correct: exact development/test data hashes establish shared targets; CPU/GPU physical-reference rounding differences remain recorded
+NOTICE: resolution_g32__allen_cahn__coefficient: exact development/test data hashes establish shared targets; CPU/GPU physical-reference rounding differences remain recorded
+Reports: /workspace/scratch/696361fa56a2/calibration_work/final_cpu_run/reports/report.md and /workspace/scratch/696361fa56a2/calibration_work/final_cpu_run/reports/report.json
+Results ZIP: /workspace/scratch/696361fa56a2/calibration_work/final_cpu_run/full_results.zip

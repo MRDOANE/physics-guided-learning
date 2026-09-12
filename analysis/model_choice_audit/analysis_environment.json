@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "purpose": "Saved-error reanalysis only; historical training hardware is recorded separately.",
+  "neural_training_performed": false,
+  "new_gpu_benchmark_run": false
+}

@@ -1,0 +1,5 @@
+Coefficient calibration reverses the primary neural advantage in eight PDE families.
+Neural forecasts remain more accurate in both tested missing-term systems.
+Validation selects physics for complete equations and neural models for omissions.
+Calibrated physics executes faster in all 30 matched CPU implementation comparisons.
+Physical supervision helps some neural forecasts and substantially harms others.

@@ -1,0 +1,23 @@
+{
+  "archive_generation_threads": 8,
+  "backend": "torch",
+  "exact_archive_npz_hash": true,
+  "generation_seconds": 3.5203991340022185,
+  "original_description": {
+    "burn_in": 24,
+    "counts": {
+      "ood": 64,
+      "test": 64
+    },
+    "family": "wave",
+    "grid": 64,
+    "phase": "test",
+    "seed": 26110937,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "original_sha256": "efc884c7a5022dadb57cc231f52bd76092dea94b4b9fa52b6e2c8a336ad24cfb",
+  "sha256": "efc884c7a5022dadb57cc231f52bd76092dea94b4b9fa52b6e2c8a336ad24cfb",
+  "signature": "156d815f2548d1cfc685fe2d0140285a346e6c7748706a7977cb7c1607ad0af7",
+  "smoke": false
+}

@@ -1,0 +1,46 @@
+  3,525 manifest entries checked; extra files are allowed.
+MANIFEST: GREEN
+  development: 864/864 candidate evaluation files checked.
+DEVELOPMENT EVIDENCE: GREEN
+  g32: 144/144 candidate evaluation files checked.
+  g64: 144/144 candidate evaluation files checked.
+  g64: 432/432 candidate evaluation files checked.
+CONFIRMATION EVIDENCE: GREEN
+DEVELOPMENT DATA LINK: GREEN
+  108 frozen target decisions replayed; refitted policy choices checked.
+  Coefficients may have harmless floating-point differences across NumPy/BLAS versions.
+SELECTOR REPLAY: GREEN
+
+RELEASE INTEGRITY: GREEN | 17,809 checks passed; 0 errors
+Integrity describes file consistency. Scientific support is reported separately below.
+No model was trained; uncertainty estimates were read from the archived report.
+
+ARCHIVED CONFIRMATION REPORT
+PHYSICS CONFIRMATION RESULTS
+COMPLETION: GREEN | 720/720 requested candidate records verified
+Requested stages: resolution, selector
+Full-package coverage: 720/720 (unrequested stages are optional).
+Scientific evidence: ELIGIBLE_COMPLETED_STAGES
+No minimum improvement requirement; no required count of successful systems.
+GREEN=support | YELLOW=inconclusive | RED=opposite direction | NOT_EVALUATED=not scientific evidence.
+RESOLUTION wave/correct | GREEN | expected benefit | MSE reduction +35.32% [95% CI +27.43, +44.22] | Holm p=0.0003
+RESOLUTION wave/coefficient | GREEN | expected harm | MSE reduction -210.94% [95% CI -268.13, -157.95] | Holm p=0.0003
+RESOLUTION advection_diffusion/correct | GREEN | expected benefit | MSE reduction +24.64% [95% CI +7.51, +43.01] | Holm p=0.0241
+RESOLUTION advection_diffusion/coefficient | GREEN | expected harm | MSE reduction -240.88% [95% CI -316.05, -179.96] | Holm p=0.0003
+RESOLUTION allen_cahn/correct | GREEN | expected benefit | MSE reduction +83.22% [95% CI +80.66, +85.52] | Holm p=0.0003
+RESOLUTION allen_cahn/coefficient | GREEN | expected benefit | MSE reduction +75.30% [95% CI +69.94, +79.81] | Holm p=0.0003
+SELECTOR vs none | YELLOW | MSE reduction +2.34% [95% CI -4.67, +8.83] | Holm p=0.5105
+SELECTOR vs probe_best | GREEN | MSE reduction +19.01% [95% CI +13.70, +23.72] | Holm p=0.0001
+COST none: estimated target route 36.10 s (mean; measured components)
+COST smooth: estimated target route 65.92 s (mean; measured components)
+COST probe_best: estimated target route 70.75 s (mean; measured components)
+COST best_fixed: estimated target route 47.52 s (mean; measured components)
+COST original_ridge: estimated target route 65.82 s (mean; measured components)
+COST guarded: estimated target route 64.71 s (mean; measured components)
+TIME: training/validation 10.612 h; CPU data+audits 0.012 h; elapsed 11.067 h.
+Training failures retained in scoring: 0.
+Scientific labels describe evidence, not publication eligibility. Mixed results can support a useful paper.
+/workspace/physics_confirmation_v2/outputs/full/reports/report.json
+Estimated Pod compute cost at your supplied rate: $5.53; storage/idle time excluded.
+HISTORICAL DEVELOPMENT: 13.70 prior hours, reused; not added to this run's bill.
+Historical development labels retain their original exploratory rules; see docs before interpreting them.

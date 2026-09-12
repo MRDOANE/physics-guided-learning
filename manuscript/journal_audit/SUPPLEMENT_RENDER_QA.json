@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "docx_sha256": "7f8a1cbdc15ff61c4b432cc00c0aa8135e8e9a25267118507bb73013ce28c6a6",
+  "pdf_sha256": "3575c95cd3e3dd6ff4828cd21aa422697a25c05265e45bd77a8198a44e361ff5",
+  "page_count": 20,
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "checks": {
+    "native_equations_legible": true,
+    "table_continuation_headers_repeat": true,
+    "S5_ratios_three_significant_figures": true,
+    "S9_test_set_header_unbroken": true,
+    "S9_means_and_intervals_separated": true,
+    "no_clipped_or_overlapping_content": true,
+    "figure_caption_pairing": true,
+    "headers_and_page_numbers_present": true
+  },
+  "open_issues": [],
+  "notes": "All twenty page PNGs were inspected at original resolution. S5 now shows 0.994 and 1.03 rather than rounding both to 1.0. S9 spans pages 14\u201318 with separate mean and interval lines and a repeated Test set header. Equations and figures remain readable."
+}

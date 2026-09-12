@@ -1,0 +1,23 @@
+{
+  "archive_generation_threads": 8,
+  "backend": "torch",
+  "exact_archive_npz_hash": true,
+  "generation_seconds": 1.7529756449985143,
+  "original_description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "ks",
+    "grid": 32,
+    "phase": "development",
+    "seed": 26091211,
+    "source_hash": "e74bb95889a1905c66a65463e628117bb57fd0041d2c24a4f8032aff3b6459ed",
+    "steps": 160
+  },
+  "original_sha256": "9fd489ef5142036aadcef8b9b57287a86405ea66a6168f15476058c2562f3585",
+  "sha256": "9fd489ef5142036aadcef8b9b57287a86405ea66a6168f15476058c2562f3585",
+  "signature": "8596bcb881164d562270311c179e291fab41a20d85551110dbb7a643308cf59d",
+  "smoke": false
+}

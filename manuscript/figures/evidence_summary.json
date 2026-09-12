@@ -1,0 +1,221 @@
+{
+  "provenance": {
+    "source_report_sha256": "098b03054a8f3aeb76f7136c8c0c32ac7769a002dc48eb896ad7031bbe87af97",
+    "source_report_file": "reports/report.json",
+    "source_schema_version": 1,
+    "python_plotting_only": true,
+    "new_fitting": false
+  },
+  "completion": "GREEN",
+  "n_settings": 30,
+  "n_families": 8,
+  "scientific_scope": "EXPLORATORY_COMPLETED_SETTINGS",
+  "uncertainty_scope": "Shared test trajectories and, for neural options, archived training seeds are resampled. The fitted physical solver and training dataset are held fixed; intervals omit calibration/training-data uncertainty.",
+  "statistical_scope": "Exploratory pointwise 95% paired bootstrap intervals; no multiplicity adjustment or global acceptance rule.",
+  "neural_selection_counts": {
+    "fno": 156
+  },
+  "validation_decisions_total": 156,
+  "validation_decisions_note": "Seed-specific choices reuse test trajectories, physical fits and physical families. These are not 156 independent scientific replications.",
+  "timing_summary": {
+    "physics_calibrated": {
+      "n_settings": 30,
+      "median_ms": 0.4513946,
+      "minimum_ms": 0.19987515,
+      "maximum_ms": 0.5907713,
+      "q25_ms": 0.2384381,
+      "q75_ms": 0.519917475
+    },
+    "fno": {
+      "n_settings": 30,
+      "median_ms": 0.6692328750000001,
+      "minimum_ms": 0.62470335,
+      "maximum_ms": 0.80950845,
+      "q25_ms": 0.6415283875,
+      "q75_ms": 0.7077837375
+    },
+    "transformer": {
+      "n_settings": 30,
+      "median_ms": 1.1596212,
+      "minimum_ms": 1.06387855,
+      "maximum_ms": 2.61293875,
+      "q25_ms": 1.0829216000000002,
+      "q75_ms": 2.4011672125
+    },
+    "looped": {
+      "n_settings": 30,
+      "median_ms": 1.170992725,
+      "minimum_ms": 1.0653798,
+      "maximum_ms": 2.68049335,
+      "q25_ms": 1.080459275,
+      "q75_ms": 2.375861525
+    }
+  },
+  "execution": {
+    "calibration_wall_seconds": 9.17900129100235,
+    "cost_excludes": "Storage, idle time, dependency installation, and previous neural training. Interrupted sessions before this checkpoint may be undercounted.",
+    "data_seconds": 48.80485049699928,
+    "elapsed_seconds": 85.41065822900055,
+    "evaluation_seconds": 10.630082441988634,
+    "new_neural_training": false,
+    "pod_hourly_rate": null,
+    "sessions": [
+      {
+        "calibration_wall_seconds": 9.17900129100235,
+        "data_seconds": 48.80485049699928,
+        "elapsed_seconds": 85.41065822900055,
+        "evaluation_seconds": 10.630082441988634,
+        "jobs": 4,
+        "threads": 1,
+        "timing_seconds": 16.29524379600116
+      }
+    ],
+    "timing_seconds": 16.29524379600116
+  },
+  "priors": {
+    "correct": {
+      "settings": 14,
+      "identity_retained": 3,
+      "selected_options": {
+        "uncalibrated": 16,
+        "calibrated": 56
+      },
+      "calibrated_vs_neural": {
+        "test_64": {
+          "GREEN": 14
+        },
+        "test_96": {
+          "GREEN": 14
+        },
+        "ood_64": {
+          "GREEN": 14
+        },
+        "ood_96": {
+          "GREEN": 14
+        }
+      },
+      "calibrated_vs_unchanged": {
+        "test_64": {
+          "BLUE": 3,
+          "RED": 4,
+          "YELLOW": 5,
+          "GREEN": 2
+        },
+        "test_96": {
+          "BLUE": 3,
+          "RED": 4,
+          "YELLOW": 4,
+          "GREEN": 3
+        },
+        "ood_64": {
+          "BLUE": 3,
+          "RED": 4,
+          "YELLOW": 3,
+          "GREEN": 4
+        },
+        "ood_96": {
+          "BLUE": 3,
+          "RED": 4,
+          "YELLOW": 3,
+          "GREEN": 4
+        }
+      }
+    },
+    "coefficient": {
+      "settings": 14,
+      "identity_retained": 0,
+      "selected_options": {
+        "calibrated": 72
+      },
+      "calibrated_vs_neural": {
+        "test_64": {
+          "GREEN": 14
+        },
+        "test_96": {
+          "GREEN": 14
+        },
+        "ood_64": {
+          "GREEN": 14
+        },
+        "ood_96": {
+          "GREEN": 14
+        }
+      },
+      "calibrated_vs_unchanged": {
+        "test_64": {
+          "GREEN": 14
+        },
+        "test_96": {
+          "GREEN": 14
+        },
+        "ood_64": {
+          "GREEN": 14
+        },
+        "ood_96": {
+          "GREEN": 14
+        }
+      }
+    },
+    "structural": {
+      "settings": 2,
+      "identity_retained": 1,
+      "selected_options": {
+        "neural": 12
+      },
+      "calibrated_vs_neural": {
+        "test_64": {
+          "RED": 2
+        },
+        "test_96": {
+          "RED": 2
+        },
+        "ood_64": {
+          "RED": 2
+        },
+        "ood_96": {
+          "RED": 2
+        }
+      },
+      "calibrated_vs_unchanged": {
+        "test_64": {
+          "BLUE": 1,
+          "GREEN": 1
+        },
+        "test_96": {
+          "BLUE": 1,
+          "GREEN": 1
+        },
+        "ood_64": {
+          "BLUE": 1,
+          "GREEN": 1
+        },
+        "ood_96": {
+          "BLUE": 1,
+          "GREEN": 1
+        }
+      }
+    }
+  },
+  "per_setting_calibration_seconds": {
+    "median": 0.7192007854991971,
+    "minimum": 0.3525699050005642,
+    "maximum": 2.0216149900006712
+  },
+  "correct_coefficient_caveat": "Calibration made small numerical changes when coefficients were correct. At 64 steps in-distribution, four settings had higher calibrated error with pointwise intervals excluding zero (all Allen\u2013Cahn stages and FitzHugh\u2013Nagumo). Absolute errors remained around 1e-12 to 1e-11. This prevents a claim that calibration always improves an already-correct solver.",
+  "parameter_access_audit": "runner.supplied_split copies provided trajectory parameters, applies the known distortion once, and passes only states/actions/supplied_params to fit_setting. fit_setting keeps this allow-list. No ground-truth parameter field enters calibration. The external benchmark generator necessarily knows the true coefficients. Test generation and evaluation require a freeze file covering all requested fits and validation choices.",
+  "structural_multipliers": {
+    "cahn_hilliard": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "fitzhugh_nagumo": [
+      1.7292829348611787,
+      0.9657605351204219,
+      1.3321434691881724
+    ]
+  },
+  "coefficient_multiplier_max_relative_deviation": 2.200015468867278e-05,
+  "correct_vs_neural_all_lower": true,
+  "calibrated_physics_faster_than_all_neural_in_each_setting": true
+}

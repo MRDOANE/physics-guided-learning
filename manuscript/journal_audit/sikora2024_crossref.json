@@ -1,0 +1,558 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          31
+        ]
+      ],
+      "date-time": "2026-08-31T23:31:47Z",
+      "timestamp": 1788219107559,
+      "version": "build-2803163510"
+    },
+    "reference-count": 23,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2024-09-01T00:00:00Z",
+          "timestamp": 1725148800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2024-09-01T00:00:00Z",
+          "timestamp": 1725148800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2024-09-01T00:00:00Z",
+          "timestamp": 1725148800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2024-09-01T00:00:00Z",
+          "timestamp": 1725148800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2024-09-01T00:00:00Z",
+          "timestamp": 1725148800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2024-09-01T00:00:00Z",
+          "timestamp": 1725148800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2024-09-01T00:00:00Z",
+          "timestamp": 1725148800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100007751",
+        "name": "AGH University of Krakow",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100007751",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Computational Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jocs.2024.102340",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2024-06-12T23:31:27Z",
+      "timestamp": 1718235087000
+    },
+    "page": "102340",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "special_numbering": "C",
+    "title": [
+      "Comparison of Physics Informed Neural Networks and Finite Element Method Solvers for advection-dominated diffusion problems"
+    ],
+    "prefix": "10.1016",
+    "volume": "81",
+    "author": [
+      {
+        "given": "Maciej",
+        "family": "Sikora",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patryk",
+        "family": "Krukowski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anna",
+        "family": "Paszyńska",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7766-6052",
+        "authenticated-orcid": false,
+        "given": "Maciej",
+        "family": "Paszyński",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jocs.2024.102340_b1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cma.2004.10.008",
+        "article-title": "Isogeometric analysis: CAD, finite elements, NURBS, exact geometry and mesh refinement",
+        "author": "Hughes",
+        "year": "2005",
+        "journal-title": "Comput. Methods Appl. Mech. Engrg."
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1016/j.matcom.2015.05.008",
+        "article-title": "Isogeometric analysis: An overview and computer implementation aspects",
+        "volume": "117",
+        "author": "Nguyen",
+        "year": "2015",
+        "journal-title": "Math. Comput. Simulation"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jocs.2024.102340_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "229",
+        "DOI": "10.1016/j.cma.2009.02.036",
+        "article-title": "Isogeometric analysis using T-splines",
+        "volume": "199",
+        "author": "Bazilevs",
+        "year": "2010",
+        "journal-title": "Comput. Methods Appl. Mech. Engrg."
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b4",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/0893-6080(89)90020-8",
+        "article-title": "Multilayer feedforward networks are universal approximators",
+        "author": "Hornik",
+        "year": "1989",
+        "journal-title": "Neural Netw."
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b5",
+        "article-title": "Neural ordinary differential equations",
+        "volume": "vol. 31",
+        "author": "Chen",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1016/j.neucom.2020.02.015",
+        "article-title": "Solving differential equations using deep neural networks",
+        "volume": "399",
+        "author": "Michoski",
+        "year": "2020",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b7",
+        "doi-asserted-by": "crossref",
+        "first-page": "186",
+        "DOI": "10.1016/j.camwa.2020.08.012",
+        "article-title": "A machine-learning minimal-residual (ML-MRes) framework for goal-oriented finite element discretizations",
+        "volume": "95",
+        "author": "Brevis",
+        "year": "2021",
+        "journal-title": "Comput. Math. Appl."
+      },
+      {
+        "issue": "12742",
+        "key": "10.1016/j.jocs.2024.102340_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "114",
+        "DOI": "10.1007/978-3-030-77961-0_11",
+        "article-title": "Deep learning driven self-adaptive hp finite element method",
+        "author": "Paszyński",
+        "year": "2021",
+        "journal-title": "Lecture Notes in Comput. Sci."
+      },
+      {
+        "issue": "378",
+        "key": "10.1016/j.jocs.2024.102340_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "686",
+        "DOI": "10.1016/j.jcp.2018.10.045",
+        "article-title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+        "author": "Raissi",
+        "year": "2019",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b10",
+        "series-title": "Variational physics-informed neural networks for solving partial differential equations",
+        "first-page": "1",
+        "author": "Kharazmi",
+        "year": "2019"
+      },
+      {
+        "issue": "374",
+        "key": "10.1016/j.jocs.2024.102340_b11",
+        "article-title": "hp-VPINNs: Variational physics-informed neural networks with domain decomposition",
+        "author": "Kharazmi",
+        "year": "2021",
+        "journal-title": "Comput. Methods Appl. Mech. Engrg."
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b12",
+        "series-title": "Error estimates of residual minimization using neural networks for linear PDEs",
+        "first-page": "1",
+        "author": "Shin",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b13",
+        "series-title": "Error estimates of residual minimization using neural networks for linear PDEs",
+        "first-page": "1",
+        "author": "Shin",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b14",
+        "series-title": "RAR-PINN algorithm for the data-driven vector-soliton solutions and parameter discovery of coupled nonlinear equations",
+        "first-page": "1",
+        "author": "Qin",
+        "year": "2022"
+      },
+      {
+        "issue": "37",
+        "key": "10.1016/j.jocs.2024.102340_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "3857",
+        "DOI": "10.1007/s00366-020-01253-y",
+        "article-title": "Parallel graph-grammar-based algorithm for the longest-edge refinement of triangular meshes and the pollution simulations in Lesser Poland area",
+        "author": "Podsiadło",
+        "year": "2021",
+        "journal-title": "Eng. Comput."
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "200",
+        "DOI": "10.1016/j.camwa.2020.11.013",
+        "article-title": "Isogeometric residual minimization (iGRM) for non-stationary Stokes and Navier–Stokes problems",
+        "volume": "95",
+        "author": "Łoś",
+        "year": "2021",
+        "journal-title": "Comput. Math. Appl."
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b17",
+        "series-title": "Shishkin meshes in the numerical solution of singularly perturbed differential equations",
+        "author": "Kopteva",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Chan, J.A. Evans, A Minimal-Residual Finite Element Method for the Convection–Diffusion Equations, ICES-REPORT (13–12), 2013.",
+        "DOI": "10.21236/ADA587495"
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b19",
+        "series-title": "Computational Science",
+        "first-page": "74",
+        "article-title": "Influence of activation functions on the convergence of physics-informed neural networks for 1D wave equation",
+        "author": "Maczuga",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b20",
+        "series-title": "Adam: A method for stochastic optimization",
+        "author": "Kingma",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jocs.2024.102340_b21",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1137/0728003",
+        "article-title": "Adaptive finite element methods for parabolic problems I: A linear model problem",
+        "volume": "28",
+        "author": "Eriksson",
+        "year": "1991",
+        "journal-title": "SIAM J. Numer. Anal."
+      },
+      {
+        "key": "10.1016/j.jocs.2024.102340_b22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cma.2020.113214",
+        "article-title": "Isogeometric Residual Minimization Method (iGRM) with direction splitting preconditioner for stationary advection-dominated diffusion problems",
+        "volume": "373",
+        "author": "Calo",
+        "year": "2021",
+        "journal-title": "Comput. Methods Appl. Mech. Engrg."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jocs.2024.102340_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1016/0045-7825(87)90125-3",
+        "article-title": "A new finite element formulation for computational fluid dynamics: VI. Convergence analysis of the generalized SUPG formulation for linear time-dependent multidimensional advective-diffusive systems",
+        "volume": "63",
+        "author": "Hughes",
+        "year": "1987",
+        "journal-title": "Comput. Methods Appl. Mech. Engrg."
+      }
+    ],
+    "container-title": [
+      "Journal of Computational Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1877750324001339?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1877750324001339?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2024-10-07T11:18:31Z",
+      "timestamp": 1728299911000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1877750324001339"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "references-count": 23,
+    "alternative-id": [
+      "S1877750324001339"
+    ],
+    "URL": "https://doi.org/10.1016/j.jocs.2024.102340",
+    "relation": {},
+    "ISSN": [
+      "1877-7503"
+    ],
+    "issn-type": [
+      {
+        "value": "1877-7503",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Comparison of Physics Informed Neural Networks and Finite Element Method Solvers for advection-dominated diffusion problems",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Computational Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jocs.2024.102340",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102340"
+  }
+}

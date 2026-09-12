@@ -1,0 +1,192 @@
+{
+  "artifact": "output/manuscript_revision/Physics_JOCS_Manuscript_Draft.docx",
+  "artifact_sha256": "e8b17e17c421d1a06bbc95490ef4929d37a771ba893c82dcd00720770d732720",
+  "pdf_sha256": "9ee47fd87beb8c4bc6021e3fd35f95df425e1be43bc0b0e28d30484e5dfee07d",
+  "page_count": 21,
+  "renderer": "documents/render_docx.py --emit_pdf",
+  "inspection": "Every final page PNG visually inspected at full available page resolution; tables, equations, figures, captions, running headers, page numbers, and reference wrapping reviewed.",
+  "status": "PASS",
+  "findings": [
+    "Table 1 remains complete on page 4.",
+    "Table 2 is complete on page 9; Grid header is no longer broken across lines.",
+    "Table 3 remains complete on page 12.",
+    "Table 4 is complete on page 14.",
+    "Equations 1\u20133 are readable with their numbers and intact mathematical glyphs.",
+    "Figures 1\u20133 are legible and remain paired with captions on pages 10, 13, and 15.",
+    "Final pagination is 21 pages. Page 21 contains the final three references.",
+    "No clipped text, overlaps, broken rows, missing image content, blank unintended page, or out-of-page words found."
+  ],
+  "remaining_author_actions": [
+    "Correspondence email, funding, and competing-interest text retain visible author-confirmation placeholders. These are drafting matters already identified by the parent workflow, separate from the layout check."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "words": 484,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 2,
+      "words": 538,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 3,
+      "words": 408,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 4,
+      "words": 473,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 5,
+      "words": 544,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 6,
+      "words": 504,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 7,
+      "words": 548,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 8,
+      "words": 520,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 9,
+      "words": 413,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 10,
+      "words": 268,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 11,
+      "words": 411,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 12,
+      "words": 197,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 13,
+      "words": 317,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 14,
+      "words": 347,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 15,
+      "words": 381,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 16,
+      "words": 572,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 17,
+      "words": 440,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 18,
+      "words": 375,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 19,
+      "words": 466,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 20,
+      "words": 501,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 21,
+      "words": 75,
+      "header_present": true,
+      "footer_present": true,
+      "out_of_page_word_count": 0,
+      "visual_status": "PASS"
+    }
+  ]
+}

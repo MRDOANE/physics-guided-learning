@@ -1,0 +1,36 @@
+{
+  "title": "Choosing between physical and neural forecasters with imperfect equations",
+  "abstract_words": 239,
+  "reference_count": 43,
+  "main_words_before_references": 6572,
+  "highlight_characters": [
+    84,
+    74,
+    82,
+    84,
+    80
+  ],
+  "docx_files": [
+    "02_Methods.docx",
+    "03_Results.docx",
+    "04_Discussion_and_Conclusions.docx",
+    "01_Abstract_and_Introduction.docx",
+    "Physics_JOCS_Supplement_Draft.docx",
+    "Physics_JOCS_Highlights.docx",
+    "Physics_JOCS_Manuscript_Draft.docx"
+  ],
+  "review_sections_have_tables": false,
+  "review_sections_have_captions": false,
+  "native_equations": true,
+  "final_pages": {
+    "main": 21,
+    "supplement": 20,
+    "abstract_introduction": 3,
+    "methods": 6,
+    "results": 3,
+    "discussion_conclusions": 2,
+    "highlights": 1
+  },
+  "portable_source_replay": "7/7 document bodies match exactly",
+  "visual_review": "PASS: all 56 final pages inspected"
+}

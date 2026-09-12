@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "records_verified": 1584,
+  "reference_caches_verified": 30,
+  "inventory": [
+    {
+      "stage": "development",
+      "grid": 32,
+      "records": 864,
+      "expected": 864,
+      "families": [
+        "advection_diffusion",
+        "allen_cahn",
+        "burgers",
+        "gray_scott",
+        "ks",
+        "wave"
+      ]
+    },
+    {
+      "stage": "resolution_g32",
+      "grid": 32,
+      "records": 144,
+      "expected": 144,
+      "families": [
+        "advection_diffusion",
+        "allen_cahn",
+        "wave"
+      ]
+    },
+    {
+      "stage": "resolution_g64",
+      "grid": 64,
+      "records": 144,
+      "expected": 144,
+      "families": [
+        "advection_diffusion",
+        "allen_cahn",
+        "wave"
+      ]
+    },
+    {
+      "stage": "selector_g64",
+      "grid": 64,
+      "records": 432,
+      "expected": 432,
+      "families": [
+        "cahn_hilliard",
+        "fitzhugh_nagumo"
+      ]
+    }
+  ],
+  "counts": {
+    "identical_cached_reference_arrays": 6336,
+    "neural_h64_test_nonfinite_steps": 0,
+    "neural_h64_test_cap_affected_trajectories": 0,
+    "neural_h96_test_nonfinite_steps": 0,
+    "neural_h96_test_cap_affected_trajectories": 7,
+    "neural_h64_ood_nonfinite_steps": 0,
+    "neural_h64_ood_cap_affected_trajectories": 0,
+    "neural_h96_ood_nonfinite_steps": 0,
+    "neural_h96_ood_cap_affected_trajectories": 83,
+    "mechanistic_h64_test_nonfinite_steps": 0,
+    "mechanistic_h64_test_cap_affected_trajectories": 0,
+    "mechanistic_h96_test_nonfinite_steps": 0,
+    "mechanistic_h96_test_cap_affected_trajectories": 0,
+    "mechanistic_h64_ood_nonfinite_steps": 0,
+    "mechanistic_h64_ood_cap_affected_trajectories": 0,
+    "mechanistic_h96_ood_nonfinite_steps": 0,
+    "mechanistic_h96_ood_cap_affected_trajectories": 0,
+    "persistence_h64_test_nonfinite_steps": 0,
+    "persistence_h64_test_cap_affected_trajectories": 0,
+    "persistence_h96_test_nonfinite_steps": 0,
+    "persistence_h96_test_cap_affected_trajectories": 0,
+    "persistence_h64_ood_nonfinite_steps": 0,
+    "persistence_h64_ood_cap_affected_trajectories": 0,
+    "persistence_h96_ood_nonfinite_steps": 0,
+    "persistence_h96_ood_cap_affected_trajectories": 0
+  },
+  "hardware": [
+    {
+      "cuda_runtime": "12.8",
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 3090 Ti",
+      "numpy": "2.1.2",
+      "python": "3.12.3",
+      "threads": 8,
+      "torch": "2.8.0+cu128",
+      "visible_gpus": 1
+    }
+  ],
+  "normalization": "State means/scales match exactly across every method and prior within each stage/equation.",
+  "pairing": "Unique trajectory IDs match in order across candidates; all embedded reference arrays exactly match their checked reference caches.",
+  "archived_contents": "Per-trajectory, per-step normalized squared errors; full predicted states and trained checkpoints are absent from this release.",
+  "physics_latency": "No separately measured physics-solver latency is stored. Reference caches have signature/hash only; evaluation_seconds mixes multiple operations.",
+  "training_performed": false,
+  "checkpoints_loaded": false
+}

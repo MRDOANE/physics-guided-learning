@@ -1,0 +1,212 @@
+[
+  {
+    "id": "development__advection_diffusion__coefficient",
+    "stage": "development",
+    "family": "advection_diffusion",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "development__advection_diffusion__correct",
+    "stage": "development",
+    "family": "advection_diffusion",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "development__allen_cahn__coefficient",
+    "stage": "development",
+    "family": "allen_cahn",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "development__allen_cahn__correct",
+    "stage": "development",
+    "family": "allen_cahn",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "development__burgers__coefficient",
+    "stage": "development",
+    "family": "burgers",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "development__burgers__correct",
+    "stage": "development",
+    "family": "burgers",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "development__gray_scott__coefficient",
+    "stage": "development",
+    "family": "gray_scott",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "development__gray_scott__correct",
+    "stage": "development",
+    "family": "gray_scott",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "development__ks__coefficient",
+    "stage": "development",
+    "family": "ks",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "development__ks__correct",
+    "stage": "development",
+    "family": "ks",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "development__wave__coefficient",
+    "stage": "development",
+    "family": "wave",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "development__wave__correct",
+    "stage": "development",
+    "family": "wave",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "resolution_g32__advection_diffusion__coefficient",
+    "stage": "resolution_g32",
+    "family": "advection_diffusion",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "resolution_g32__advection_diffusion__correct",
+    "stage": "resolution_g32",
+    "family": "advection_diffusion",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "resolution_g32__allen_cahn__coefficient",
+    "stage": "resolution_g32",
+    "family": "allen_cahn",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "resolution_g32__allen_cahn__correct",
+    "stage": "resolution_g32",
+    "family": "allen_cahn",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "resolution_g32__wave__coefficient",
+    "stage": "resolution_g32",
+    "family": "wave",
+    "prior": "coefficient",
+    "grid": 32
+  },
+  {
+    "id": "resolution_g32__wave__correct",
+    "stage": "resolution_g32",
+    "family": "wave",
+    "prior": "correct",
+    "grid": 32
+  },
+  {
+    "id": "resolution_g64__advection_diffusion__coefficient",
+    "stage": "resolution_g64",
+    "family": "advection_diffusion",
+    "prior": "coefficient",
+    "grid": 64
+  },
+  {
+    "id": "resolution_g64__advection_diffusion__correct",
+    "stage": "resolution_g64",
+    "family": "advection_diffusion",
+    "prior": "correct",
+    "grid": 64
+  },
+  {
+    "id": "resolution_g64__allen_cahn__coefficient",
+    "stage": "resolution_g64",
+    "family": "allen_cahn",
+    "prior": "coefficient",
+    "grid": 64
+  },
+  {
+    "id": "resolution_g64__allen_cahn__correct",
+    "stage": "resolution_g64",
+    "family": "allen_cahn",
+    "prior": "correct",
+    "grid": 64
+  },
+  {
+    "id": "resolution_g64__wave__coefficient",
+    "stage": "resolution_g64",
+    "family": "wave",
+    "prior": "coefficient",
+    "grid": 64
+  },
+  {
+    "id": "resolution_g64__wave__correct",
+    "stage": "resolution_g64",
+    "family": "wave",
+    "prior": "correct",
+    "grid": 64
+  },
+  {
+    "id": "selector_g64__cahn_hilliard__coefficient",
+    "stage": "selector_g64",
+    "family": "cahn_hilliard",
+    "prior": "coefficient",
+    "grid": 64
+  },
+  {
+    "id": "selector_g64__cahn_hilliard__correct",
+    "stage": "selector_g64",
+    "family": "cahn_hilliard",
+    "prior": "correct",
+    "grid": 64
+  },
+  {
+    "id": "selector_g64__cahn_hilliard__structural",
+    "stage": "selector_g64",
+    "family": "cahn_hilliard",
+    "prior": "structural",
+    "grid": 64
+  },
+  {
+    "id": "selector_g64__fitzhugh_nagumo__coefficient",
+    "stage": "selector_g64",
+    "family": "fitzhugh_nagumo",
+    "prior": "coefficient",
+    "grid": 64
+  },
+  {
+    "id": "selector_g64__fitzhugh_nagumo__correct",
+    "stage": "selector_g64",
+    "family": "fitzhugh_nagumo",
+    "prior": "correct",
+    "grid": 64
+  },
+  {
+    "id": "selector_g64__fitzhugh_nagumo__structural",
+    "stage": "selector_g64",
+    "family": "fitzhugh_nagumo",
+    "prior": "structural",
+    "grid": 64
+  }
+]

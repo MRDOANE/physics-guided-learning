@@ -1,0 +1,23 @@
+{
+  "archive_generation_threads": 8,
+  "backend": "torch",
+  "exact_archive_npz_hash": true,
+  "generation_seconds": 3.048778330998175,
+  "original_description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "fitzhugh_nagumo",
+    "grid": 64,
+    "phase": "development",
+    "seed": 26100931,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "original_sha256": "aa4b333dbec7dee9c6933a94e057e9be2ea88cacfd112f2efbcfe1b827ce5914",
+  "sha256": "aa4b333dbec7dee9c6933a94e057e9be2ea88cacfd112f2efbcfe1b827ce5914",
+  "signature": "99afed612975c2de776d5ac5af66c516085e7bfddb2e55d623ce616b60bde77d",
+  "smoke": false
+}

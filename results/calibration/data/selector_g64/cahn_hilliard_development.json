@@ -1,0 +1,23 @@
+{
+  "archive_generation_threads": 8,
+  "backend": "torch",
+  "exact_archive_npz_hash": true,
+  "generation_seconds": 2.480775623000227,
+  "original_description": {
+    "burn_in": 24,
+    "counts": {
+      "train": 128,
+      "val": 24
+    },
+    "family": "cahn_hilliard",
+    "grid": 64,
+    "phase": "development",
+    "seed": 26100931,
+    "source_hash": "36193f6b612ac63e1e0f8213ee5022119a389bfd15214928094037943cae37bb",
+    "steps": 160
+  },
+  "original_sha256": "8a73f88e65fe200af51b39c6789274e984752ff1d43ba411a4718a3eaa4f9d6d",
+  "sha256": "8a73f88e65fe200af51b39c6789274e984752ff1d43ba411a4718a3eaa4f9d6d",
+  "signature": "5646b1dec9df2d10645b8a787ab871305ddf1a3a2cf10dd55b1e3b7ff35adf25",
+  "smoke": false
+}

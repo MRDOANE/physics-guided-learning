@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this software release using its Zenodo version DOI once available."
+type: software
+title: "Perturbation structure and imperfect physics in neural PDE forecasting"
+version: 1.0.0
+authors:
+  - family-names: Doane
+    given-names: Michael
+    affiliation: "Independent Researcher, Cary, NC"
+license: MIT
+keywords:
+  - scientific machine learning
+  - physics-guided learning
+  - neural PDE forecasting
+  - data augmentation
+  - looped transformers
+  - model misspecification
+abstract: >-
+  Code and archived evaluation results for 864 development fits and 720
+  follow-up fits studying physics-generated training examples across eight
+  synthetic PDE systems. The study compares perturbation structure, physical
+  model mismatch, neural architecture, resolution, and augmentation selection.

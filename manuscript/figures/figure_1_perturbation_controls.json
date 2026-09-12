@@ -1,0 +1,163 @@
+{
+  "source": "evidence.json:development_mechanism",
+  "metric": "Geometric mean of paired MSE ratios; 64-step rollouts; correct prior",
+  "interval": "Bonferroni-adjusted bootstrap intervals across 24 development contrasts; per-contrast level 99.7916667%",
+  "rows": [
+    {
+      "family": "wave",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "iid",
+      "mse_ratio": 0.07939778512658992,
+      "ratio_confidence_interval": [
+        0.04907627809501913,
+        0.11370204843709418
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "burgers",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "iid",
+      "mse_ratio": 0.8459500769819331,
+      "ratio_confidence_interval": [
+        0.6855937583384334,
+        1.011185342103917
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "ks",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "iid",
+      "mse_ratio": 1.133271269563584,
+      "ratio_confidence_interval": [
+        0.8237108239443232,
+        1.5046597878711718
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "iid",
+      "mse_ratio": 0.9583564846304693,
+      "ratio_confidence_interval": [
+        0.6683045350017796,
+        1.882117850230415
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "iid",
+      "mse_ratio": 0.8637311581871507,
+      "ratio_confidence_interval": [
+        0.49414699854274907,
+        1.2391688828053076
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "gray_scott",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "iid",
+      "mse_ratio": 0.9395297269158198,
+      "ratio_confidence_interval": [
+        0.7844542271927835,
+        1.1435419493930377
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "wave",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "response_matched",
+      "mse_ratio": 0.43132557507894603,
+      "ratio_confidence_interval": [
+        0.32096956497320955,
+        0.5329777881785073
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "burgers",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "response_matched",
+      "mse_ratio": 0.7059796864653588,
+      "ratio_confidence_interval": [
+        0.4786674490032636,
+        0.967461712055033
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "ks",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "response_matched",
+      "mse_ratio": 1.1479490407648587,
+      "ratio_confidence_interval": [
+        0.7636037388938558,
+        1.5750154883597551
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "advection_diffusion",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "response_matched",
+      "mse_ratio": 0.9477944246685904,
+      "ratio_confidence_interval": [
+        0.6153505441941861,
+        2.0648486651503077
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "allen_cahn",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "response_matched",
+      "mse_ratio": 1.1104000732180526,
+      "ratio_confidence_interval": [
+        0.7963196999762953,
+        1.6342481504843924
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    },
+    {
+      "family": "gray_scott",
+      "prior": "correct",
+      "candidate": "smooth",
+      "baseline": "response_matched",
+      "mse_ratio": 0.8733280117545418,
+      "ratio_confidence_interval": [
+        0.759826016320566,
+        1.021899712533987
+      ],
+      "interval_level": 0.9979166666666667,
+      "multiplicity": 24
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "archive_generation_threads": 8,
+  "backend": "torch",
+  "bootstrap_replicates": 5000,
+  "coarse_solver": true,
+  "coefficient_bounds": [
+    0.001,
+    1000.0
+  ],
+  "confidence_intervals": "Paired pointwise percentile bootstrap; conditional on fitted calibration; no multiplicity adjustment.",
+  "environment": {
+    "backend": "torch",
+    "cuda_runtime": null,
+    "machine": "x86_64",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "threads": 1,
+    "torch": "2.8.0+cpu"
+  },
+  "jobs": [
+    {
+      "family": "advection_diffusion",
+      "grid": 32,
+      "id": "development__advection_diffusion__coefficient",
+      "prior": "coefficient",
+      "stage": "development"
+    },
+    {
+      "family": "advection_diffusion",
+      "grid": 32,
+      "id": "development__advection_diffusion__correct",
+      "prior": "correct",
+      "stage": "development"
+    },
+    {
+      "family": "allen_cahn",
+      "grid": 32,
+      "id": "development__allen_cahn__coefficient",
+      "prior": "coefficient",
+      "stage": "development"
+    },
+    {
+      "family": "allen_cahn",
+      "grid": 32,
+      "id": "development__allen_cahn__correct",
+      "prior": "correct",
+      "stage": "development"
+    },
+    {
+      "family": "burgers",
+      "grid": 32,
+      "id": "development__burgers__coefficient",
+      "prior": "coefficient",
+      "stage": "development"
+    },
+    {
+      "family": "burgers",
+      "grid": 32,
+      "id": "development__burgers__correct",
+      "prior": "correct",
+      "stage": "development"
+    },
+    {
+      "family": "gray_scott",
+      "grid": 32,
+      "id": "development__gray_scott__coefficient",
+      "prior": "coefficient",
+      "stage": "development"
+    },
+    {
+      "family": "gray_scott",
+      "grid": 32,
+      "id": "development__gray_scott__correct",
+      "prior": "correct",
+      "stage": "development"
+    },
+    {
+      "family": "ks",
+      "grid": 32,
+      "id": "development__ks__coefficient",
+      "prior": "coefficient",
+      "stage": "development"
+    },
+    {
+      "family": "ks",
+      "grid": 32,
+      "id": "development__ks__correct",
+      "prior": "correct",
+      "stage": "development"
+    },
+    {
+      "family": "wave",
+      "grid": 32,
+      "id": "development__wave__coefficient",
+      "prior": "coefficient",
+      "stage": "development"
+    },
+    {
+      "family": "wave",
+      "grid": 32,
+      "id": "development__wave__correct",
+      "prior": "correct",
+      "stage": "development"
+    },
+    {
+      "family": "advection_diffusion",
+      "grid": 32,
+      "id": "resolution_g32__advection_diffusion__coefficient",
+      "prior": "coefficient",
+      "stage": "resolution_g32"
+    },
+    {
+      "family": "advection_diffusion",
+      "grid": 32,
+      "id": "resolution_g32__advection_diffusion__correct",
+      "prior": "correct",
+      "stage": "resolution_g32"
+    },
+    {
+      "family": "allen_cahn",
+      "grid": 32,
+      "id": "resolution_g32__allen_cahn__coefficient",
+      "prior": "coefficient",
+      "stage": "resolution_g32"
+    },
+    {
+      "family": "allen_cahn",
+      "grid": 32,
+      "id": "resolution_g32__allen_cahn__correct",
+      "prior": "correct",
+      "stage": "resolution_g32"
+    },
+    {
+      "family": "wave",
+      "grid": 32,
+      "id": "resolution_g32__wave__coefficient",
+      "prior": "coefficient",
+      "stage": "resolution_g32"
+    },
+    {
+      "family": "wave",
+      "grid": 32,
+      "id": "resolution_g32__wave__correct",
+      "prior": "correct",
+      "stage": "resolution_g32"
+    },
+    {
+      "family": "advection_diffusion",
+      "grid": 64,
+      "id": "resolution_g64__advection_diffusion__coefficient",
+      "prior": "coefficient",
+      "stage": "resolution_g64"
+    },
+    {
+      "family": "advection_diffusion",
+      "grid": 64,
+      "id": "resolution_g64__advection_diffusion__correct",
+      "prior": "correct",
+      "stage": "resolution_g64"
+    },
+    {
+      "family": "allen_cahn",
+      "grid": 64,
+      "id": "resolution_g64__allen_cahn__coefficient",
+      "prior": "coefficient",
+      "stage": "resolution_g64"
+    },
+    {
+      "family": "allen_cahn",
+      "grid": 64,
+      "id": "resolution_g64__allen_cahn__correct",
+      "prior": "correct",
+      "stage": "resolution_g64"
+    },
+    {
+      "family": "wave",
+      "grid": 64,
+      "id": "resolution_g64__wave__coefficient",
+      "prior": "coefficient",
+      "stage": "resolution_g64"
+    },
+    {
+      "family": "wave",
+      "grid": 64,
+      "id": "resolution_g64__wave__correct",
+      "prior": "correct",
+      "stage": "resolution_g64"
+    },
+    {
+      "family": "cahn_hilliard",
+      "grid": 64,
+      "id": "selector_g64__cahn_hilliard__coefficient",
+      "prior": "coefficient",
+      "stage": "selector_g64"
+    },
+    {
+      "family": "cahn_hilliard",
+      "grid": 64,
+      "id": "selector_g64__cahn_hilliard__correct",
+      "prior": "correct",
+      "stage": "selector_g64"
+    },
+    {
+      "family": "cahn_hilliard",
+      "grid": 64,
+      "id": "selector_g64__cahn_hilliard__structural",
+      "prior": "structural",
+      "stage": "selector_g64"
+    },
+    {
+      "family": "fitzhugh_nagumo",
+      "grid": 64,
+      "id": "selector_g64__fitzhugh_nagumo__coefficient",
+      "prior": "coefficient",
+      "stage": "selector_g64"
+    },
+    {
+      "family": "fitzhugh_nagumo",
+      "grid": 64,
+      "id": "selector_g64__fitzhugh_nagumo__correct",
+      "prior": "correct",
+      "stage": "selector_g64"
+    },
+    {
+      "family": "fitzhugh_nagumo",
+      "grid": 64,
+      "id": "selector_g64__fitzhugh_nagumo__structural",
+      "prior": "structural",
+      "stage": "selector_g64"
+    }
+  ],
+  "minimum_effect_requirement": null,
+  "primary_horizon": 64,
+  "profile": "full",
+  "release_sha256": "e0ca42d7f2047bdac10e0b8244047bd529bcbc2b05f6de974cdaf0806ef2bf9f",
+  "required_successful_system_count": null,
+  "schema_version": 1,
+  "scientific_scope": "Exploratory follow-up on previously inspected synthetic systems.",
+  "secondary_horizon": 96,
+  "selection_horizon": 16,
+  "test_read_barrier": "All requested training fits and validation selections must freeze first."
+}

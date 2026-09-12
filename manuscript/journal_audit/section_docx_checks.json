@@ -1,0 +1,60 @@
+[
+  {
+    "file": "01_Abstract_and_Introduction.docx",
+    "sha256": "f84285ff21094fa5fc3ef11de0da3e29d29346abdf944e42ae624b46a65d3ebc",
+    "tables": 0,
+    "captions": 0,
+    "drawings": 0,
+    "native_math": 0,
+    "raw_markers": false,
+    "prohibited_templates": []
+  },
+  {
+    "file": "02_Methods.docx",
+    "sha256": "6b2abb422070f19cf30d8129b9a6d1871a0c566f8e372e2194f082d30cf51b0f",
+    "tables": 0,
+    "captions": 0,
+    "drawings": 0,
+    "native_math": 3,
+    "raw_markers": false,
+    "prohibited_templates": []
+  },
+  {
+    "file": "03_Results.docx",
+    "sha256": "5e5f1c259749d84b1c9ab939a13eca8c21542e9581a90ae626a8e77fc4ae166d",
+    "tables": 0,
+    "captions": 0,
+    "drawings": 0,
+    "native_math": 0,
+    "raw_markers": false,
+    "prohibited_templates": []
+  },
+  {
+    "file": "04_Discussion_and_Conclusions.docx",
+    "sha256": "252147012b41ff932aff18090d9ce78f8774855460dbfebd159aef06e7771ad2",
+    "tables": 0,
+    "captions": 0,
+    "drawings": 0,
+    "native_math": 0,
+    "raw_markers": false,
+    "prohibited_templates": []
+  },
+  {
+    "file": "Physics_JOCS_Highlights.docx",
+    "sha256": "406d67b97f9f959d855ecdca8d4f74a68a32fbeceef8e97e17c6c1c48f1892ef",
+    "highlight_lengths": [
+      84,
+      74,
+      82,
+      84,
+      80
+    ],
+    "highlights": [
+      "Coefficient calibration reverses the primary neural advantage in eight PDE families.",
+      "Neural forecasts remain more accurate in both tested missing-term systems.",
+      "Validation selects physics for complete equations and neural models for omissions.",
+      "Calibrated physics executes faster in all 30 matched CPU implementation comparisons.",
+      "Physical supervision helps some neural forecasts and substantially harms others."
+    ]
+  }
+]

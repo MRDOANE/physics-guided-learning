@@ -1,0 +1,21 @@
+{
+  "calibration_wall_seconds": 9.17900129100235,
+  "cost_excludes": "Storage, idle time, dependency installation, and previous neural training. Interrupted sessions before this checkpoint may be undercounted.",
+  "data_seconds": 48.80485049699928,
+  "elapsed_seconds": 85.41065822900055,
+  "evaluation_seconds": 10.630082441988634,
+  "new_neural_training": false,
+  "pod_hourly_rate": null,
+  "sessions": [
+    {
+      "calibration_wall_seconds": 9.17900129100235,
+      "data_seconds": 48.80485049699928,
+      "elapsed_seconds": 85.41065822900055,
+      "evaluation_seconds": 10.630082441988634,
+      "jobs": 4,
+      "threads": 1,
+      "timing_seconds": 16.29524379600116
+    }
+  ],
+  "timing_seconds": 16.29524379600116
+}
